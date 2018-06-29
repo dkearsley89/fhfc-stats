@@ -1,0 +1,28 @@
+.container {
+  max-width: 960px;
+}
+.jumbotron {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0;
+  background-image: url('/assets/img/banner.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}  
+.jumbotron-heading {
+  font-weight: 300;
+}  
+.jumbotron .container {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 2rem;
+}
+.fixedWidthButton {
+  width: 8.5rem;
+}
+.fixedWidthImage {
+  width: 9rem;
+}
+.card-deck .card {
+  min-width: 260px;
+}

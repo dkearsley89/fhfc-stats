@@ -1,0 +1,11 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  padding-top: 55px;
+  margin-bottom: 40px;
+}
+.bg-flaggy {
+  background-color: #0a0a32;
+}
