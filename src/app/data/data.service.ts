@@ -2,11 +2,10 @@ import { Injectable } from '@angular/core';
 import { HttpClient, HttpErrorResponse } from '@angular/common/http';
 import { catchError, retry } from 'rxjs/operators';
 
-import { Records } from '../model/record.model';
+import { Record, Records } from '../model/record.model';
 
 @Injectable()
 export class DataService {
-  recordsData: Records = { records: null } as Records;
 
   constructor(private http: HttpClient) { }
 
@@ -18,8 +17,8 @@ export class DataService {
       );
   }
 
-  getRecordsTop100Data() {
-    return this.http.get<Records>('/assets/json/recordsTop100.json?noCache=' + Math.random())
+  getRecordsTop100Data(recordName: String) {
+    return this.http.get<Record>('/assets/json/' + recordName + '.json?noCache=' + Math.random())
       .pipe(
         retry(3), // retry a failed request up to 3 times
         catchError(this.handleError) // then handle the error
