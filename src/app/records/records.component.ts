@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { faChartBar } from '@fortawesome/free-regular-svg-icons';
 
 import { DataService } from '../data/data.service';
-import { Records } from '../model/record.model';
+import { Records } from '../model/model';
 
 @Component({
   selector: 'app-records',

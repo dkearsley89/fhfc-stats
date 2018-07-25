@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 
 import { DataService } from '../data/data.service';
-import { Records, Record } from '../model/record.model';
+import { Records, Record } from '../model/model';
 
 @Component({
   selector: 'app-top100',

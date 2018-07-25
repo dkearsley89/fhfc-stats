@@ -11,75 +11,15 @@
     </div>
     <div class="container mt-5 pt-4 pb-0">
         <div class="card-deck text-center">
-            <div class="card mb-4">
+            <div class="card mb-4" *ngFor="let record of (obsHomeRecords | async)?.records">
                 <div class="card-header">
-                    <h5>Most Senior Games</h5>
+                    <h5 class="text-truncate">{{ record.name }}</h5>
                 </div>
                 <div class="card-body">
-                    <img class="fixedWidthImage rounded mx-auto mb-2" src="/assets/img/wade-stone.png" alt="Wade Stone">
-                    <h3 class="card-title text-truncate">Wade Stone</h3>
+                    <img class="fixedWidthImage rounded mx-auto mb-2" src="/assets/img/players/{{ record.data[0].n | titlecase }}.jpg" alt="{{ record.data[0].n | titlecase }}" (error)="updateUrl($event)">
+                    <h3 class="card-title text-truncate">{{ record.data[0].n | titlecase }}</h3>
                     <h3>
-                        <small class="text-muted">451 Games</small>
-                    </h3>
-                </div>
-            </div>
-            <div class="card mb-4">
-                <div class="card-header">
-                    <h5>Most A Grade Games</h5>
-                </div>
-                <div class="card-body">
-                    <img class="fixedWidthImage rounded mx-auto mb-2" src="/assets/img/david-smith.png" alt="David Smith">
-                    <h3 class="card-title text-truncate">David Smith</h3>
-                    <h3>
-                        <small class="text-muted">213 Games</small>
-                    </h3>
-                </div>
-            </div>
-            <div class="card mb-4">
-                <div class="card-header">
-                    <h5>Most Club Games</h5>
-                </div>
-                <div class="card-body">
-                    <img class="fixedWidthImage rounded mx-auto mb-2" src="/assets/img/wade-stone.png" alt="Wade Stone">
-                    <h3 class="card-title text-truncate">Wade Stone</h3>
-                    <h3>
-                        <small class="text-muted">478 Games</small>
-                    </h3>
-                </div>
-            </div>
-            <div class="card mb-4">
-                <div class="card-header">
-                    <h5>Most Junior Games</h5>
-                </div>
-                <div class="card-body">
-                    <img class="fixedWidthImage rounded mx-auto mb-2" src="/assets/img/cameron-bahnisch.jpg" alt="Cameron Bahnisch">
-                    <h3 class="card-title text-truncate">Cameron Bahnisch</h3>
-                    <h3>
-                        <small class="text-muted">136 Games</small>
-                    </h3>
-                </div>
-            </div>
-            <div class="card mb-4">
-                <div class="card-header">
-                    <h5>Most Goals in a Season</h5>
-                </div>
-                <div class="card-body">
-                    <img class="fixedWidthImage rounded mx-auto mb-2" src="/assets/img/sam-smith.jpg" alt="Sam Smith">
-                    <h3 class="card-title text-truncate">Sam Smith</h3>
-                    <h3>
-                        <small class="text-muted">112 Goals (2012)</small>
-                    </h3>
-                </div>
-            </div>
-            <div class="card mb-4">
-                <div class="card-header">
-                    <h5>Most Club Goals</h5>
-                </div>
-                <div class="card-body">
-                    <img class="fixedWidthImage rounded mx-auto mb-2" src="/assets/img/sam-smith.jpg" alt="Sam Smith">
-                    <h3 class="card-title text-truncate">Sam Smith</h3>
-                    <h3>
-                        <small class="text-muted">649 Goals</small>
+                        <small class="text-muted">{{ record.data[0].a + ' ' + record.label }}</small>
                     </h3>
                 </div>
             </div>

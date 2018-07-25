@@ -1,3 +1,6 @@
+export interface LastUpdated {
+    date: string;
+}
 export interface Records {
     records?: Record[];
 }
