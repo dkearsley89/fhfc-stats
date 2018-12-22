@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient, HttpErrorResponse } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { catchError, retry } from 'rxjs/operators';
-import { LastUpdated, Record, Records } from '../model/model';
+import { HonourBoard, LastUpdated, Record, Records } from '../model/model';
 
 @Injectable()
 export class DataService {
@@ -26,6 +26,14 @@ export class DataService {
 
   getRecordsTop100Data(recordName: String) {
     return this.http.get<Record>('/assets/json/' + recordName + '.json?noCache=' + Math.random())
+      .pipe(
+        retry(3), // retry a failed request up to 3 times
+        catchError(this.handleError) // then handle the error
+      );
+  }
+
+  getHonourBoardData(boardName: String) {
+    return this.http.get<HonourBoard>('/assets/json/Honour Board - ' + boardName + '.json?noCache=' + Math.random())
       .pipe(
         retry(3), // retry a failed request up to 3 times
         catchError(this.handleError) // then handle the error

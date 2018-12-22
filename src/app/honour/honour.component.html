@@ -1,5 +1,64 @@
-<div class="row mx-sm-5">
-  <div class="col-lg-12 mb-1 mt-3">
-    <h5>Page currently under construction. Please check back soon!</h5>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-lg-auto d-lg-block d-none mt-3">
+      <div class="btn-group-vertical fixedWidthButtonHonour" role="group" aria-label="Senior Grades">
+        <button type="button" class="btn btn-outline-danger" [routerLink]="['/honour', 'A Grade']" routerLinkActive="active">A
+          Grade</button>
+        <button type="button" class="btn btn-outline-danger" [routerLink]="['/honour', 'B Grade']" routerLinkActive="active">B
+          Grade</button>
+        <button type="button" class="btn btn-outline-danger" [routerLink]="['/honour', 'C Grade']" routerLinkActive="active">C
+          Grade</button>
+        <button type="button" class="btn btn-outline-danger" [routerLink]="['/honour', 'Open Women']" routerLinkActive="active">Open
+          Women</button>
+      </div>
+    </div>
+    <div class="col-lg-auto d-lg-none mt-3 text-center">
+      <button type="button" class="btn btn-outline-danger fixedWidthButtonHonour" [routerLink]="['/honour', 'A Grade']"
+        routerLinkActive="active">A
+        Grade</button>
+      <button type="button" class="btn btn-outline-danger fixedWidthButtonHonour" [routerLink]="['/honour', 'B Grade']"
+        routerLinkActive="active">B
+        Grade</button>
+      <button type="button" class="btn btn-outline-danger fixedWidthButtonHonour" [routerLink]="['/honour', 'C Grade']"
+        routerLinkActive="active">C
+        Grade</button>
+      <button type="button" class="btn btn-outline-danger fixedWidthButtonHonour" [routerLink]="['/honour', 'Open Women']"
+        routerLinkActive="active">Open
+        Women</button>
+    </div>
+    <div class="col mt-2">
+      <h4 class="text-center mb-2">{{ (obsHonourBoard | async)?.name }}</h4>
+      <div class="table-responsive">
+        <table class="table table-sm table-striped" style="white-space:nowrap;">
+          <thead>
+            <tr>
+              <th scope="col" class="col-xs-auto">{{ (obsHonourBoard | async)?.headers.c1 }}</th>
+              <th scope="col" class="w-25">{{ (obsHonourBoard | async)?.headers.c2 }}</th>
+              <th scope="col" class="w-25">{{ (obsHonourBoard | async)?.headers.c3 }}</th>
+              <th scope="col" class="w-25">{{ (obsHonourBoard | async)?.headers.c4 }}</th>
+              <th scope="col" class="w-25">{{ (obsHonourBoard | async)?.headers.c5 }}</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let honourBoardRow of (obsHonourBoard | async)?.data">
+              <th scope="row">{{ honourBoardRow.year }}<span class="text-danger pl-2" *ngIf="honourBoardRow.premiers">
+                  <fa-icon [icon]="faTrophy"></fa-icon>
+                </span></th>
+              <td>{{ honourBoardRow.coach.replace('*', '') }}<span class="text-danger pl-2" *ngIf="honourBoardRow.coach.endsWith('*')">
+                  <fa-icon [icon]="faMedal"></fa-icon>
+                </span></td>
+              <td>{{ honourBoardRow.captain.replace('*', '') }}<span class="text-danger pl-2" *ngIf="honourBoardRow.captain.endsWith('*')">
+                  <fa-icon [icon]="faMedal"></fa-icon>
+                </span></td>
+              <td>{{ honourBoardRow.bf.replace('*', '') }}<span class="text-danger pl-2" *ngIf="honourBoardRow.bf.endsWith('*')">
+                  <fa-icon [icon]="faMedal"></fa-icon>
+                </span></td>
+              <td>{{ honourBoardRow.mostGoals }}<span class="float-right">{{honourBoardRow.goals === 0 ? '-' :
+                  honourBoardRow.goals}}</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
   </div>
 </div>

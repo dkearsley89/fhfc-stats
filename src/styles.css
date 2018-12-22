@@ -9,3 +9,9 @@ body {
 .bg-flaggy {
   background-color: #0a0a32;
 }
+.fixedWidthButtonHome {
+  width: 8.5rem;
+}
+.fixedWidthButtonHonour {
+  width: 9.0rem;
+}

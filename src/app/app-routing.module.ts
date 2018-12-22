@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { RecordsComponent } from './records/records.component';
 import { StatsComponent } from './stats/stats.component';
@@ -13,7 +12,8 @@ const appRoutes: Routes = [
   { path: 'records', component: RecordsComponent },
   { path: 'records/top100/:name', component: Top100Component },
   { path: 'stats/:statsType', component: StatsComponent },
-  { path: 'honour', component: HonourComponent },
+  { path: 'honour', redirectTo: 'honour/A Grade', pathMatch: 'full' },
+  { path: 'honour/:honourType', component: HonourComponent },
   { path: 'milestones', component: MilestonesComponent },
   { path: '**', redirectTo: '/', pathMatch: 'full' }
 ];
