@@ -1,7 +1,7 @@
 <div class="container-fluid">
   <div class="row">
-    <div class="col-lg-auto d-lg-block d-none mt-3">
-      <div class="btn-group-vertical fixedWidthButtonHonour" role="group" aria-label="Senior Grades">
+    <div class="col-lg-auto d-lg-block d-none mt-3 position-fixed">
+      <div class="btn-group-vertical fixedWidthButtonHonour pb-5" role="group" aria-label="Honour Boards">
         <button type="button" class="btn btn-outline-danger" [routerLink]="['/honour', 'A Grade']" routerLinkActive="active">A
           Grade</button>
         <button type="button" class="btn btn-outline-danger" [routerLink]="['/honour', 'B Grade']" routerLinkActive="active">B
@@ -10,21 +10,63 @@
           Grade</button>
         <button type="button" class="btn btn-outline-danger" [routerLink]="['/honour', 'Open Women']" routerLinkActive="active">Open
           Women</button>
+        <button type="button" class="btn btn-outline-danger" [routerLink]="['/honour', 'Under 18s']" routerLinkActive="active">Under
+          18s</button>
+        <button type="button" class="btn btn-outline-danger" [routerLink]="['/honour', 'Under 17.5s']" routerLinkActive="active">Under
+          17.5s</button>
+        <button type="button" class="btn btn-outline-danger" [routerLink]="['/honour', 'Under 17s']" routerLinkActive="active">Under
+          17s</button>
+        <button type="button" class="btn btn-outline-danger" [routerLink]="['/honour', 'Under 16s']" routerLinkActive="active">Under
+          16s</button>
+        <button type="button" class="btn btn-outline-danger" [routerLink]="['/honour', 'Under 15s']" routerLinkActive="active">Under
+          15s</button>
+        <button type="button" class="btn btn-outline-danger" [routerLink]="['/honour', 'Under 14s']" routerLinkActive="active">Under
+          14s</button>
+        <button type="button" class="btn btn-outline-danger" [routerLink]="['/honour', 'Under 14s Girls']"
+          routerLinkActive="active">Under 14s - Girls</button>
+        <button type="button" class="btn btn-outline-danger" [routerLink]="['/honour', 'Under 13s']" routerLinkActive="active">Under
+          13s</button>
+        <button type="button" class="btn btn-outline-danger" [routerLink]="['/honour', 'Under 16s Sunday']"
+          routerLinkActive="active">Under 16s - Sunday</button>
+        <button type="button" class="btn btn-outline-danger" [routerLink]="['/honour', 'Under 15s Sunday']"
+          routerLinkActive="active">Under 15s - Sunday</button>
+        <button type="button" class="btn btn-outline-danger" [routerLink]="['/honour', 'Under 14s Sunday']"
+          routerLinkActive="active">Under 14s - Sunday</button>
       </div>
     </div>
+    <div class="d-lg-block d-none fixedWidthButtonHonour mr-3">
+    </div>
     <div class="col-lg-auto d-lg-none mt-3 text-center">
-      <button type="button" class="btn btn-outline-danger fixedWidthButtonHonour" [routerLink]="['/honour', 'A Grade']"
-        routerLinkActive="active">A
+      <button type="button" class="btn btn-outline-danger" [routerLink]="['/honour', 'A Grade']" routerLinkActive="active">A
         Grade</button>
-      <button type="button" class="btn btn-outline-danger fixedWidthButtonHonour" [routerLink]="['/honour', 'B Grade']"
-        routerLinkActive="active">B
+      <button type="button" class="btn btn-outline-danger" [routerLink]="['/honour', 'B Grade']" routerLinkActive="active">B
         Grade</button>
-      <button type="button" class="btn btn-outline-danger fixedWidthButtonHonour" [routerLink]="['/honour', 'C Grade']"
-        routerLinkActive="active">C
+      <button type="button" class="btn btn-outline-danger" [routerLink]="['/honour', 'C Grade']" routerLinkActive="active">C
         Grade</button>
-      <button type="button" class="btn btn-outline-danger fixedWidthButtonHonour" [routerLink]="['/honour', 'Open Women']"
-        routerLinkActive="active">Open
+      <button type="button" class="btn btn-outline-danger" [routerLink]="['/honour', 'Open Women']" routerLinkActive="active">Open
         Women</button>
+      <button type="button" class="btn btn-outline-danger" [routerLink]="['/honour', 'Under 18s']" routerLinkActive="active">Under
+        18s</button>
+      <button type="button" class="btn btn-outline-danger" [routerLink]="['/honour', 'Under 17.5s']" routerLinkActive="active">Under
+        17.5s</button>
+      <button type="button" class="btn btn-outline-danger" [routerLink]="['/honour', 'Under 17s']" routerLinkActive="active">Under
+        17s</button>
+      <button type="button" class="btn btn-outline-danger" [routerLink]="['/honour', 'Under 16s']" routerLinkActive="active">Under
+        16s</button>
+      <button type="button" class="btn btn-outline-danger" [routerLink]="['/honour', 'Under 15s']" routerLinkActive="active">Under
+        15s</button>
+      <button type="button" class="btn btn-outline-danger" [routerLink]="['/honour', 'Under 14s']" routerLinkActive="active">Under
+        14s</button>
+      <button type="button" class="btn btn-outline-danger" [routerLink]="['/honour', 'Under 14s Girls']"
+        routerLinkActive="active">Under 14s - Girls</button>
+      <button type="button" class="btn btn-outline-danger" [routerLink]="['/honour', 'Under 13s']" routerLinkActive="active">Under
+        13s</button>
+      <button type="button" class="btn btn-outline-danger" [routerLink]="['/honour', 'Under 16s Sunday']"
+        routerLinkActive="active">Under 16s - Sunday</button>
+      <button type="button" class="btn btn-outline-danger" [routerLink]="['/honour', 'Under 15s Sunday']"
+        routerLinkActive="active">Under 15s - Sunday</button>
+      <button type="button" class="btn btn-outline-danger" [routerLink]="['/honour', 'Under 14s Sunday']"
+        routerLinkActive="active">Under 14s - Sunday</button>
     </div>
     <div class="col mt-2">
       <h4 class="text-center mb-2">{{ (obsHonourBoard | async)?.name }}</h4>
@@ -32,7 +74,7 @@
         <table class="table table-sm table-striped" style="white-space:nowrap;">
           <thead>
             <tr>
-              <th scope="col" class="col-xs-auto">{{ (obsHonourBoard | async)?.headers.c1 }}</th>
+              <th scope="col" class="col-xs-auto pr-5">{{ (obsHonourBoard | async)?.headers.c1 }}</th>
               <th scope="col" class="w-25">{{ (obsHonourBoard | async)?.headers.c2 }}</th>
               <th scope="col" class="w-25">{{ (obsHonourBoard | async)?.headers.c3 }}</th>
               <th scope="col" class="w-25">{{ (obsHonourBoard | async)?.headers.c4 }}</th>
@@ -53,7 +95,9 @@
               <td>{{ honourBoardRow.bf.replace('*', '') }}<span class="text-danger pl-2" *ngIf="honourBoardRow.bf.endsWith('*')">
                   <fa-icon [icon]="faMedal"></fa-icon>
                 </span></td>
-              <td>{{ honourBoardRow.mostGoals }}<span class="float-right">{{honourBoardRow.goals === 0 ? '-' :
+              <td>{{ honourBoardRow.mostGoals.replace('*', '') }}<span class="text-danger pl-2" *ngIf="honourBoardRow.mostGoals.endsWith('*')">
+                  <fa-icon [icon]="faMedal"></fa-icon>
+                </span><span class="float-right">{{honourBoardRow.goals === 0 ? '-' :
                   honourBoardRow.goals}}</span></td>
             </tr>
           </tbody>
