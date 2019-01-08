@@ -16,6 +16,7 @@ import { DataService } from './data/data.service';
 import { Top100Component } from './top100/top100.component';
 import { HonourComponent } from './honour/honour.component';
 import { MilestonesComponent } from './milestones/milestones.component';
+import { LegendComponent } from './legend/legend.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { MilestonesComponent } from './milestones/milestones.component';
     FooterComponent,
     Top100Component,
     HonourComponent,
-    MilestonesComponent
+    MilestonesComponent,
+    LegendComponent
   ],
   imports: [
     BrowserModule,
