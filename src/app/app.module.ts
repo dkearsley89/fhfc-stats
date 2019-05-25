@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { NgbDropdownModule, NgbTypeaheadModule } from '@ng-bootstrap/ng-bootstrap';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 import { AppComponent } from './app.component';
@@ -34,11 +34,12 @@ import { LegendComponent } from './legend/legend.component';
   imports: [
     BrowserModule,
     HttpClientModule,
-    NgbModule.forRoot(),
+    NgbDropdownModule,
+    NgbTypeaheadModule,
     AppRoutingModule,
     FontAwesomeModule
   ],
   providers: [DataService],
   bootstrap: [AppComponent]
 })
-export class AppModule {}
+export class AppModule { }
