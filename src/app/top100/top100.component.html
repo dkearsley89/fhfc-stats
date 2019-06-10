@@ -2,17 +2,17 @@
   <div class="col-lg-4 mb-1">
     <div class="card border-0">
       <div class="card-body">
-        <h4 class="card-title text-center">{{ recordToShow.name }}</h4>
+        <h4 class="card-title text-center">{{ recordToShow?.name }}</h4>
         <table class="table table-sm table-striped">
           <thead>
             <tr>
               <th scope="col" class="text-center">#</th>
-              <th scope="col">{{ recordToShow.headers.c1 }}</th>
-              <th scope="col" class="text-center">{{ recordToShow.headers.c2 }}</th>
+              <th scope="col">{{ recordToShow?.headers?.c1 }}</th>
+              <th scope="col" class="text-center">{{ recordToShow?.headers?.c2 }}</th>
             </tr>
           </thead>
           <tbody>
-            <tr *ngFor="let data of recordToShow.data; let i = index">
+            <tr *ngFor="let data of recordToShow?.data; let i = index">
               <th scope="row" class="text-center">{{ i + 1 }}</th>
               <td>{{ data.n }}</td>
               <td class="text-center">{{ data.a }}</td>

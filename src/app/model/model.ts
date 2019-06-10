@@ -1,6 +1,13 @@
 export interface LastUpdated {
     date: string;
 }
+export interface Players {
+    players?: Player[];
+}
+export interface Player {
+    name?: string;
+    id?: number;
+}
 export interface Records {
     records?: Record[];
 }

@@ -69,20 +69,20 @@
         routerLinkActive="active">Under 14s - Sunday</button>
     </div>
     <div class="col mt-2">
-      <h4 class="text-center mb-2">{{ (obsHonourBoard | async)?.name }}</h4>
+      <h4 class="text-center mb-2">{{ honourBoardData?.name }}</h4>
       <div class="table-responsive">
         <table class="table table-sm table-striped mb-0" style="white-space:nowrap;">
           <thead>
             <tr>
-              <th scope="col" class="col-xs-auto pr-5">{{ (obsHonourBoard | async)?.headers.c1 }}</th>
-              <th scope="col" class="w-25">{{ (obsHonourBoard | async)?.headers.c2 }}</th>
-              <th scope="col" class="w-25">{{ (obsHonourBoard | async)?.headers.c3 }}</th>
-              <th scope="col" class="w-25">{{ (obsHonourBoard | async)?.headers.c4 }}</th>
-              <th scope="col" class="w-25">{{ (obsHonourBoard | async)?.headers.c5 }}</th>
+              <th scope="col" class="col-xs-auto pr-5">{{ honourBoardData?.headers.c1 }}</th>
+              <th scope="col" class="w-25">{{ honourBoardData?.headers.c2 }}</th>
+              <th scope="col" class="w-25">{{ honourBoardData?.headers.c3 }}</th>
+              <th scope="col" class="w-25">{{ honourBoardData?.headers.c4 }}</th>
+              <th scope="col" class="w-25">{{ honourBoardData?.headers.c5 }}</th>
             </tr>
           </thead>
           <tbody>
-            <tr *ngFor="let honourBoardRow of (obsHonourBoard | async)?.data">
+            <tr *ngFor="let honourBoardRow of honourBoardData?.data">
               <th scope="row">{{ honourBoardRow.year }}<span class="text-danger pl-2" *ngIf="honourBoardRow.premiers">
                   <fa-icon [icon]="faTrophy"></fa-icon>
                 </span></th>

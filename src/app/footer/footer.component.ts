@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { DataService } from '../data/data.service';
 import { LastUpdated } from '../model/model';
-import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-footer',
@@ -9,11 +8,17 @@ import { Observable } from 'rxjs';
   styleUrls: ['./footer.component.css']
 })
 export class FooterComponent implements OnInit {
-  obsLastUpdated: Observable<LastUpdated>
+  lastUpdated: LastUpdated;
+  error: string;
 
   constructor(private dataService: DataService) { }
 
   ngOnInit() {
-    this.obsLastUpdated = this.dataService.getLastUpdatedDate();
+    this.dataService.getLastUpdatedDate()
+      .subscribe(data => {
+        this.lastUpdated = { ...data }
+      },
+        error => this.error = error
+      );
   }
 }
