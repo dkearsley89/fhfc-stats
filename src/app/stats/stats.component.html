@@ -13,7 +13,8 @@
         (error)="updateUrl($event)">
     </div>
     <div class="col mt-3 pl-1">
-      <h3 class="text-sm-left text-center">{{ playerData?.firstName }} {{ playerData?.middleName }} {{ playerData?.lastName }}</h3>
+      <h3 class="text-sm-left text-center">{{ playerData?.firstName }} {{ playerData?.middleName }}
+        {{ playerData?.lastName }}</h3>
       <h5>Club Games: {{ (playerData?.senior + playerData?.junior) }}</h5>
       <h5>A Grade Games: {{ playerData?.agrade }}</h5>
       <h5>Senior Games: {{ playerData?.senior }}</h5>

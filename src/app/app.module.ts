@@ -17,6 +17,7 @@ import { Top100Component } from './top100/top100.component';
 import { HonourComponent } from './honour/honour.component';
 import { MilestonesComponent } from './milestones/milestones.component';
 import { LegendComponent } from './legend/legend.component';
+import { AssociationComponent } from './association/association.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { LegendComponent } from './legend/legend.component';
     Top100Component,
     HonourComponent,
     MilestonesComponent,
-    LegendComponent
+    LegendComponent,
+    AssociationComponent
   ],
   imports: [
     BrowserModule,

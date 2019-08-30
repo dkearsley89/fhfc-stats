@@ -1,5 +1,5 @@
 export interface LastUpdated {
-    date: string;
+    lastUpdated: string;
 }
 export interface Players {
     players?: Player[];
