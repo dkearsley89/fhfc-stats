@@ -45,3 +45,12 @@ export interface HonourBoardData {
     mostGoals: string;
     goals: number;
 }
+export interface AssociationRecords {
+    data?: AssociationRecordData[];
+}
+export interface AssociationRecordData {
+    y: string;
+    n: string;
+    g: string;
+    a: string;
+}
