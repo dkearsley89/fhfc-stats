@@ -15,9 +15,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { DataService } from './data/data.service';
 import { Top100Component } from './top100/top100.component';
 import { HonourComponent } from './honour/honour.component';
-import { MilestonesComponent } from './milestones/milestones.component';
 import { LegendComponent } from './legend/legend.component';
 import { AssociationComponent } from './association/association.component';
+import { AwardsComponent } from './awards/awards.component';
 
 @NgModule({
   declarations: [
@@ -29,9 +29,9 @@ import { AssociationComponent } from './association/association.component';
     FooterComponent,
     Top100Component,
     HonourComponent,
-    MilestonesComponent,
     LegendComponent,
-    AssociationComponent
+    AssociationComponent,
+    AwardsComponent
   ],
   imports: [
     BrowserModule,
