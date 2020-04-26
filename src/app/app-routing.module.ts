@@ -11,7 +11,8 @@ import { AwardsComponent } from './awards/awards.component';
 const appRoutes: Routes = [
   { path: '', component: HomeComponent, pathMatch: 'full' },
   { path: 'association', component: AssociationComponent },
-  { path: 'awards', component: AwardsComponent },
+  { path: 'awards', redirectTo: 'awards/2019', pathMatch: 'full' },
+  { path: 'awards/:awardsYear', component: AwardsComponent },
   { path: 'honour', redirectTo: 'honour/A Grade', pathMatch: 'full' },
   { path: 'honour/:honourType', component: HonourComponent },
   { path: 'records', component: RecordsComponent },

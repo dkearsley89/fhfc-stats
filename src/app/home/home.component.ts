@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { DataService } from '../data/data.service';
 import { Records } from '../model/model';
-import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-home',
@@ -9,12 +8,18 @@ import { Observable } from 'rxjs';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-  obsHomeRecords: Observable<Records>
+  recordsData: Records
+  error: string;
 
   constructor(private dataService: DataService) { }
 
   ngOnInit() {
-    this.obsHomeRecords = this.dataService.getHomeRecords();
+    this.dataService.getHomeRecords()
+    .subscribe(data => {
+      this.recordsData = { ...data }
+    },
+      error => this.error = error
+    );
   }
 
   updateUrl(event) {

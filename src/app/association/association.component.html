@@ -1,24 +1,18 @@
 <div class="container-fluid">
-  <!-- <div class="row">
-        <div class="col">
-    <h4 class="text-center mb-2">Association B&amp;F Winners</h4></div>
-    </div> -->
   <div class="row">
-    <div class="col-lg-3 mt-3" *ngFor="let record of associationRecordsData?.data">
-      <div class="card mb-3 text-center">
+    <div class="col-md-6 col-lg-4 col-xl-3 mt-3" *ngFor="let record of associationRecordsData?.data">
+      <div class="card mb-3 mx-auto text-center" style="max-width:400px;">
         <div class="card-header">
           <h5 class="text-truncate">{{ record.a }}</h5>
         </div>
         <div class="card-body">
-          <img class="fixedWidthImage rounded mx-auto mb-2" src="/assets/img/players/{{ record.n | titlecase }}.jpg"
-            alt="{{ record.n | titlecase }}" (error)="updateUrl($event)">
+          <img class="fixedWidthImage rounded mb-2" src="/assets/img/players/association/{{ record.id }}.jpg" alt="{{ record.n | titlecase }}" (error)="updateUrl($event)">
           <h3 class="card-title text-truncate">{{ record.n }}</h3>
           <h3>
             <small class="text-muted">{{ record.y + ' ' + record.g }}</small>
           </h3>
         </div>
       </div>
-      <!-- </div> -->
     </div>
   </div>
 </div>

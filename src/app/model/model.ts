@@ -14,6 +14,7 @@ export interface Records {
 export interface Record {
     name?: string;
     headers?: RecordHeaders;
+    label?: string;
     data?: RecordData[];
 }
 export interface RecordHeaders {
@@ -21,8 +22,9 @@ export interface RecordHeaders {
     c2: string;
 }
 export interface RecordData {
+    Id: string;
     n: string;
-    a: number;
+    a: number;    
 }
 export interface HonourBoard {
     name?: string;
@@ -53,4 +55,17 @@ export interface AssociationRecordData {
     n: string;
     g: string;
     a: string;
+    id: string;
+}
+export interface YearlyAwards {
+    grades: GradeAwardData;
+}
+export interface GradeAwardData {
+    name: string;
+    awards: Award[];
+}
+export interface Award {
+    name: string;
+    player: string;
+    id: string;
 }
