@@ -49,4 +49,18 @@ export class StatsComponent implements OnInit {
   updateUrl(event) {
     event.target.src = "/assets/img/players/NoImage.jpg";
   }
+
+  getYearsPlayedString(minYear, maxYear, seasons) {
+    if (seasons == 1) {
+      return minYear + " (" + seasons + " Season)";
+    }
+    return minYear + " - " + maxYear + " (" + seasons + " Seasons)";
+  }
+
+  formatValue(value) {
+    if (value == 0) {
+      return "-";
+    }
+    return value;
+  }
 }
