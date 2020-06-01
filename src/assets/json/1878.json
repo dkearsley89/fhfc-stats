@@ -1,1 +1,1 @@
-{"firstName":"JASON","middleName":null,"lastName":"MORRISON","agrade":0,"senior":5,"junior":12,"minYear":1991,"maxYear":1999,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"JASON","middleName":null,"lastName":"MORRISON","agrade":0,"senior":5,"junior":12,"minYear":1991,"maxYear":1999,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1991","u13Games":11},{"y":"1994","u17Games":1},{"y":"1999","bGames":5},{"y":"Totals","bGames":5,"u17Games":1,"u13Games":11}]}

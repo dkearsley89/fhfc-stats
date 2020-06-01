@@ -1,1 +1,1 @@
-{"firstName":"GREG","middleName":null,"lastName":"PEAKE","agrade":0,"senior":56,"junior":0,"minYear":1984,"maxYear":1991,"seasons":6,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"GREG","middleName":null,"lastName":"PEAKE","agrade":0,"senior":56,"junior":0,"minYear":1984,"maxYear":1991,"seasons":6,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1984","uGames":9},{"y":"1985","uGames":15},{"y":"1986","uGames":8},{"y":"1987","bGames":7,"cGames":11},{"y":"1988","cGames":3},{"y":"1991","cGames":3},{"y":"Totals","bGames":7,"cGames":17,"uGames":32}]}

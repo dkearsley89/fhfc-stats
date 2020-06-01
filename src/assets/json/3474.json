@@ -1,1 +1,1 @@
-{"firstName":"KIERAN","middleName":"","lastName":"MCNAMARA","agrade":0,"senior":26,"junior":0,"minYear":2012,"maxYear":2014,"seasons":3,"aGradeGoals":0,"seniorGoals":2,"juniorGoals":0}
+{"firstName":"KIERAN","middleName":"","lastName":"MCNAMARA","agrade":0,"senior":26,"junior":0,"minYear":2012,"maxYear":2014,"seasons":3,"aGradeGoals":0,"seniorGoals":2,"juniorGoals":0,"years":[{"y":"2012","cGames":10},{"y":"2013","cGames":8,"cGoals":1},{"y":"2014","cGames":8,"cGoals":1},{"y":"Totals","cGames":26,"cGoals":2}]}

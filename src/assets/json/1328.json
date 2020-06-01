@@ -1,1 +1,1 @@
-{"firstName":"DAVID","middleName":"","lastName":"SIZE","agrade":0,"senior":80,"junior":0,"minYear":1979,"maxYear":1985,"seasons":7,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"DAVID","middleName":"","lastName":"SIZE","agrade":0,"senior":80,"junior":0,"minYear":1979,"maxYear":1985,"seasons":7,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1979","uGames":13},{"y":"1980","uGames":2},{"y":"1981","uGames":18},{"y":"1982","uGames":15},{"y":"1983","uGames":11},{"y":"1984","uGames":18},{"y":"1985","uGames":3},{"y":"Totals","uGames":80}]}

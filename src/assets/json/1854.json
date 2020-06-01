@@ -1,1 +1,1 @@
-{"firstName":"JEFFERY","middleName":null,"lastName":"COOPER","agrade":6,"senior":51,"junior":0,"minYear":1991,"maxYear":1993,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"JEFFERY","middleName":null,"lastName":"COOPER","agrade":6,"senior":51,"junior":0,"minYear":1991,"maxYear":1993,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1991","aGames":2,"bGames":13,"cGames":1},{"y":"1992","aGames":3,"bGames":13,"cGames":3},{"y":"1993","aGames":1,"bGames":15},{"y":"Totals","aGames":6,"bGames":41,"cGames":4}]}

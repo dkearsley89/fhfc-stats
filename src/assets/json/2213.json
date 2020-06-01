@@ -1,1 +1,1 @@
-{"firstName":"JOHN","middleName":null,"lastName":"MARTIN","agrade":0,"senior":33,"junior":0,"minYear":1997,"maxYear":2003,"seasons":5,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"JOHN","middleName":null,"lastName":"MARTIN","agrade":0,"senior":33,"junior":0,"minYear":1997,"maxYear":2003,"seasons":5,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1997","cGames":15},{"y":"1998","cGames":11},{"y":"2000","cGames":2},{"y":"2002","cGames":1},{"y":"2003","cGames":4},{"y":"Totals","cGames":33}]}

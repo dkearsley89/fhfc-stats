@@ -1,1 +1,1 @@
-{"firstName":"ADRIAN","middleName":null,"lastName":"MUGFORD","agrade":16,"senior":32,"junior":0,"minYear":1963,"maxYear":1968,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"ADRIAN","middleName":null,"lastName":"MUGFORD","agrade":16,"senior":32,"junior":0,"minYear":1963,"maxYear":1968,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1963","aGames":16},{"y":"1968","uGames":16},{"y":"Totals","aGames":16,"uGames":16}]}

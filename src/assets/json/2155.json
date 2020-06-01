@@ -1,1 +1,1 @@
-{"firstName":"MATTHEW","middleName":null,"lastName":"ROBERTS","agrade":34,"senior":34,"junior":0,"minYear":1996,"maxYear":1997,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"MATTHEW","middleName":null,"lastName":"ROBERTS","agrade":34,"senior":34,"junior":0,"minYear":1996,"maxYear":1997,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1996","aGames":15},{"y":"1997","aGames":19},{"y":"Totals","aGames":34}]}

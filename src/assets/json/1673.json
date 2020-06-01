@@ -1,1 +1,1 @@
-{"firstName":"JASON","middleName":null,"lastName":"STRACHAN","agrade":0,"senior":14,"junior":26,"minYear":1987,"maxYear":1993,"seasons":5,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"JASON","middleName":null,"lastName":"STRACHAN","agrade":0,"senior":14,"junior":26,"minYear":1987,"maxYear":1993,"seasons":5,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1987","u14Games":16},{"y":"1988","u16Games":9},{"y":"1989","u16Games":1},{"y":"1992","cGames":12},{"y":"1993","bGames":2},{"y":"Totals","bGames":2,"cGames":12,"u16Games":10,"u14Games":16}]}

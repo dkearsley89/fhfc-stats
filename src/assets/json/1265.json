@@ -1,1 +1,1 @@
-{"firstName":"DAVE","middleName":null,"lastName":"MACLEAN","agrade":0,"senior":22,"junior":0,"minYear":1977,"maxYear":1978,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"DAVE","middleName":null,"lastName":"MACLEAN","agrade":0,"senior":22,"junior":0,"minYear":1977,"maxYear":1978,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1977","uGames":5},{"y":"1978","uGames":17},{"y":"Totals","uGames":22}]}

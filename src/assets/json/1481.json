@@ -1,1 +1,1 @@
-{"firstName":"NICHOLAS","middleName":null,"lastName":"HOSKINS","agrade":6,"senior":77,"junior":0,"minYear":1984,"maxYear":1988,"seasons":5,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"NICHOLAS","middleName":null,"lastName":"HOSKINS","agrade":6,"senior":77,"junior":0,"minYear":1984,"maxYear":1988,"seasons":5,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1984","uGames":16},{"y":"1985","uGames":16},{"y":"1986","uGames":19},{"y":"1987","aGames":6,"bGames":15},{"y":"1988","bGames":5},{"y":"Totals","aGames":6,"bGames":20,"uGames":51}]}

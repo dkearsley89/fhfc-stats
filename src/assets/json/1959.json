@@ -1,1 +1,1 @@
-{"firstName":"HEATH","middleName":null,"lastName":"HARDING","agrade":70,"senior":70,"junior":1,"minYear":1993,"maxYear":2002,"seasons":6,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"HEATH","middleName":null,"lastName":"HARDING","agrade":70,"senior":70,"junior":1,"minYear":1993,"maxYear":2002,"seasons":6,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1993","u15Games":1},{"y":"1998","aGames":15},{"y":"1999","aGames":15},{"y":"2000","aGames":19},{"y":"2001","aGames":20},{"y":"2002","aGames":1},{"y":"Totals","aGames":70,"u15Games":1}]}

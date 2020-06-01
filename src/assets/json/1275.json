@@ -1,1 +1,1 @@
-{"firstName":"STEVE","middleName":null,"lastName":"ROBERTS","agrade":0,"senior":50,"junior":0,"minYear":1977,"maxYear":1987,"seasons":6,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"STEVE","middleName":null,"lastName":"ROBERTS","agrade":0,"senior":50,"junior":0,"minYear":1977,"maxYear":1987,"seasons":6,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1977","uGames":12},{"y":"1978","uGames":8},{"y":"1979","uGames":7},{"y":"1980","uGames":7},{"y":"1983","uGames":15},{"y":"1987","cGames":1},{"y":"Totals","cGames":1,"uGames":49}]}

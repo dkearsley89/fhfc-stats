@@ -1,1 +1,1 @@
-{"firstName":"BEN","middleName":null,"lastName":"GEYER","agrade":0,"senior":0,"junior":24,"minYear":1999,"maxYear":2001,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"BEN","middleName":null,"lastName":"GEYER","agrade":0,"senior":0,"junior":24,"minYear":1999,"maxYear":2001,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1999","u14Games":5},{"y":"2000","u14Games":10},{"y":"2001","u16Games":9},{"y":"Totals","u16Games":9,"u14Games":15}]}

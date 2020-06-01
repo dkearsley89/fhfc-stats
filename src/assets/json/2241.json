@@ -1,1 +1,1 @@
-{"firstName":"DARREN","middleName":null,"lastName":"WAITE","agrade":0,"senior":41,"junior":0,"minYear":1997,"maxYear":2003,"seasons":6,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"DARREN","middleName":null,"lastName":"WAITE","agrade":0,"senior":41,"junior":0,"minYear":1997,"maxYear":2003,"seasons":6,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1997","cGames":16},{"y":"1998","cGames":14},{"y":"1999","bGames":4},{"y":"2000","cGames":1},{"y":"2002","cGames":1},{"y":"2003","cGames":5},{"y":"Totals","bGames":4,"cGames":37}]}

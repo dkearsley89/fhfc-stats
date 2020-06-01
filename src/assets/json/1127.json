@@ -1,1 +1,1 @@
-{"firstName":"M.","middleName":null,"lastName":"JONES","agrade":0,"senior":43,"junior":0,"minYear":1968,"maxYear":1970,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"M.","middleName":null,"lastName":"JONES","agrade":0,"senior":43,"junior":0,"minYear":1968,"maxYear":1970,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1968","uGames":17},{"y":"1969","uGames":13},{"y":"1970","uGames":13},{"y":"Totals","uGames":43}]}

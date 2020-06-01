@@ -1,1 +1,1 @@
-{"firstName":"GRAHAM","middleName":null,"lastName":"SMITH","agrade":11,"senior":11,"junior":0,"minYear":1996,"maxYear":1996,"seasons":1,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"GRAHAM","middleName":null,"lastName":"SMITH","agrade":11,"senior":11,"junior":0,"minYear":1996,"maxYear":1996,"seasons":1,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1996","aGames":11},{"y":"Totals","aGames":11}]}

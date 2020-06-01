@@ -1,1 +1,1 @@
-{"firstName":"ASHLEY","middleName":null,"lastName":"MILLS","agrade":60,"senior":72,"junior":0,"minYear":1996,"maxYear":2002,"seasons":5,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"ASHLEY","middleName":null,"lastName":"MILLS","agrade":60,"senior":72,"junior":0,"minYear":1996,"maxYear":2002,"seasons":5,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1996","aGames":14},{"y":"1997","aGames":17},{"y":"1998","aGames":2,"bGames":12},{"y":"2001","aGames":18},{"y":"2002","aGames":9},{"y":"Totals","aGames":60,"bGames":12}]}

@@ -1,1 +1,1 @@
-{"firstName":"MATTHEW","middleName":null,"lastName":"BIDDLE","agrade":0,"senior":1,"junior":15,"minYear":1990,"maxYear":1993,"seasons":4,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"MATTHEW","middleName":null,"lastName":"BIDDLE","agrade":0,"senior":1,"junior":15,"minYear":1990,"maxYear":1993,"seasons":4,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1990","u16Games":7},{"y":"1991","u17Games":7},{"y":"1992","u17Games":1},{"y":"1993","bGames":1},{"y":"Totals","bGames":1,"u17Games":8,"u16Games":7}]}

@@ -1,1 +1,1 @@
-{"firstName":"SCOTT","middleName":null,"lastName":"MCQUEEN","agrade":0,"senior":0,"junior":16,"minYear":1996,"maxYear":1996,"seasons":1,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"SCOTT","middleName":null,"lastName":"MCQUEEN","agrade":0,"senior":0,"junior":16,"minYear":1996,"maxYear":1996,"seasons":1,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1996","u16Games":1,"u14Games":15},{"y":"Totals","u16Games":1,"u14Games":15}]}

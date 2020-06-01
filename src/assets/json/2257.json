@@ -1,1 +1,1 @@
-{"firstName":"TIM","middleName":null,"lastName":"GOLDER","agrade":0,"senior":0,"junior":57,"minYear":1998,"maxYear":2003,"seasons":5,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"TIM","middleName":null,"lastName":"GOLDER","agrade":0,"senior":0,"junior":57,"minYear":1998,"maxYear":2003,"seasons":5,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1998","u14Games":16},{"y":"1999","u14Games":18},{"y":"2000","u16Games":11},{"y":"2001","u18Games":1,"u16Games":8},{"y":"2003","u18Games":3},{"y":"Totals","u18Games":4,"u16Games":19,"u14Games":34}]}

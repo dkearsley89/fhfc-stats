@@ -1,1 +1,1 @@
-{"firstName":"ANDREW","middleName":null,"lastName":"LEMON","agrade":0,"senior":51,"junior":0,"minYear":1980,"maxYear":1982,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"ANDREW","middleName":null,"lastName":"LEMON","agrade":0,"senior":51,"junior":0,"minYear":1980,"maxYear":1982,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1980","uGames":17},{"y":"1981","uGames":17},{"y":"1982","uGames":17},{"y":"Totals","uGames":51}]}

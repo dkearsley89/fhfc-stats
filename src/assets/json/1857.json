@@ -1,1 +1,1 @@
-{"firstName":"ANTHONY","middleName":null,"lastName":"DAY","agrade":0,"senior":35,"junior":0,"minYear":1991,"maxYear":2003,"seasons":4,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"ANTHONY","middleName":null,"lastName":"DAY","agrade":0,"senior":35,"junior":0,"minYear":1991,"maxYear":2003,"seasons":4,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1991","cGames":13},{"y":"1992","cGames":15},{"y":"2000","cGames":3},{"y":"2003","cGames":4},{"y":"Totals","cGames":35}]}

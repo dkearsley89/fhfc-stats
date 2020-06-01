@@ -1,1 +1,1 @@
-{"firstName":"JUSTIN","middleName":null,"lastName":"KOUKOURO","agrade":11,"senior":31,"junior":0,"minYear":1997,"maxYear":1999,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"JUSTIN","middleName":null,"lastName":"KOUKOURO","agrade":11,"senior":31,"junior":0,"minYear":1997,"maxYear":1999,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1997","bGames":4,"cGames":3},{"y":"1998","aGames":8,"bGames":12,"cGames":1},{"y":"1999","aGames":3},{"y":"Totals","aGames":11,"bGames":16,"cGames":4}]}

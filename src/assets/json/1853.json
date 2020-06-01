@@ -1,1 +1,1 @@
-{"firstName":"TONY","middleName":null,"lastName":"COAD","agrade":47,"senior":47,"junior":0,"minYear":1991,"maxYear":1995,"seasons":5,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"TONY","middleName":null,"lastName":"COAD","agrade":47,"senior":47,"junior":0,"minYear":1991,"maxYear":1995,"seasons":5,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1991","aGames":12},{"y":"1992","aGames":17},{"y":"1993","aGames":2},{"y":"1994","aGames":2},{"y":"1995","aGames":14},{"y":"Totals","aGames":47}]}

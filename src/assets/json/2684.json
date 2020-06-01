@@ -1,1 +1,1 @@
-{"firstName":"BLAKE","middleName":"S.","lastName":"HORROCKS","agrade":0,"senior":0,"junior":50,"minYear":2006,"maxYear":2008,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":31}
+{"firstName":"BLAKE","middleName":"S.","lastName":"HORROCKS","agrade":0,"senior":0,"junior":50,"minYear":2006,"maxYear":2008,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":31,"years":[{"y":"2006","u16Games":7,"u14Games":16},{"y":"2007","u14Games":13,"u14Goals":24},{"y":"2008","u16Games":14,"u16Goals":7},{"y":"Totals","u16Games":21,"u16Goals":7,"u14Games":29,"u14Goals":24}]}

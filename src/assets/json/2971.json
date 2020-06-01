@@ -1,1 +1,1 @@
-{"firstName":"ROBERT","middleName":"LUKE","lastName":"TEDESCO","agrade":0,"senior":3,"junior":34,"minYear":2009,"maxYear":2010,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"ROBERT","middleName":"LUKE","lastName":"TEDESCO","agrade":0,"senior":3,"junior":34,"minYear":2009,"maxYear":2010,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"2009","u18Games":17},{"y":"2010","bGames":3,"u18Games":17},{"y":"Totals","bGames":3,"u18Games":34}]}

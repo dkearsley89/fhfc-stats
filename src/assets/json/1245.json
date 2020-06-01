@@ -1,1 +1,1 @@
-{"firstName":"ALEX","middleName":null,"lastName":"SURMAN","agrade":8,"senior":15,"junior":0,"minYear":1976,"maxYear":1978,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"ALEX","middleName":null,"lastName":"SURMAN","agrade":8,"senior":15,"junior":0,"minYear":1976,"maxYear":1978,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1976","aGames":8},{"y":"1978","uGames":7},{"y":"Totals","aGames":8,"uGames":7}]}

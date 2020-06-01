@@ -1,1 +1,1 @@
-{"firstName":"ROBERT","middleName":null,"lastName":"PREST","agrade":13,"senior":21,"junior":0,"minYear":1988,"maxYear":1988,"seasons":1,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"ROBERT","middleName":null,"lastName":"PREST","agrade":13,"senior":21,"junior":0,"minYear":1988,"maxYear":1988,"seasons":1,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1988","aGames":13,"bGames":7,"cGames":1},{"y":"Totals","aGames":13,"bGames":7,"cGames":1}]}

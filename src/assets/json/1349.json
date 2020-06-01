@@ -1,1 +1,1 @@
-{"firstName":"NEIL","middleName":null,"lastName":"WUTTKE","agrade":0,"senior":36,"junior":0,"minYear":1980,"maxYear":1981,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"NEIL","middleName":null,"lastName":"WUTTKE","agrade":0,"senior":36,"junior":0,"minYear":1980,"maxYear":1981,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1980","uGames":18},{"y":"1981","uGames":18},{"y":"Totals","uGames":36}]}

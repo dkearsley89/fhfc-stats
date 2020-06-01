@@ -1,1 +1,1 @@
-{"firstName":"MICHAEL","middleName":null,"lastName":"PACKER","agrade":0,"senior":41,"junior":0,"minYear":1998,"maxYear":2001,"seasons":4,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"MICHAEL","middleName":null,"lastName":"PACKER","agrade":0,"senior":41,"junior":0,"minYear":1998,"maxYear":2001,"seasons":4,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1998","cGames":13},{"y":"1999","bGames":15},{"y":"2000","cGames":8},{"y":"2001","cGames":5},{"y":"Totals","bGames":15,"cGames":26}]}

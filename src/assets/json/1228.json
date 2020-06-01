@@ -1,1 +1,1 @@
-{"firstName":"PHIL","middleName":null,"lastName":"CARTLEDGE","agrade":1,"senior":3,"junior":0,"minYear":1975,"maxYear":1977,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"PHIL","middleName":null,"lastName":"CARTLEDGE","agrade":1,"senior":3,"junior":0,"minYear":1975,"maxYear":1977,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1975","aGames":1},{"y":"1977","uGames":2},{"y":"Totals","aGames":1,"uGames":2}]}

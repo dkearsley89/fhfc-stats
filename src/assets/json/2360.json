@@ -1,1 +1,1 @@
-{"firstName":"GREG","middleName":null,"lastName":"LAMBERT","agrade":0,"senior":46,"junior":0,"minYear":2000,"maxYear":2004,"seasons":4,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"GREG","middleName":null,"lastName":"LAMBERT","agrade":0,"senior":46,"junior":0,"minYear":2000,"maxYear":2004,"seasons":4,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"2000","bGames":13,"cGames":1},{"y":"2001","bGames":17},{"y":"2003","bGames":13},{"y":"2004","bGames":2},{"y":"Totals","bGames":45,"cGames":1}]}

@@ -1,1 +1,1 @@
-{"firstName":"DANNY","middleName":null,"lastName":"COPPOLA","agrade":0,"senior":44,"junior":0,"minYear":1993,"maxYear":1995,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"DANNY","middleName":null,"lastName":"COPPOLA","agrade":0,"senior":44,"junior":0,"minYear":1993,"maxYear":1995,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1993","bGames":6,"cGames":6},{"y":"1994","bGames":2,"cGames":17},{"y":"1995","bGames":1,"cGames":12},{"y":"Totals","bGames":9,"cGames":35}]}

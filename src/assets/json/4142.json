@@ -1,1 +1,1 @@
-{"firstName":"GEORGIA","middleName":"","lastName":"BIRCHALL","agrade":0,"senior":38,"junior":0,"minYear":2017,"maxYear":2019,"seasons":3,"aGradeGoals":0,"seniorGoals":10,"juniorGoals":0}
+{"firstName":"GEORGIA","middleName":"","lastName":"BIRCHALL","agrade":0,"senior":38,"junior":0,"minYear":2017,"maxYear":2019,"seasons":3,"aGradeGoals":0,"seniorGoals":10,"juniorGoals":0,"years":[{"y":"2017","wGames":8,"wGoals":3},{"y":"2018","wGames":15,"wGoals":4},{"y":"2019","wGames":15,"wGoals":3},{"y":"Totals","wGames":38,"wGoals":10}]}

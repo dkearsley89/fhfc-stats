@@ -1,1 +1,1 @@
-{"firstName":"A.","middleName":null,"lastName":"WISE","agrade":1,"senior":13,"junior":0,"minYear":1971,"maxYear":1972,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"A.","middleName":null,"lastName":"WISE","agrade":1,"senior":13,"junior":0,"minYear":1971,"maxYear":1972,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1971","uGames":12},{"y":"1972","aGames":1},{"y":"Totals","aGames":1,"uGames":12}]}

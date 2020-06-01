@@ -1,1 +1,1 @@
-{"firstName":"ERIC","middleName":null,"lastName":"TAYLOR","agrade":20,"senior":23,"junior":0,"minYear":1973,"maxYear":1978,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"ERIC","middleName":null,"lastName":"TAYLOR","agrade":20,"senior":23,"junior":0,"minYear":1973,"maxYear":1978,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1973","aGames":10},{"y":"1974","aGames":10},{"y":"1978","uGames":3},{"y":"Totals","aGames":20,"uGames":3}]}

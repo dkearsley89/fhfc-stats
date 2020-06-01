@@ -1,1 +1,1 @@
-{"firstName":"TYSON","middleName":null,"lastName":"KUHLMANN","agrade":6,"senior":6,"junior":54,"minYear":1996,"maxYear":2000,"seasons":4,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"TYSON","middleName":null,"lastName":"KUHLMANN","agrade":6,"senior":6,"junior":54,"minYear":1996,"maxYear":2000,"seasons":4,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1996","u14Games":20},{"y":"1997","u16Games":15},{"y":"1998","u18Games":2,"u16Games":17},{"y":"2000","aGames":6},{"y":"Totals","aGames":6,"u18Games":2,"u16Games":32,"u14Games":20}]}

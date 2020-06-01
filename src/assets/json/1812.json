@@ -1,1 +1,1 @@
-{"firstName":"CHRIS","middleName":null,"lastName":"BALDWIN","agrade":26,"senior":26,"junior":0,"minYear":1990,"maxYear":1991,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"CHRIS","middleName":null,"lastName":"BALDWIN","agrade":26,"senior":26,"junior":0,"minYear":1990,"maxYear":1991,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1990","aGames":12},{"y":"1991","aGames":14},{"y":"Totals","aGames":26}]}

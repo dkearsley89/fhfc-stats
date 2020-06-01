@@ -1,1 +1,1 @@
-{"firstName":"G.","middleName":"J.","lastName":"MUGFORD","agrade":14,"senior":65,"junior":0,"minYear":1963,"maxYear":1968,"seasons":5,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"G.","middleName":"J.","lastName":"MUGFORD","agrade":14,"senior":65,"junior":0,"minYear":1963,"maxYear":1968,"seasons":5,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1963","aGames":14},{"y":"1964","uGames":15},{"y":"1965","uGames":8},{"y":"1966","uGames":16},{"y":"1968","uGames":12},{"y":"Totals","aGames":14,"uGames":51}]}

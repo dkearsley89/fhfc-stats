@@ -1,1 +1,1 @@
-{"firstName":"MARCUS","middleName":null,"lastName":"MANCER","agrade":39,"senior":50,"junior":0,"minYear":1996,"maxYear":1998,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"MARCUS","middleName":null,"lastName":"MANCER","agrade":39,"senior":50,"junior":0,"minYear":1996,"maxYear":1998,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1996","aGames":8,"bGames":10},{"y":"1997","aGames":20},{"y":"1998","aGames":11,"cGames":1},{"y":"Totals","aGames":39,"bGames":10,"cGames":1}]}

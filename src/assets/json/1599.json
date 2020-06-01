@@ -1,1 +1,1 @@
-{"firstName":"DOMINIC","middleName":null,"lastName":"MAURICI","agrade":0,"senior":42,"junior":0,"minYear":1986,"maxYear":1992,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"DOMINIC","middleName":null,"lastName":"MAURICI","agrade":0,"senior":42,"junior":0,"minYear":1986,"maxYear":1992,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1986","uGames":13},{"y":"1987","bGames":22,"cGames":1},{"y":"1992","bGames":6},{"y":"Totals","bGames":28,"cGames":1,"uGames":13}]}

@@ -1,1 +1,1 @@
-{"firstName":"GRANTLEY","middleName":null,"lastName":"BROWN","agrade":0,"senior":45,"junior":0,"minYear":1983,"maxYear":1989,"seasons":5,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"GRANTLEY","middleName":null,"lastName":"BROWN","agrade":0,"senior":45,"junior":0,"minYear":1983,"maxYear":1989,"seasons":5,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1983","uGames":4},{"y":"1984","uGames":15},{"y":"1985","uGames":10},{"y":"1986","uGames":7},{"y":"1989","bGames":8,"cGames":1},{"y":"Totals","bGames":8,"cGames":1,"uGames":36}]}

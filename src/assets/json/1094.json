@@ -1,1 +1,1 @@
-{"firstName":"JOHN","middleName":null,"lastName":"MOYLE","agrade":23,"senior":46,"junior":0,"minYear":1966,"maxYear":1973,"seasons":5,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"JOHN","middleName":null,"lastName":"MOYLE","agrade":23,"senior":46,"junior":0,"minYear":1966,"maxYear":1973,"seasons":5,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1966","uGames":2},{"y":"1967","uGames":7},{"y":"1971","uGames":14},{"y":"1972","aGames":13},{"y":"1973","aGames":10},{"y":"Totals","aGames":23,"uGames":23}]}

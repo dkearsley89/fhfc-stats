@@ -1,1 +1,1 @@
-{"firstName":"JACK","middleName":"","lastName":"EVANS","agrade":2,"senior":3,"junior":0,"minYear":2008,"maxYear":2015,"seasons":2,"aGradeGoals":1,"seniorGoals":1,"juniorGoals":0}
+{"firstName":"JACK","middleName":"","lastName":"EVANS","agrade":2,"senior":3,"junior":0,"minYear":2008,"maxYear":2015,"seasons":2,"aGradeGoals":1,"seniorGoals":1,"juniorGoals":0,"years":[{"y":"2008","cGames":1},{"y":"2015","aGames":2,"aGoals":1},{"y":"Totals","aGames":2,"aGoals":1,"cGames":1}]}

@@ -1,1 +1,1 @@
-{"firstName":"G.","middleName":null,"lastName":"ARMOR","agrade":8,"senior":16,"junior":0,"minYear":1970,"maxYear":1972,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"G.","middleName":null,"lastName":"ARMOR","agrade":8,"senior":16,"junior":0,"minYear":1970,"maxYear":1972,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1970","uGames":6},{"y":"1971","uGames":2},{"y":"1972","aGames":8},{"y":"Totals","aGames":8,"uGames":8}]}

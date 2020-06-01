@@ -1,1 +1,1 @@
-{"firstName":"B.","middleName":"J.","lastName":"LANG","agrade":15,"senior":78,"junior":0,"minYear":1963,"maxYear":1969,"seasons":7,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"B.","middleName":"J.","lastName":"LANG","agrade":15,"senior":78,"junior":0,"minYear":1963,"maxYear":1969,"seasons":7,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1963","aGames":15},{"y":"1964","uGames":13},{"y":"1965","uGames":16},{"y":"1966","uGames":15},{"y":"1967","uGames":4},{"y":"1968","uGames":14},{"y":"1969","uGames":1},{"y":"Totals","aGames":15,"uGames":63}]}

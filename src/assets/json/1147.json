@@ -1,1 +1,1 @@
-{"firstName":"DAVE","middleName":null,"lastName":"SLADDEN","agrade":8,"senior":33,"junior":0,"minYear":1969,"maxYear":1972,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"DAVE","middleName":null,"lastName":"SLADDEN","agrade":8,"senior":33,"junior":0,"minYear":1969,"maxYear":1972,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1969","uGames":11},{"y":"1971","uGames":14},{"y":"1972","aGames":8},{"y":"Totals","aGames":8,"uGames":25}]}

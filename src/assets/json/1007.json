@@ -1,1 +1,1 @@
-{"firstName":"J.","middleName":null,"lastName":"DELEAN","agrade":15,"senior":42,"junior":0,"minYear":1963,"maxYear":1966,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"J.","middleName":null,"lastName":"DELEAN","agrade":15,"senior":42,"junior":0,"minYear":1963,"maxYear":1966,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1963","aGames":15},{"y":"1964","uGames":10},{"y":"1966","uGames":17},{"y":"Totals","aGames":15,"uGames":27}]}

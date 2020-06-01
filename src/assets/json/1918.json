@@ -1,1 +1,1 @@
-{"firstName":"ROBERT","middleName":null,"lastName":"HORNAK","agrade":0,"senior":21,"junior":0,"minYear":1992,"maxYear":1995,"seasons":4,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"ROBERT","middleName":null,"lastName":"HORNAK","agrade":0,"senior":21,"junior":0,"minYear":1992,"maxYear":1995,"seasons":4,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1992","bGames":10,"cGames":2},{"y":"1993","cGames":5},{"y":"1994","bGames":1},{"y":"1995","cGames":3},{"y":"Totals","bGames":11,"cGames":10}]}

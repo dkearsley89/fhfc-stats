@@ -1,1 +1,1 @@
-{"firstName":"JOEL","middleName":null,"lastName":"TEMPLER","agrade":0,"senior":1,"junior":43,"minYear":1998,"maxYear":2001,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"JOEL","middleName":null,"lastName":"TEMPLER","agrade":0,"senior":1,"junior":43,"minYear":1998,"maxYear":2001,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1998","u18Games":4,"u16Games":16},{"y":"1999","u16Games":13},{"y":"2001","cGames":1,"u18Games":10},{"y":"Totals","cGames":1,"u18Games":14,"u16Games":29}]}

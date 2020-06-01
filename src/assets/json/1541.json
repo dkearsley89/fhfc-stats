@@ -1,1 +1,1 @@
-{"firstName":"RODNEY","middleName":null,"lastName":"MCCULLOCH","agrade":0,"senior":65,"junior":0,"minYear":1985,"maxYear":1990,"seasons":5,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"RODNEY","middleName":null,"lastName":"MCCULLOCH","agrade":0,"senior":65,"junior":0,"minYear":1985,"maxYear":1990,"seasons":5,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1985","uGames":19},{"y":"1986","uGames":20},{"y":"1988","bGames":10,"cGames":7},{"y":"1989","bGames":2},{"y":"1990","bGames":7},{"y":"Totals","bGames":19,"cGames":7,"uGames":39}]}

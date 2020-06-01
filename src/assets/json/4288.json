@@ -1,1 +1,1 @@
-{"firstName":"BEN","middleName":null,"lastName":"STEER","agrade":3,"senior":16,"junior":0,"minYear":2019,"maxYear":2019,"seasons":1,"aGradeGoals":0,"seniorGoals":5,"juniorGoals":0}
+{"firstName":"BEN","middleName":null,"lastName":"STEER","agrade":3,"senior":16,"junior":0,"minYear":2019,"maxYear":2019,"seasons":1,"aGradeGoals":0,"seniorGoals":5,"juniorGoals":0,"years":[{"y":"2019","aGames":3,"bGames":13,"bGoals":5},{"y":"Totals","aGames":3,"bGames":13,"bGoals":5}]}

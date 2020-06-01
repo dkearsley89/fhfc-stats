@@ -1,1 +1,1 @@
-{"firstName":"PAT","middleName":null,"lastName":"WALTON","agrade":7,"senior":7,"junior":0,"minYear":2007,"maxYear":2007,"seasons":1,"aGradeGoals":8,"seniorGoals":8,"juniorGoals":0}
+{"firstName":"PAT","middleName":null,"lastName":"WALTON","agrade":7,"senior":7,"junior":0,"minYear":2007,"maxYear":2007,"seasons":1,"aGradeGoals":8,"seniorGoals":8,"juniorGoals":0,"years":[{"y":"2007","aGames":7,"aGoals":8},{"y":"Totals","aGames":7,"aGoals":8}]}

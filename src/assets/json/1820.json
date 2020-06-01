@@ -1,1 +1,1 @@
-{"firstName":"PAUL","middleName":null,"lastName":"DILERNIA","agrade":0,"senior":33,"junior":0,"minYear":1984,"maxYear":1990,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"PAUL","middleName":null,"lastName":"DILERNIA","agrade":0,"senior":33,"junior":0,"minYear":1984,"maxYear":1990,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1984","uGames":15},{"y":"1985","uGames":11},{"y":"1990","cGames":7},{"y":"Totals","cGames":7,"uGames":26}]}

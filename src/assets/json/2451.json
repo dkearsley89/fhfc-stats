@@ -1,1 +1,1 @@
-{"firstName":"STEVE","middleName":null,"lastName":"WEBSTER","agrade":0,"senior":23,"junior":0,"minYear":2001,"maxYear":2004,"seasons":4,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"STEVE","middleName":null,"lastName":"WEBSTER","agrade":0,"senior":23,"junior":0,"minYear":2001,"maxYear":2004,"seasons":4,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"2001","cGames":10},{"y":"2002","cGames":9},{"y":"2003","bGames":1,"cGames":2},{"y":"2004","bGames":1},{"y":"Totals","bGames":2,"cGames":21}]}

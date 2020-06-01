@@ -1,1 +1,1 @@
-{"firstName":"JASON","middleName":"","lastName":"BAE","agrade":0,"senior":0,"junior":50,"minYear":2013,"maxYear":2015,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":22}
+{"firstName":"JASON","middleName":"","lastName":"BAE","agrade":0,"senior":0,"junior":50,"minYear":2013,"maxYear":2015,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":22,"years":[{"y":"2013","u18Games":14,"u18Goals":2},{"y":"2014","u18Games":17,"u18Goals":9},{"y":"2015","u18Games":19,"u18Goals":11},{"y":"Totals","u18Games":50,"u18Goals":22}]}

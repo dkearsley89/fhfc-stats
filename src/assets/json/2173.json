@@ -1,1 +1,1 @@
-{"firstName":"CRAIG","middleName":null,"lastName":"TURNER","agrade":31,"senior":48,"junior":0,"minYear":1996,"maxYear":1998,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"CRAIG","middleName":null,"lastName":"TURNER","agrade":31,"senior":48,"junior":0,"minYear":1996,"maxYear":1998,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1996","aGames":2,"bGames":13},{"y":"1997","aGames":15,"bGames":4},{"y":"1998","aGames":14},{"y":"Totals","aGames":31,"bGames":17}]}

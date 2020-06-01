@@ -1,1 +1,1 @@
-{"firstName":"ANDREW","middleName":null,"lastName":"GREATREX","agrade":0,"senior":25,"junior":34,"minYear":1983,"maxYear":1987,"seasons":5,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"ANDREW","middleName":null,"lastName":"GREATREX","agrade":0,"senior":25,"junior":34,"minYear":1983,"maxYear":1987,"seasons":5,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1983","u16Games":14},{"y":"1984"},{"y":"1985"},{"y":"1986","uGames":21},{"y":"1987","cGames":4},{"y":"Totals","cGames":4,"uGames":21,"u16Games":14}]}

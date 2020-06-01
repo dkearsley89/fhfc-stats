@@ -1,1 +1,1 @@
-{"firstName":"MATTHEW","middleName":null,"lastName":"THOMAS","agrade":0,"senior":2,"junior":74,"minYear":1993,"maxYear":1996,"seasons":4,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"MATTHEW","middleName":null,"lastName":"THOMAS","agrade":0,"senior":2,"junior":74,"minYear":1993,"maxYear":1996,"seasons":4,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1993","u15Games":16},{"y":"1994","u17Games":18},{"y":"1995","bGames":1,"u17Games":20},{"y":"1996","bGames":1,"u18Games":20},{"y":"Totals","bGames":2,"u18Games":20,"u17Games":38,"u15Games":16}]}

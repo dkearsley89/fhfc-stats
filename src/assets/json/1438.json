@@ -1,1 +1,1 @@
-{"firstName":"RICHARD","middleName":null,"lastName":"OSBORNE","agrade":3,"senior":6,"junior":14,"minYear":1983,"maxYear":1990,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"RICHARD","middleName":null,"lastName":"OSBORNE","agrade":3,"senior":6,"junior":14,"minYear":1983,"maxYear":1990,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1983","u16Games":14},{"y":"1990","aGames":3,"bGames":3},{"y":"Totals","aGames":3,"bGames":3,"u16Games":14}]}

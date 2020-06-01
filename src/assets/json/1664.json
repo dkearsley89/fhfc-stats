@@ -1,1 +1,1 @@
-{"firstName":"HAYDN","middleName":null,"lastName":"RICE","agrade":0,"senior":3,"junior":25,"minYear":1987,"maxYear":1989,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"HAYDN","middleName":null,"lastName":"RICE","agrade":0,"senior":3,"junior":25,"minYear":1987,"maxYear":1989,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1987","u18Games":8},{"y":"1988","cGames":2,"u18Games":14},{"y":"1989","cGames":1,"u18Games":3},{"y":"Totals","cGames":3,"u18Games":25}]}

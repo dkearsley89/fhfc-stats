@@ -1,1 +1,1 @@
-{"firstName":"JARED","middleName":null,"lastName":"CHAMBERS","agrade":0,"senior":28,"junior":0,"minYear":2007,"maxYear":2008,"seasons":2,"aGradeGoals":0,"seniorGoals":2,"juniorGoals":0}
+{"firstName":"JARED","middleName":null,"lastName":"CHAMBERS","agrade":0,"senior":28,"junior":0,"minYear":2007,"maxYear":2008,"seasons":2,"aGradeGoals":0,"seniorGoals":2,"juniorGoals":0,"years":[{"y":"2007","bGames":11,"cGames":3,"cGoals":1},{"y":"2008","bGames":3,"cGames":11,"cGoals":1},{"y":"Totals","bGames":14,"cGames":14,"cGoals":2}]}

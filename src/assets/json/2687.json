@@ -1,1 +1,1 @@
-{"firstName":"ALEX","middleName":null,"lastName":"MANNING","agrade":0,"senior":0,"junior":40,"minYear":2006,"maxYear":2008,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":8}
+{"firstName":"ALEX","middleName":null,"lastName":"MANNING","agrade":0,"senior":0,"junior":40,"minYear":2006,"maxYear":2008,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":8,"years":[{"y":"2006","u16Games":1,"u14Games":20},{"y":"2007","u16Games":9,"u16Goals":5},{"y":"2008","u18Games":1,"u16Games":9,"u16Goals":3},{"y":"Totals","u18Games":1,"u16Games":19,"u16Goals":8,"u14Games":20}]}

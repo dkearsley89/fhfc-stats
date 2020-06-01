@@ -1,1 +1,1 @@
-{"firstName":"TROY","middleName":null,"lastName":"MADDERN","agrade":32,"senior":32,"junior":3,"minYear":1987,"maxYear":1990,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"TROY","middleName":null,"lastName":"MADDERN","agrade":32,"senior":32,"junior":3,"minYear":1987,"maxYear":1990,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1987","u18Games":3},{"y":"1989","aGames":18},{"y":"1990","aGames":14},{"y":"Totals","aGames":32,"u18Games":3}]}

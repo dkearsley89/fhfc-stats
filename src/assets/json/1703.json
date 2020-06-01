@@ -1,1 +1,1 @@
-{"firstName":"JOHN","middleName":null,"lastName":"INGLIS","agrade":0,"senior":13,"junior":0,"minYear":1988,"maxYear":1990,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"JOHN","middleName":null,"lastName":"INGLIS","agrade":0,"senior":13,"junior":0,"minYear":1988,"maxYear":1990,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1988","bGames":2,"cGames":8},{"y":"1990","cGames":3},{"y":"Totals","bGames":2,"cGames":11}]}

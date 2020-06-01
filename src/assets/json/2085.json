@@ -1,1 +1,1 @@
-{"firstName":"ANDREW","middleName":null,"lastName":"HARDING","agrade":0,"senior":0,"junior":23,"minYear":1995,"maxYear":1996,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"ANDREW","middleName":null,"lastName":"HARDING","agrade":0,"senior":0,"junior":23,"minYear":1995,"maxYear":1996,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1995","u15Games":8},{"y":"1996","u16Games":15},{"y":"Totals","u16Games":15,"u15Games":8}]}

@@ -1,1 +1,1 @@
-{"firstName":"C.","middleName":null,"lastName":"BRUHN","agrade":4,"senior":6,"junior":0,"minYear":1963,"maxYear":1964,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"C.","middleName":null,"lastName":"BRUHN","agrade":4,"senior":6,"junior":0,"minYear":1963,"maxYear":1964,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1963","aGames":4},{"y":"1964","uGames":2},{"y":"Totals","aGames":4,"uGames":2}]}

@@ -1,1 +1,1 @@
-{"firstName":"TROY","middleName":null,"lastName":"RYAN","agrade":0,"senior":52,"junior":0,"minYear":1993,"maxYear":1997,"seasons":5,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"TROY","middleName":null,"lastName":"RYAN","agrade":0,"senior":52,"junior":0,"minYear":1993,"maxYear":1997,"seasons":5,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1993","cGames":12},{"y":"1994","cGames":17},{"y":"1995","cGames":16},{"y":"1996","bGames":2},{"y":"1997","cGames":5},{"y":"Totals","bGames":2,"cGames":50}]}

@@ -1,1 +1,1 @@
-{"firstName":"PETER","middleName":null,"lastName":"DAVIDGE","agrade":0,"senior":63,"junior":0,"minYear":1968,"maxYear":1971,"seasons":4,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"PETER","middleName":null,"lastName":"DAVIDGE","agrade":0,"senior":63,"junior":0,"minYear":1968,"maxYear":1971,"seasons":4,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1968","uGames":16},{"y":"1969","uGames":20},{"y":"1970","uGames":15},{"y":"1971","uGames":12},{"y":"Totals","uGames":63}]}

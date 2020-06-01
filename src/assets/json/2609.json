@@ -1,1 +1,1 @@
-{"firstName":"CARMINE","middleName":null,"lastName":"RAUSEO","agrade":0,"senior":6,"junior":17,"minYear":2004,"maxYear":2005,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"CARMINE","middleName":null,"lastName":"RAUSEO","agrade":0,"senior":6,"junior":17,"minYear":2004,"maxYear":2005,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"2004","bGames":5,"cGames":1,"u18Games":5},{"y":"2005","u18Games":12},{"y":"Totals","bGames":5,"cGames":1,"u18Games":17}]}

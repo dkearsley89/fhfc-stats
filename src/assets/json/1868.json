@@ -1,1 +1,1 @@
-{"firstName":"PAUL","middleName":null,"lastName":"HICKS","agrade":0,"senior":14,"junior":0,"minYear":1991,"maxYear":1992,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"PAUL","middleName":null,"lastName":"HICKS","agrade":0,"senior":14,"junior":0,"minYear":1991,"maxYear":1992,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1991","bGames":5,"cGames":8},{"y":"1992","bGames":1},{"y":"Totals","bGames":6,"cGames":8}]}

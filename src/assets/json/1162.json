@@ -1,1 +1,1 @@
-{"firstName":"RICHARD","middleName":null,"lastName":"PAVLOVICH","agrade":9,"senior":42,"junior":0,"minYear":1970,"maxYear":1980,"seasons":4,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"RICHARD","middleName":null,"lastName":"PAVLOVICH","agrade":9,"senior":42,"junior":0,"minYear":1970,"maxYear":1980,"seasons":4,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1970","uGames":13},{"y":"1972","aGames":9},{"y":"1979","uGames":6},{"y":"1980","uGames":14},{"y":"Totals","aGames":9,"uGames":33}]}

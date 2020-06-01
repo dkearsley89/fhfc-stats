@@ -1,1 +1,1 @@
-{"firstName":"SAMUEL","middleName":"ROBERT WESLEY","lastName":"FARMER","agrade":0,"senior":26,"junior":0,"minYear":2017,"maxYear":2018,"seasons":2,"aGradeGoals":0,"seniorGoals":14,"juniorGoals":0}
+{"firstName":"SAMUEL","middleName":"ROBERT WESLEY","lastName":"FARMER","agrade":0,"senior":26,"junior":0,"minYear":2017,"maxYear":2018,"seasons":2,"aGradeGoals":0,"seniorGoals":14,"juniorGoals":0,"years":[{"y":"2017","bGames":7,"bGoals":4,"cGames":4,"cGoals":1},{"y":"2018","bGames":3,"cGames":12,"cGoals":9},{"y":"Totals","bGames":10,"bGoals":4,"cGames":16,"cGoals":10}]}

@@ -1,1 +1,1 @@
-{"firstName":"GARY","middleName":null,"lastName":"WELSH","agrade":16,"senior":27,"junior":0,"minYear":1971,"maxYear":1972,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"GARY","middleName":null,"lastName":"WELSH","agrade":16,"senior":27,"junior":0,"minYear":1971,"maxYear":1972,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1971","uGames":11},{"y":"1972","aGames":16},{"y":"Totals","aGames":16,"uGames":11}]}

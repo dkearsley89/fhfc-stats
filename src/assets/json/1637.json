@@ -1,1 +1,1 @@
-{"firstName":"MICHAEL","middleName":null,"lastName":"FARQUHAR","agrade":36,"senior":36,"junior":0,"minYear":1987,"maxYear":1988,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"MICHAEL","middleName":null,"lastName":"FARQUHAR","agrade":36,"senior":36,"junior":0,"minYear":1987,"maxYear":1988,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1987","aGames":21},{"y":"1988","aGames":15},{"y":"Totals","aGames":36}]}

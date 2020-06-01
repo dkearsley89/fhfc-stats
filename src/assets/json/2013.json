@@ -1,1 +1,1 @@
-{"firstName":"TONY","middleName":null,"lastName":"CHMIELEWSKI","agrade":0,"senior":12,"junior":0,"minYear":1994,"maxYear":1995,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"TONY","middleName":null,"lastName":"CHMIELEWSKI","agrade":0,"senior":12,"junior":0,"minYear":1994,"maxYear":1995,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1994","bGames":6},{"y":"1995","bGames":6},{"y":"Totals","bGames":12}]}

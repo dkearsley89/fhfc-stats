@@ -1,1 +1,1 @@
-{"firstName":"GEOFF","middleName":null,"lastName":"DEDMAN","agrade":0,"senior":26,"junior":0,"minYear":2004,"maxYear":2006,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"GEOFF","middleName":null,"lastName":"DEDMAN","agrade":0,"senior":26,"junior":0,"minYear":2004,"maxYear":2006,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"2004","bGames":1,"cGames":10},{"y":"2005","cGames":9},{"y":"2006","cGames":6},{"y":"Totals","bGames":1,"cGames":25}]}

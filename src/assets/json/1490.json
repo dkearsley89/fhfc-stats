@@ -1,1 +1,1 @@
-{"firstName":"ANTHONY","middleName":null,"lastName":"LAVERS","agrade":0,"senior":6,"junior":5,"minYear":1984,"maxYear":1988,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"ANTHONY","middleName":null,"lastName":"LAVERS","agrade":0,"senior":6,"junior":5,"minYear":1984,"maxYear":1988,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1984","u16Games":5},{"y":"1988","cGames":6},{"y":"Totals","cGames":6,"u16Games":5}]}

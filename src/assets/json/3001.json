@@ -1,1 +1,1 @@
-{"firstName":"CHRIS","middleName":"","lastName":"CORMACK","agrade":1,"senior":23,"junior":0,"minYear":2009,"maxYear":2010,"seasons":2,"aGradeGoals":0,"seniorGoals":7,"juniorGoals":0}
+{"firstName":"CHRIS","middleName":"","lastName":"CORMACK","agrade":1,"senior":23,"junior":0,"minYear":2009,"maxYear":2010,"seasons":2,"aGradeGoals":0,"seniorGoals":7,"juniorGoals":0,"years":[{"y":"2009","aGames":1,"bGames":9,"bGoals":4,"cGames":2},{"y":"2010","bGames":11,"bGoals":3},{"y":"Totals","aGames":1,"bGames":20,"bGoals":7,"cGames":2}]}

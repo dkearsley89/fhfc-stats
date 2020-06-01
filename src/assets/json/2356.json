@@ -1,1 +1,1 @@
-{"firstName":"DAVE","middleName":null,"lastName":"HOWER","agrade":0,"senior":18,"junior":0,"minYear":2000,"maxYear":2000,"seasons":1,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"DAVE","middleName":null,"lastName":"HOWER","agrade":0,"senior":18,"junior":0,"minYear":2000,"maxYear":2000,"seasons":1,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"2000","bGames":18},{"y":"Totals","bGames":18}]}

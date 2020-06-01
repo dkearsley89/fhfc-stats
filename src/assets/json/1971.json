@@ -1,1 +1,1 @@
-{"firstName":"TERRY","middleName":null,"lastName":"LIBBIS","agrade":19,"senior":28,"junior":0,"minYear":1993,"maxYear":1995,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"TERRY","middleName":null,"lastName":"LIBBIS","agrade":19,"senior":28,"junior":0,"minYear":1993,"maxYear":1995,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1993","aGames":2,"bGames":9},{"y":"1994","aGames":10},{"y":"1995","aGames":7},{"y":"Totals","aGames":19,"bGames":9}]}

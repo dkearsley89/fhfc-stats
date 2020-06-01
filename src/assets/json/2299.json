@@ -1,1 +1,1 @@
-{"firstName":"SCOTT","middleName":null,"lastName":"WALLING","agrade":24,"senior":61,"junior":0,"minYear":1998,"maxYear":2002,"seasons":5,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"SCOTT","middleName":null,"lastName":"WALLING","agrade":24,"senior":61,"junior":0,"minYear":1998,"maxYear":2002,"seasons":5,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1998","aGames":4,"bGames":14},{"y":"1999","aGames":15},{"y":"2000","aGames":5,"bGames":6},{"y":"2001","bGames":14},{"y":"2002","cGames":3},{"y":"Totals","aGames":24,"bGames":34,"cGames":3}]}

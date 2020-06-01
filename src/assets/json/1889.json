@@ -1,1 +1,1 @@
-{"firstName":"ANDREW","middleName":null,"lastName":"SLAGHEKKE","agrade":0,"senior":20,"junior":0,"minYear":1991,"maxYear":2003,"seasons":4,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"ANDREW","middleName":null,"lastName":"SLAGHEKKE","agrade":0,"senior":20,"junior":0,"minYear":1991,"maxYear":2003,"seasons":4,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1991","cGames":5},{"y":"1995","cGames":1},{"y":"1998","cGames":9},{"y":"2003","cGames":5},{"y":"Totals","cGames":20}]}

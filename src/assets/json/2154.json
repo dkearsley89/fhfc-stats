@@ -1,1 +1,1 @@
-{"firstName":"BRENTON","middleName":null,"lastName":"REIDY","agrade":56,"senior":56,"junior":0,"minYear":1996,"maxYear":1998,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"BRENTON","middleName":null,"lastName":"REIDY","agrade":56,"senior":56,"junior":0,"minYear":1996,"maxYear":1998,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1996","aGames":19},{"y":"1997","aGames":20},{"y":"1998","aGames":17},{"y":"Totals","aGames":56}]}

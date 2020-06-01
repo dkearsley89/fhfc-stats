@@ -1,1 +1,1 @@
-{"firstName":"ADAM","middleName":null,"lastName":"KINNEAR","agrade":0,"senior":57,"junior":18,"minYear":2003,"maxYear":2007,"seasons":5,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"ADAM","middleName":null,"lastName":"KINNEAR","agrade":0,"senior":57,"junior":18,"minYear":2003,"maxYear":2007,"seasons":5,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"2003","u18Games":18},{"y":"2004","bGames":4,"cGames":14},{"y":"2005","bGames":4,"cGames":18},{"y":"2006","cGames":15},{"y":"2007","cGames":2},{"y":"Totals","bGames":8,"cGames":49,"u18Games":18}]}

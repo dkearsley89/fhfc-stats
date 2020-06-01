@@ -1,1 +1,1 @@
-{"firstName":"NEVILLE","middleName":null,"lastName":"HULME","agrade":0,"senior":66,"junior":0,"minYear":1985,"maxYear":1988,"seasons":4,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"NEVILLE","middleName":null,"lastName":"HULME","agrade":0,"senior":66,"junior":0,"minYear":1985,"maxYear":1988,"seasons":4,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1985","uGames":12},{"y":"1986","uGames":21},{"y":"1987","bGames":18,"cGames":2},{"y":"1988","bGames":12,"cGames":1},{"y":"Totals","bGames":30,"cGames":3,"uGames":33}]}

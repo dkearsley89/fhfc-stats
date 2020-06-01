@@ -1,1 +1,1 @@
-{"firstName":"DAVID","middleName":null,"lastName":"SHELDON","agrade":8,"senior":8,"junior":0,"minYear":1988,"maxYear":1989,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"DAVID","middleName":null,"lastName":"SHELDON","agrade":8,"senior":8,"junior":0,"minYear":1988,"maxYear":1989,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1988","aGames":6},{"y":"1989","aGames":2},{"y":"Totals","aGames":8}]}

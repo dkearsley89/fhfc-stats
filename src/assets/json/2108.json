@@ -1,1 +1,1 @@
-{"firstName":"SCOTT","middleName":null,"lastName":"BRAVINGTON","agrade":48,"senior":48,"junior":0,"minYear":1996,"maxYear":1998,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"SCOTT","middleName":null,"lastName":"BRAVINGTON","agrade":48,"senior":48,"junior":0,"minYear":1996,"maxYear":1998,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1996","aGames":16},{"y":"1997","aGames":21},{"y":"1998","aGames":11},{"y":"Totals","aGames":48}]}

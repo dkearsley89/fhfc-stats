@@ -1,1 +1,1 @@
-{"firstName":"TODD","middleName":null,"lastName":"MADDERN","agrade":13,"senior":16,"junior":5,"minYear":1989,"maxYear":1990,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"TODD","middleName":null,"lastName":"MADDERN","agrade":13,"senior":16,"junior":5,"minYear":1989,"maxYear":1990,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1989","aGames":13,"bGames":1,"u18Games":5},{"y":"1990","bGames":2},{"y":"Totals","aGames":13,"bGames":3,"u18Games":5}]}

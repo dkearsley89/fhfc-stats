@@ -1,1 +1,1 @@
-{"firstName":"MARK","middleName":null,"lastName":"PARSONS","agrade":0,"senior":19,"junior":0,"minYear":1986,"maxYear":1988,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"MARK","middleName":null,"lastName":"PARSONS","agrade":0,"senior":19,"junior":0,"minYear":1986,"maxYear":1988,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1986","uGames":12},{"y":"1987","bGames":1,"cGames":3},{"y":"1988","cGames":3},{"y":"Totals","bGames":1,"cGames":6,"uGames":12}]}

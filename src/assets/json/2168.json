@@ -1,1 +1,1 @@
-{"firstName":"BRETT","middleName":null,"lastName":"STREETER","agrade":0,"senior":3,"junior":19,"minYear":1996,"maxYear":1997,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"BRETT","middleName":null,"lastName":"STREETER","agrade":0,"senior":3,"junior":19,"minYear":1996,"maxYear":1997,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1996","u18Games":19},{"y":"1997","bGames":3},{"y":"Totals","bGames":3,"u18Games":19}]}

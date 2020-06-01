@@ -1,1 +1,1 @@
-{"firstName":"PAUL","middleName":null,"lastName":"HOLLIS","agrade":22,"senior":26,"junior":0,"minYear":1994,"maxYear":2001,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"PAUL","middleName":null,"lastName":"HOLLIS","agrade":22,"senior":26,"junior":0,"minYear":1994,"maxYear":2001,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1994","aGames":18},{"y":"1995","aGames":4,"bGames":2},{"y":"2001","cGames":2},{"y":"Totals","aGames":22,"bGames":2,"cGames":2}]}

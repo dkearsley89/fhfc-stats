@@ -1,1 +1,1 @@
-{"firstName":"STEWART","middleName":null,"lastName":"TAINSH","agrade":0,"senior":14,"junior":0,"minYear":1990,"maxYear":1991,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"STEWART","middleName":null,"lastName":"TAINSH","agrade":0,"senior":14,"junior":0,"minYear":1990,"maxYear":1991,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1990","cGames":12},{"y":"1991","cGames":2},{"y":"Totals","cGames":14}]}

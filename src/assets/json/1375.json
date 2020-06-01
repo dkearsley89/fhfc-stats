@@ -1,1 +1,1 @@
-{"firstName":"ANTHONY ","middleName":null,"lastName":"FRANZ","agrade":0,"senior":29,"junior":0,"minYear":1982,"maxYear":1984,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"ANTHONY ","middleName":null,"lastName":"FRANZ","agrade":0,"senior":29,"junior":0,"minYear":1982,"maxYear":1984,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1982","uGames":11},{"y":"1983","uGames":10},{"y":"1984","uGames":8},{"y":"Totals","uGames":29}]}

@@ -1,1 +1,1 @@
-{"firstName":"SCOTT","middleName":null,"lastName":"FRANKS","agrade":0,"senior":24,"junior":0,"minYear":1978,"maxYear":1985,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"SCOTT","middleName":null,"lastName":"FRANKS","agrade":0,"senior":24,"junior":0,"minYear":1978,"maxYear":1985,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1978","uGames":15},{"y":"1985","uGames":9},{"y":"Totals","uGames":24}]}

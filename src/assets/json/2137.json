@@ -1,1 +1,1 @@
-{"firstName":"AARON","middleName":null,"lastName":"LUKE","agrade":0,"senior":1,"junior":32,"minYear":1996,"maxYear":1999,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"AARON","middleName":null,"lastName":"LUKE","agrade":0,"senior":1,"junior":32,"minYear":1996,"maxYear":1999,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1996","u18Games":15},{"y":"1997","u18Games":17},{"y":"1999","bGames":1},{"y":"Totals","bGames":1,"u18Games":32}]}

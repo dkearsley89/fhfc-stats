@@ -1,1 +1,1 @@
-{"firstName":"MATTHEW","middleName":"LIAM","lastName":"WALTON","agrade":14,"senior":17,"junior":0,"minYear":2007,"maxYear":2012,"seasons":3,"aGradeGoals":3,"seniorGoals":3,"juniorGoals":0}
+{"firstName":"MATTHEW","middleName":"LIAM","lastName":"WALTON","agrade":14,"senior":17,"junior":0,"minYear":2007,"maxYear":2012,"seasons":3,"aGradeGoals":3,"seniorGoals":3,"juniorGoals":0,"years":[{"y":"2007","aGames":5},{"y":"2009","aGames":9,"aGoals":3},{"y":"2012","bGames":2,"cGames":1},{"y":"Totals","aGames":14,"aGoals":3,"bGames":2,"cGames":1}]}

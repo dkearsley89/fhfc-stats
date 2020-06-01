@@ -1,1 +1,1 @@
-{"firstName":"TREVOR","middleName":null,"lastName":"RADFORD","agrade":9,"senior":19,"junior":0,"minYear":1976,"maxYear":1983,"seasons":5,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"TREVOR","middleName":null,"lastName":"RADFORD","agrade":9,"senior":19,"junior":0,"minYear":1976,"maxYear":1983,"seasons":5,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1976","aGames":9},{"y":"1977","uGames":2},{"y":"1978","uGames":4},{"y":"1980","uGames":1},{"y":"1983","uGames":3},{"y":"Totals","aGames":9,"uGames":10}]}

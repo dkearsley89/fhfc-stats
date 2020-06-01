@@ -1,1 +1,1 @@
-{"firstName":"DEAN","middleName":null,"lastName":"PIPER","agrade":29,"senior":29,"junior":0,"minYear":1991,"maxYear":1993,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"DEAN","middleName":null,"lastName":"PIPER","agrade":29,"senior":29,"junior":0,"minYear":1991,"maxYear":1993,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1991","aGames":8},{"y":"1992","aGames":12},{"y":"1993","aGames":9},{"y":"Totals","aGames":29}]}

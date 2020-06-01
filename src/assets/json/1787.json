@@ -1,1 +1,1 @@
-{"firstName":"MILES","middleName":null,"lastName":"RILEY","agrade":0,"senior":23,"junior":0,"minYear":1989,"maxYear":1990,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"MILES","middleName":null,"lastName":"RILEY","agrade":0,"senior":23,"junior":0,"minYear":1989,"maxYear":1990,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1989","cGames":7},{"y":"1990","bGames":3,"cGames":13},{"y":"Totals","bGames":3,"cGames":20}]}

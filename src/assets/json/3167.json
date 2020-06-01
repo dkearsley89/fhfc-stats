@@ -1,1 +1,1 @@
-{"firstName":"DANE","middleName":"","lastName":"SOMMERS","agrade":38,"senior":38,"junior":0,"minYear":2011,"maxYear":2012,"seasons":2,"aGradeGoals":8,"seniorGoals":8,"juniorGoals":0}
+{"firstName":"DANE","middleName":"","lastName":"SOMMERS","agrade":38,"senior":38,"junior":0,"minYear":2011,"maxYear":2012,"seasons":2,"aGradeGoals":8,"seniorGoals":8,"juniorGoals":0,"years":[{"y":"2011","aGames":19,"aGoals":3},{"y":"2012","aGames":19,"aGoals":5},{"y":"Totals","aGames":38,"aGoals":8}]}

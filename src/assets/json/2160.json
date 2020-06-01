@@ -1,1 +1,1 @@
-{"firstName":"DAVID","middleName":null,"lastName":"SCHOLZ","agrade":22,"senior":22,"junior":0,"minYear":1996,"maxYear":1997,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"DAVID","middleName":null,"lastName":"SCHOLZ","agrade":22,"senior":22,"junior":0,"minYear":1996,"maxYear":1997,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1996","aGames":14},{"y":"1997","aGames":8},{"y":"Totals","aGames":22}]}

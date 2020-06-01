@@ -1,1 +1,1 @@
-{"firstName":"DALE","middleName":"","lastName":"CURTIS","agrade":0,"senior":15,"junior":35,"minYear":2003,"maxYear":2009,"seasons":4,"aGradeGoals":0,"seniorGoals":7,"juniorGoals":0}
+{"firstName":"DALE","middleName":"","lastName":"CURTIS","agrade":0,"senior":15,"junior":35,"minYear":2003,"maxYear":2009,"seasons":4,"aGradeGoals":0,"seniorGoals":7,"juniorGoals":0,"years":[{"y":"2003","u18Games":18},{"y":"2004","bGames":3,"u18Games":17},{"y":"2005","bGames":4,"cGames":1},{"y":"2009","bGames":7,"bGoals":7},{"y":"Totals","bGames":14,"bGoals":7,"cGames":1,"u18Games":35}]}

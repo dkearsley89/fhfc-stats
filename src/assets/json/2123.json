@@ -1,1 +1,1 @@
-{"firstName":"DAVID","middleName":null,"lastName":"FULLER","agrade":0,"senior":0,"junior":15,"minYear":1996,"maxYear":1998,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"DAVID","middleName":null,"lastName":"FULLER","agrade":0,"senior":0,"junior":15,"minYear":1996,"maxYear":1998,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1996","u16Games":11},{"y":"1997","u18Games":3},{"y":"1998","u18Games":1},{"y":"Totals","u18Games":4,"u16Games":11}]}

@@ -1,1 +1,1 @@
-{"firstName":"PETER","middleName":null,"lastName":"HUTCHINS","agrade":0,"senior":12,"junior":0,"minYear":1989,"maxYear":1990,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"PETER","middleName":null,"lastName":"HUTCHINS","agrade":0,"senior":12,"junior":0,"minYear":1989,"maxYear":1990,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1989","cGames":6},{"y":"1990","cGames":6},{"y":"Totals","cGames":12}]}

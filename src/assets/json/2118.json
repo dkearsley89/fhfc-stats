@@ -1,1 +1,1 @@
-{"firstName":"WARWICK","middleName":null,"lastName":"FIRTH","agrade":13,"senior":18,"junior":0,"minYear":1996,"maxYear":1996,"seasons":1,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"WARWICK","middleName":null,"lastName":"FIRTH","agrade":13,"senior":18,"junior":0,"minYear":1996,"maxYear":1996,"seasons":1,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1996","aGames":13,"bGames":5},{"y":"Totals","aGames":13,"bGames":5}]}

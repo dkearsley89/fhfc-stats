@@ -1,1 +1,1 @@
-{"firstName":"JACOB","middleName":"PAUL","lastName":"RASMUS-FRASER","agrade":0,"senior":1,"junior":5,"minYear":2013,"maxYear":2013,"seasons":1,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":2}
+{"firstName":"JACOB","middleName":"PAUL","lastName":"RASMUS-FRASER","agrade":0,"senior":1,"junior":5,"minYear":2013,"maxYear":2013,"seasons":1,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":2,"years":[{"y":"2013","cGames":1,"u18Games":5,"u18Goals":2},{"y":"Totals","cGames":1,"u18Games":5,"u18Goals":2}]}

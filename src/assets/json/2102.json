@@ -1,1 +1,1 @@
-{"firstName":"STUART","middleName":null,"lastName":"TEMPLETON","agrade":5,"senior":5,"junior":0,"minYear":1995,"maxYear":1995,"seasons":1,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"STUART","middleName":null,"lastName":"TEMPLETON","agrade":5,"senior":5,"junior":0,"minYear":1995,"maxYear":1995,"seasons":1,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1995","aGames":5},{"y":"Totals","aGames":5}]}

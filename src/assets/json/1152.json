@@ -1,1 +1,1 @@
-{"firstName":"DES","middleName":null,"lastName":"CHAMBERS","agrade":5,"senior":27,"junior":0,"minYear":1970,"maxYear":1980,"seasons":5,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"DES","middleName":null,"lastName":"CHAMBERS","agrade":5,"senior":27,"junior":0,"minYear":1970,"maxYear":1980,"seasons":5,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1970","uGames":14},{"y":"1971","uGames":2},{"y":"1972","aGames":5},{"y":"1979","uGames":4},{"y":"1980","uGames":2},{"y":"Totals","aGames":5,"uGames":22}]}

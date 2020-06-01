@@ -1,1 +1,1 @@
-{"firstName":"PETER","middleName":null,"lastName":"WILLOUGHBY","agrade":26,"senior":33,"junior":0,"minYear":1996,"maxYear":1997,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"PETER","middleName":null,"lastName":"WILLOUGHBY","agrade":26,"senior":33,"junior":0,"minYear":1996,"maxYear":1997,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1996","aGames":12,"bGames":3},{"y":"1997","aGames":14,"bGames":4},{"y":"Totals","aGames":26,"bGames":7}]}

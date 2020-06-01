@@ -1,1 +1,1 @@
-{"firstName":"ANDREW","middleName":null,"lastName":"BLACKER","agrade":0,"senior":6,"junior":0,"minYear":1987,"maxYear":1988,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"ANDREW","middleName":null,"lastName":"BLACKER","agrade":0,"senior":6,"junior":0,"minYear":1987,"maxYear":1988,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1987","cGames":1},{"y":"1988","bGames":4,"cGames":1},{"y":"Totals","bGames":4,"cGames":2}]}

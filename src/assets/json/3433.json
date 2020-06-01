@@ -1,1 +1,1 @@
-{"firstName":"NATHAN","middleName":"JAMES","lastName":"CRAWFORD","agrade":0,"senior":0,"junior":7,"minYear":2012,"maxYear":2013,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"NATHAN","middleName":"JAMES","lastName":"CRAWFORD","agrade":0,"senior":0,"junior":7,"minYear":2012,"maxYear":2013,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"2012","u16sunGames":5},{"y":"2013","u16Games":2},{"y":"Totals","u16Games":2,"u16sunGames":5}]}

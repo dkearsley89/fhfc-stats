@@ -1,1 +1,1 @@
-{"firstName":"GRANT","middleName":null,"lastName":"SHERWELL","agrade":9,"senior":23,"junior":0,"minYear":1971,"maxYear":1975,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"GRANT","middleName":null,"lastName":"SHERWELL","agrade":9,"senior":23,"junior":0,"minYear":1971,"maxYear":1975,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1971","uGames":14},{"y":"1975","aGames":9},{"y":"Totals","aGames":9,"uGames":14}]}

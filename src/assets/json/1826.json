@@ -1,1 +1,1 @@
-{"firstName":"JARRAD","middleName":null,"lastName":"KING","agrade":0,"senior":1,"junior":60,"minYear":1990,"maxYear":1993,"seasons":4,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"JARRAD","middleName":null,"lastName":"KING","agrade":0,"senior":1,"junior":60,"minYear":1990,"maxYear":1993,"seasons":4,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1990","u14Games":16},{"y":"1991","u15Games":16},{"y":"1992","u15Games":13},{"y":"1993","cGames":1,"u17Games":15},{"y":"Totals","cGames":1,"u17Games":15,"u15Games":29,"u14Games":16}]}

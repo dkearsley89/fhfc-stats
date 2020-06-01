@@ -1,1 +1,1 @@
-{"firstName":"JOHN","middleName":null,"lastName":"TICKLE","agrade":14,"senior":58,"junior":0,"minYear":1963,"maxYear":1970,"seasons":6,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"JOHN","middleName":null,"lastName":"TICKLE","agrade":14,"senior":58,"junior":0,"minYear":1963,"maxYear":1970,"seasons":6,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1963","aGames":14},{"y":"1964","uGames":17},{"y":"1965","uGames":12},{"y":"1966","uGames":12},{"y":"1967","uGames":1},{"y":"1970","uGames":2},{"y":"Totals","aGames":14,"uGames":44}]}

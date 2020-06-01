@@ -1,1 +1,1 @@
-{"firstName":"DAVID","middleName":null,"lastName":"ISAAC","agrade":0,"senior":20,"junior":0,"minYear":1982,"maxYear":1983,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"DAVID","middleName":null,"lastName":"ISAAC","agrade":0,"senior":20,"junior":0,"minYear":1982,"maxYear":1983,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1982","uGames":12},{"y":"1983","uGames":8},{"y":"Totals","uGames":20}]}

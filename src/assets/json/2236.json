@@ -1,1 +1,1 @@
-{"firstName":"JASON","middleName":null,"lastName":"TURNER","agrade":0,"senior":2,"junior":0,"minYear":1997,"maxYear":1997,"seasons":1,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"JASON","middleName":null,"lastName":"TURNER","agrade":0,"senior":2,"junior":0,"minYear":1997,"maxYear":1997,"seasons":1,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1997","cGames":2},{"y":"Totals","cGames":2}]}

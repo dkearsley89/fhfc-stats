@@ -1,1 +1,1 @@
-{"firstName":"WAYNE","middleName":null,"lastName":"JONES","agrade":0,"senior":35,"junior":0,"minYear":1999,"maxYear":2005,"seasons":4,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"WAYNE","middleName":null,"lastName":"JONES","agrade":0,"senior":35,"junior":0,"minYear":1999,"maxYear":2005,"seasons":4,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1999","bGames":13},{"y":"2000","bGames":19},{"y":"2002","cGames":1},{"y":"2005","bGames":2},{"y":"Totals","bGames":34,"cGames":1}]}

@@ -1,1 +1,1 @@
-{"firstName":"GARRY","middleName":null,"lastName":"ASHWORTH","agrade":6,"senior":19,"junior":0,"minYear":1991,"maxYear":1992,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"GARRY","middleName":null,"lastName":"ASHWORTH","agrade":6,"senior":19,"junior":0,"minYear":1991,"maxYear":1992,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1991","aGames":3,"bGames":12,"cGames":1},{"y":"1992","aGames":3},{"y":"Totals","aGames":6,"bGames":12,"cGames":1}]}

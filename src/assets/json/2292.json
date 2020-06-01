@@ -1,1 +1,1 @@
-{"firstName":"BEN","middleName":null,"lastName":"SPENCER","agrade":0,"senior":23,"junior":0,"minYear":1998,"maxYear":2000,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"BEN","middleName":null,"lastName":"SPENCER","agrade":0,"senior":23,"junior":0,"minYear":1998,"maxYear":2000,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1998","bGames":3,"cGames":6},{"y":"1999","bGames":7},{"y":"2000","bGames":7},{"y":"Totals","bGames":17,"cGames":6}]}

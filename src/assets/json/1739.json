@@ -1,1 +1,1 @@
-{"firstName":"TODD","middleName":null,"lastName":"BAKER","agrade":4,"senior":10,"junior":16,"minYear":1989,"maxYear":1996,"seasons":5,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"TODD","middleName":null,"lastName":"BAKER","agrade":4,"senior":10,"junior":16,"minYear":1989,"maxYear":1996,"seasons":5,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1989","u14Games":8},{"y":"1991","u17Games":7},{"y":"1992","u17Games":1},{"y":"1993","aGames":4,"bGames":1},{"y":"1996","bGames":5},{"y":"Totals","aGames":4,"bGames":6,"u17Games":8,"u14Games":8}]}

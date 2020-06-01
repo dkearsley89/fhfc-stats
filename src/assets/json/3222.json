@@ -1,1 +1,1 @@
-{"firstName":"ADAM","middleName":"GRAHAM","lastName":"SHIPARD","agrade":0,"senior":23,"junior":0,"minYear":2011,"maxYear":2012,"seasons":2,"aGradeGoals":0,"seniorGoals":18,"juniorGoals":0}
+{"firstName":"ADAM","middleName":"GRAHAM","lastName":"SHIPARD","agrade":0,"senior":23,"junior":0,"minYear":2011,"maxYear":2012,"seasons":2,"aGradeGoals":0,"seniorGoals":18,"juniorGoals":0,"years":[{"y":"2011","bGames":10,"bGoals":4,"cGames":6,"cGoals":11},{"y":"2012","cGames":7,"cGoals":3},{"y":"Totals","bGames":10,"bGoals":4,"cGames":13,"cGoals":14}]}

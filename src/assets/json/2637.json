@@ -1,1 +1,1 @@
-{"firstName":"CRAIG","middleName":null,"lastName":"LANGTON","agrade":0,"senior":14,"junior":0,"minYear":2005,"maxYear":2006,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"CRAIG","middleName":null,"lastName":"LANGTON","agrade":0,"senior":14,"junior":0,"minYear":2005,"maxYear":2006,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"2005","cGames":11},{"y":"2006","cGames":3},{"y":"Totals","cGames":14}]}

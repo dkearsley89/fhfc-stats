@@ -1,1 +1,1 @@
-{"firstName":"CHRIS","middleName":null,"lastName":"JEFFERY","agrade":0,"senior":18,"junior":0,"minYear":1983,"maxYear":1984,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"CHRIS","middleName":null,"lastName":"JEFFERY","agrade":0,"senior":18,"junior":0,"minYear":1983,"maxYear":1984,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1983","uGames":16},{"y":"1984","uGames":2},{"y":"Totals","uGames":18}]}

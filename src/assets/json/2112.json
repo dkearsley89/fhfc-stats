@@ -1,1 +1,1 @@
-{"firstName":"JAMIE","middleName":null,"lastName":"DARAMS","agrade":33,"senior":33,"junior":0,"minYear":1996,"maxYear":1998,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"JAMIE","middleName":null,"lastName":"DARAMS","agrade":33,"senior":33,"junior":0,"minYear":1996,"maxYear":1998,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1996","aGames":18},{"y":"1998","aGames":15},{"y":"Totals","aGames":33}]}

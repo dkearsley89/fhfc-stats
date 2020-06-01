@@ -1,1 +1,1 @@
-{"firstName":"DAVID","middleName":null,"lastName":"STEWART","agrade":62,"senior":65,"junior":0,"minYear":1972,"maxYear":1980,"seasons":6,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"DAVID","middleName":null,"lastName":"STEWART","agrade":62,"senior":65,"junior":0,"minYear":1972,"maxYear":1980,"seasons":6,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1972","aGames":14},{"y":"1973","aGames":13},{"y":"1974","aGames":15},{"y":"1975","aGames":20},{"y":"1979","uGames":2},{"y":"1980","uGames":1},{"y":"Totals","aGames":62,"uGames":3}]}

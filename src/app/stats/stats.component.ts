@@ -63,4 +63,24 @@ export class StatsComponent implements OnInit {
     }
     return value;
   }
+
+  getTotalGames(year) {
+    var totalGames = 0;
+    for (var propertyName in year) {
+      if (propertyName.includes('Games')) {
+        totalGames += year[propertyName];
+      }
+    }
+    return totalGames;
+  }
+
+  getTotalGoals(year) {
+    var totalGoals = 0;
+    for (var propertyName in year) {
+      if (propertyName.includes('Goals')) {
+        totalGoals += year[propertyName];
+      }
+    }
+    return totalGoals;
+  }
 }

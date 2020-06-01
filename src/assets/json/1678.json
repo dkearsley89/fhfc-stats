@@ -1,1 +1,1 @@
-{"firstName":"DAVID","middleName":null,"lastName":"WEST","agrade":7,"senior":7,"junior":0,"minYear":1987,"maxYear":1987,"seasons":1,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"DAVID","middleName":null,"lastName":"WEST","agrade":7,"senior":7,"junior":0,"minYear":1987,"maxYear":1987,"seasons":1,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1987","aGames":7},{"y":"Totals","aGames":7}]}

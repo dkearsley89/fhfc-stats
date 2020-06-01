@@ -1,1 +1,1 @@
-{"firstName":"JOSHUA","middleName":"JOHN","lastName":"WRIGHT","agrade":0,"senior":2,"junior":12,"minYear":2017,"maxYear":2019,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":5}
+{"firstName":"JOSHUA","middleName":"JOHN","lastName":"WRIGHT","agrade":0,"senior":2,"junior":12,"minYear":2017,"maxYear":2019,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":5,"years":[{"y":"2017","u175Games":12,"u175Goals":5},{"y":"2019","cGames":2},{"y":"Totals","cGames":2,"u175Games":12,"u175Goals":5}]}

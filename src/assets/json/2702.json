@@ -1,1 +1,1 @@
-{"firstName":"SCOTT","middleName":"W","lastName":"STEVENS","agrade":0,"senior":1,"junior":19,"minYear":2006,"maxYear":2006,"seasons":1,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"SCOTT","middleName":"W","lastName":"STEVENS","agrade":0,"senior":1,"junior":19,"minYear":2006,"maxYear":2006,"seasons":1,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"2006","bGames":1,"u18Games":19},{"y":"Totals","bGames":1,"u18Games":19}]}

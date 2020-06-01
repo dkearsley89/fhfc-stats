@@ -1,1 +1,1 @@
-{"firstName":"SCOTT","middleName":null,"lastName":"HAY","agrade":0,"senior":20,"junior":0,"minYear":1989,"maxYear":1991,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"SCOTT","middleName":null,"lastName":"HAY","agrade":0,"senior":20,"junior":0,"minYear":1989,"maxYear":1991,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1989","cGames":9},{"y":"1990","cGames":10},{"y":"1991","cGames":1},{"y":"Totals","cGames":20}]}

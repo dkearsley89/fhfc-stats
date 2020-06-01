@@ -1,1 +1,1 @@
-{"firstName":"GARTH","middleName":null,"lastName":"COOMBLAS","agrade":1,"senior":2,"junior":0,"minYear":1993,"maxYear":1993,"seasons":1,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"GARTH","middleName":null,"lastName":"COOMBLAS","agrade":1,"senior":2,"junior":0,"minYear":1993,"maxYear":1993,"seasons":1,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1993","aGames":1,"bGames":1},{"y":"Totals","aGames":1,"bGames":1}]}

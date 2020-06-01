@@ -1,1 +1,1 @@
-{"firstName":"SEAN","middleName":null,"lastName":"DISOTTO","agrade":0,"senior":1,"junior":12,"minYear":1997,"maxYear":1998,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"SEAN","middleName":null,"lastName":"DISOTTO","agrade":0,"senior":1,"junior":12,"minYear":1997,"maxYear":1998,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1997","cGames":1,"u18Games":2,"u16Games":7},{"y":"1998","u18Games":3},{"y":"Totals","cGames":1,"u18Games":5,"u16Games":7}]}

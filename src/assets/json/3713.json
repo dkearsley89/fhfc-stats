@@ -1,1 +1,1 @@
-{"firstName":"LIAM","middleName":"JAY","lastName":"NEWTON","agrade":3,"senior":3,"junior":0,"minYear":2015,"maxYear":2015,"seasons":1,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"LIAM","middleName":"JAY","lastName":"NEWTON","agrade":3,"senior":3,"junior":0,"minYear":2015,"maxYear":2015,"seasons":1,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"2015","aGames":3},{"y":"Totals","aGames":3}]}

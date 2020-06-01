@@ -1,1 +1,1 @@
-{"firstName":"GREG","middleName":null,"lastName":"BOSTON","agrade":0,"senior":2,"junior":0,"minYear":2000,"maxYear":2000,"seasons":1,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"GREG","middleName":null,"lastName":"BOSTON","agrade":0,"senior":2,"junior":0,"minYear":2000,"maxYear":2000,"seasons":1,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"2000","cGames":2},{"y":"Totals","cGames":2}]}

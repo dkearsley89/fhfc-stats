@@ -1,1 +1,1 @@
-{"firstName":"LUKE","middleName":null,"lastName":"JOHNSON","agrade":0,"senior":8,"junior":0,"minYear":2003,"maxYear":2003,"seasons":1,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"LUKE","middleName":null,"lastName":"JOHNSON","agrade":0,"senior":8,"junior":0,"minYear":2003,"maxYear":2003,"seasons":1,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"2003","cGames":8},{"y":"Totals","cGames":8}]}

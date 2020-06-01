@@ -1,1 +1,1 @@
-{"firstName":"CRAIG","middleName":null,"lastName":"PENTLAND","agrade":45,"senior":62,"junior":19,"minYear":1996,"maxYear":2002,"seasons":5,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"CRAIG","middleName":null,"lastName":"PENTLAND","agrade":45,"senior":62,"junior":19,"minYear":1996,"maxYear":2002,"seasons":5,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1996","u18Games":19},{"y":"1997","bGames":16},{"y":"1998","aGames":15,"bGames":1},{"y":"1999","aGames":16},{"y":"2002","aGames":14},{"y":"Totals","aGames":45,"bGames":17,"u18Games":19}]}

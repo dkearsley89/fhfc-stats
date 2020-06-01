@@ -1,1 +1,1 @@
-{"firstName":"DAMIEN","middleName":null,"lastName":"SINKINSON","agrade":0,"senior":0,"junior":44,"minYear":2001,"maxYear":2003,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"DAMIEN","middleName":null,"lastName":"SINKINSON","agrade":0,"senior":0,"junior":44,"minYear":2001,"maxYear":2003,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"2001","u14Games":17},{"y":"2002","u15Games":2,"u14Games":16},{"y":"2003","u16Games":9},{"y":"Totals","u16Games":9,"u15Games":2,"u14Games":33}]}

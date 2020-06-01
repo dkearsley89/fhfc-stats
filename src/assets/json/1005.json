@@ -1,1 +1,1 @@
-{"firstName":"GEOFF","middleName":null,"lastName":"BULGER","agrade":2,"senior":49,"junior":0,"minYear":1963,"maxYear":1967,"seasons":5,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"GEOFF","middleName":null,"lastName":"BULGER","agrade":2,"senior":49,"junior":0,"minYear":1963,"maxYear":1967,"seasons":5,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1963","aGames":2},{"y":"1964","uGames":14},{"y":"1965","uGames":14},{"y":"1966","uGames":9},{"y":"1967","uGames":10},{"y":"Totals","aGames":2,"uGames":47}]}

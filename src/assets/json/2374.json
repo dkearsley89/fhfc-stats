@@ -1,1 +1,1 @@
-{"firstName":"JOHN","middleName":"","lastName":"RAMAGE","agrade":0,"senior":18,"junior":0,"minYear":2000,"maxYear":2001,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"JOHN","middleName":"","lastName":"RAMAGE","agrade":0,"senior":18,"junior":0,"minYear":2000,"maxYear":2001,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"2000","bGames":1,"cGames":5},{"y":"2001","bGames":8,"cGames":4},{"y":"Totals","bGames":9,"cGames":9}]}

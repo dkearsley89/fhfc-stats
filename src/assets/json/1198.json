@@ -1,1 +1,1 @@
-{"firstName":"PHIL","middleName":null,"lastName":"HEYWOOD","agrade":68,"senior":81,"junior":0,"minYear":1972,"maxYear":1977,"seasons":6,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"PHIL","middleName":null,"lastName":"HEYWOOD","agrade":68,"senior":81,"junior":0,"minYear":1972,"maxYear":1977,"seasons":6,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1972","aGames":16},{"y":"1973","aGames":15},{"y":"1974","aGames":17},{"y":"1975","aGames":19},{"y":"1976","aGames":1},{"y":"1977","uGames":13},{"y":"Totals","aGames":68,"uGames":13}]}

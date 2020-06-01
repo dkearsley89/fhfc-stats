@@ -1,1 +1,1 @@
-{"firstName":"CHRIS","middleName":null,"lastName":"LYNDON","agrade":0,"senior":23,"junior":0,"minYear":1978,"maxYear":1979,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"CHRIS","middleName":null,"lastName":"LYNDON","agrade":0,"senior":23,"junior":0,"minYear":1978,"maxYear":1979,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1978","uGames":13},{"y":"1979","uGames":10},{"y":"Totals","uGames":23}]}

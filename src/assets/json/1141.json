@@ -1,1 +1,1 @@
-{"firstName":"TREVOR","middleName":null,"lastName":"MACE","agrade":0,"senior":61,"junior":0,"minYear":1969,"maxYear":1981,"seasons":7,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"TREVOR","middleName":null,"lastName":"MACE","agrade":0,"senior":61,"junior":0,"minYear":1969,"maxYear":1981,"seasons":7,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1969","uGames":6},{"y":"1970","uGames":2},{"y":"1971","uGames":2},{"y":"1978","uGames":10},{"y":"1979","uGames":16},{"y":"1980","uGames":7},{"y":"1981","uGames":18},{"y":"Totals","uGames":61}]}

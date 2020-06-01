@@ -1,1 +1,1 @@
-{"firstName":"SCOTT","middleName":"","lastName":"MCAVANEY","agrade":0,"senior":21,"junior":0,"minYear":2015,"maxYear":2016,"seasons":2,"aGradeGoals":0,"seniorGoals":7,"juniorGoals":0}
+{"firstName":"SCOTT","middleName":"","lastName":"MCAVANEY","agrade":0,"senior":21,"junior":0,"minYear":2015,"maxYear":2016,"seasons":2,"aGradeGoals":0,"seniorGoals":7,"juniorGoals":0,"years":[{"y":"2015","bGames":2,"cGames":16,"cGoals":7},{"y":"2016","cGames":3},{"y":"Totals","bGames":2,"cGames":19,"cGoals":7}]}

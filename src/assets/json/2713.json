@@ -1,1 +1,1 @@
-{"firstName":"C.","middleName":null,"lastName":"ADAMS","agrade":13,"senior":52,"junior":0,"minYear":1963,"maxYear":1967,"seasons":4,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"C.","middleName":null,"lastName":"ADAMS","agrade":13,"senior":52,"junior":0,"minYear":1963,"maxYear":1967,"seasons":4,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1963","aGames":13},{"y":"1964","uGames":14},{"y":"1966","uGames":14},{"y":"1967","uGames":11},{"y":"Totals","aGames":13,"uGames":39}]}

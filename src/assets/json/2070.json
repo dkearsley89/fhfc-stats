@@ -1,1 +1,1 @@
-{"firstName":"JIM","middleName":null,"lastName":"BATZAVALIS","agrade":45,"senior":45,"junior":0,"minYear":1995,"maxYear":1997,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"JIM","middleName":null,"lastName":"BATZAVALIS","agrade":45,"senior":45,"junior":0,"minYear":1995,"maxYear":1997,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1995","aGames":16},{"y":"1996","aGames":18},{"y":"1997","aGames":11},{"y":"Totals","aGames":45}]}

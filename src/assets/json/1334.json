@@ -1,1 +1,1 @@
-{"firstName":"DAVID","middleName":"F.","lastName":"BROWN","agrade":0,"senior":76,"junior":0,"minYear":1980,"maxYear":1984,"seasons":5,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"DAVID","middleName":"F.","lastName":"BROWN","agrade":0,"senior":76,"junior":0,"minYear":1980,"maxYear":1984,"seasons":5,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1980","uGames":7},{"y":"1981","uGames":17},{"y":"1982","uGames":17},{"y":"1983","uGames":17},{"y":"1984","uGames":18},{"y":"Totals","uGames":76}]}

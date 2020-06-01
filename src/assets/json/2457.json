@@ -1,1 +1,1 @@
-{"firstName":"BRAD","middleName":null,"lastName":"AYRES","agrade":26,"senior":33,"junior":0,"minYear":2002,"maxYear":2004,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"BRAD","middleName":null,"lastName":"AYRES","agrade":26,"senior":33,"junior":0,"minYear":2002,"maxYear":2004,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"2002","aGames":17},{"y":"2003","aGames":9,"bGames":4},{"y":"2004","bGames":3},{"y":"Totals","aGames":26,"bGames":7}]}

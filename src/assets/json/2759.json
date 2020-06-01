@@ -1,1 +1,1 @@
-{"firstName":"JUSTIN","middleName":null,"lastName":"DOLHEGUY","agrade":0,"senior":17,"junior":0,"minYear":2007,"maxYear":2009,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"JUSTIN","middleName":null,"lastName":"DOLHEGUY","agrade":0,"senior":17,"junior":0,"minYear":2007,"maxYear":2009,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"2007","cGames":7},{"y":"2008","cGames":4},{"y":"2009","cGames":6},{"y":"Totals","cGames":17}]}

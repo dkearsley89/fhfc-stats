@@ -1,1 +1,1 @@
-{"firstName":"ANTHONY","middleName":null,"lastName":"GLEESON","agrade":0,"senior":5,"junior":0,"minYear":1987,"maxYear":1987,"seasons":1,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"ANTHONY","middleName":null,"lastName":"GLEESON","agrade":0,"senior":5,"junior":0,"minYear":1987,"maxYear":1987,"seasons":1,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1987","cGames":5},{"y":"Totals","cGames":5}]}

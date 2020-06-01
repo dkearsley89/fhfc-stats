@@ -1,1 +1,1 @@
-{"firstName":"MARK","middleName":null,"lastName":"HANLEY-BREEN","agrade":14,"senior":23,"junior":0,"minYear":1995,"maxYear":1999,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"MARK","middleName":null,"lastName":"HANLEY-BREEN","agrade":14,"senior":23,"junior":0,"minYear":1995,"maxYear":1999,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1995","aGames":10,"bGames":3},{"y":"1996","bGames":6},{"y":"1999","aGames":4},{"y":"Totals","aGames":14,"bGames":9}]}

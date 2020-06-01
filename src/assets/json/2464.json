@@ -1,1 +1,1 @@
-{"firstName":"MICHAEL","middleName":null,"lastName":"CONSTANT","agrade":0,"senior":1,"junior":20,"minYear":2002,"maxYear":2007,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":6}
+{"firstName":"MICHAEL","middleName":null,"lastName":"CONSTANT","agrade":0,"senior":1,"junior":20,"minYear":2002,"maxYear":2007,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":6,"years":[{"y":"2002","u14Games":4},{"y":"2007","bGames":1,"u18Games":16,"u18Goals":6},{"y":"Totals","bGames":1,"u18Games":16,"u18Goals":6,"u14Games":4}]}

@@ -1,1 +1,1 @@
-{"firstName":"MATT","middleName":null,"lastName":"DICKSON","agrade":19,"senior":19,"junior":0,"minYear":2005,"maxYear":2006,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"MATT","middleName":null,"lastName":"DICKSON","agrade":19,"senior":19,"junior":0,"minYear":2005,"maxYear":2006,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"2005","aGames":4},{"y":"2006","aGames":15},{"y":"Totals","aGames":19}]}

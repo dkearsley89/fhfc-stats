@@ -1,1 +1,1 @@
-{"firstName":"SIMON","middleName":null,"lastName":"CAMERON","agrade":0,"senior":22,"junior":0,"minYear":2002,"maxYear":2005,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"SIMON","middleName":null,"lastName":"CAMERON","agrade":0,"senior":22,"junior":0,"minYear":2002,"maxYear":2005,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"2002","cGames":9},{"y":"2005","bGames":2,"cGames":11},{"y":"Totals","bGames":2,"cGames":20}]}

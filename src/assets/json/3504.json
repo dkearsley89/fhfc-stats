@@ -1,1 +1,1 @@
-{"firstName":"HAYDEN","middleName":"CHARLES","lastName":"FROMM","agrade":15,"senior":15,"junior":0,"minYear":2013,"maxYear":2013,"seasons":1,"aGradeGoals":24,"seniorGoals":24,"juniorGoals":0}
+{"firstName":"HAYDEN","middleName":"CHARLES","lastName":"FROMM","agrade":15,"senior":15,"junior":0,"minYear":2013,"maxYear":2013,"seasons":1,"aGradeGoals":24,"seniorGoals":24,"juniorGoals":0,"years":[{"y":"2013","aGames":15,"aGoals":24},{"y":"Totals","aGames":15,"aGoals":24}]}

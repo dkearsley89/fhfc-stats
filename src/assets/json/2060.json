@@ -1,1 +1,1 @@
-{"firstName":"MATTHEW","middleName":null,"lastName":"SHORT","agrade":0,"senior":15,"junior":0,"minYear":1994,"maxYear":1995,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"MATTHEW","middleName":null,"lastName":"SHORT","agrade":0,"senior":15,"junior":0,"minYear":1994,"maxYear":1995,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1994","bGames":5},{"y":"1995","bGames":8,"cGames":2},{"y":"Totals","bGames":13,"cGames":2}]}

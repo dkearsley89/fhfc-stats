@@ -1,1 +1,1 @@
-{"firstName":"ROBERT","middleName":null,"lastName":"GALLOWAY","agrade":0,"senior":12,"junior":0,"minYear":1999,"maxYear":1999,"seasons":1,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"ROBERT","middleName":null,"lastName":"GALLOWAY","agrade":0,"senior":12,"junior":0,"minYear":1999,"maxYear":1999,"seasons":1,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1999","bGames":12},{"y":"Totals","bGames":12}]}

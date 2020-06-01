@@ -1,1 +1,1 @@
-{"firstName":"RYAN","middleName":null,"lastName":"SIGAL","agrade":11,"senior":38,"junior":17,"minYear":1990,"maxYear":1996,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"RYAN","middleName":null,"lastName":"SIGAL","agrade":11,"senior":38,"junior":17,"minYear":1990,"maxYear":1996,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1990","u16Games":17},{"y":"1995","aGames":11,"bGames":8,"cGames":6},{"y":"1996","bGames":13},{"y":"Totals","aGames":11,"bGames":21,"cGames":6,"u16Games":17}]}

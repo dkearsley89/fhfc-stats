@@ -1,1 +1,1 @@
-{"firstName":"DAVID","middleName":null,"lastName":"KING","agrade":25,"senior":46,"junior":0,"minYear":1971,"maxYear":1977,"seasons":4,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"DAVID","middleName":null,"lastName":"KING","agrade":25,"senior":46,"junior":0,"minYear":1971,"maxYear":1977,"seasons":4,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1971","uGames":3},{"y":"1975","aGames":15},{"y":"1976","aGames":10},{"y":"1977","uGames":18},{"y":"Totals","aGames":25,"uGames":21}]}

@@ -1,1 +1,1 @@
-{"firstName":"ANDY","middleName":"","lastName":"TURNER","agrade":0,"senior":14,"junior":0,"minYear":1991,"maxYear":2016,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"ANDY","middleName":"","lastName":"TURNER","agrade":0,"senior":14,"junior":0,"minYear":1991,"maxYear":2016,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1991","cGames":13},{"y":"2016","cGames":1},{"y":"Totals","cGames":14}]}

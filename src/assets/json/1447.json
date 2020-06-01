@@ -1,1 +1,1 @@
-{"firstName":"BRENTON","middleName":null,"lastName":"SELLERS ","agrade":5,"senior":12,"junior":34,"minYear":1983,"maxYear":1988,"seasons":4,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"BRENTON","middleName":null,"lastName":"SELLERS ","agrade":5,"senior":12,"junior":34,"minYear":1983,"maxYear":1988,"seasons":4,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1983","u16Games":10},{"y":"1984"},{"y":"1987","u18Games":10},{"y":"1988","aGames":5,"bGames":7},{"y":"Totals","aGames":5,"bGames":7,"u18Games":10,"u16Games":10}]}

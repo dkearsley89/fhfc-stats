@@ -1,1 +1,1 @@
-{"firstName":"GREG","middleName":null,"lastName":"STREET","agrade":0,"senior":52,"junior":0,"minYear":1977,"maxYear":1982,"seasons":6,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"GREG","middleName":null,"lastName":"STREET","agrade":0,"senior":52,"junior":0,"minYear":1977,"maxYear":1982,"seasons":6,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1977","uGames":1},{"y":"1978","uGames":17},{"y":"1979","uGames":8},{"y":"1980","uGames":10},{"y":"1981","uGames":4},{"y":"1982","uGames":12},{"y":"Totals","uGames":52}]}

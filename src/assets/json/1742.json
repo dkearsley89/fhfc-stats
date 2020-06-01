@@ -1,1 +1,1 @@
-{"firstName":"RICHIE","middleName":null,"lastName":"BYERS","agrade":8,"senior":19,"junior":8,"minYear":1989,"maxYear":1991,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"RICHIE","middleName":null,"lastName":"BYERS","agrade":8,"senior":19,"junior":8,"minYear":1989,"maxYear":1991,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1989","u18Games":8},{"y":"1990","aGames":5,"bGames":3},{"y":"1991","aGames":3,"bGames":8},{"y":"Totals","aGames":8,"bGames":11,"u18Games":8}]}

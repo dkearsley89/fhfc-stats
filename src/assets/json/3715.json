@@ -1,1 +1,1 @@
-{"firstName":"TIMOTHY","middleName":"EDWARD","lastName":"JOHNSSON","agrade":2,"senior":5,"junior":0,"minYear":2014,"maxYear":2014,"seasons":1,"aGradeGoals":0,"seniorGoals":2,"juniorGoals":0}
+{"firstName":"TIMOTHY","middleName":"EDWARD","lastName":"JOHNSSON","agrade":2,"senior":5,"junior":0,"minYear":2014,"maxYear":2014,"seasons":1,"aGradeGoals":0,"seniorGoals":2,"juniorGoals":0,"years":[{"y":"2014","aGames":2,"bGames":2,"cGames":1,"cGoals":2},{"y":"Totals","aGames":2,"bGames":2,"cGames":1,"cGoals":2}]}

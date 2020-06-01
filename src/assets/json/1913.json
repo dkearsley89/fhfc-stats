@@ -1,1 +1,1 @@
-{"firstName":"CAMERON","middleName":null,"lastName":"GRAHAM","agrade":2,"senior":18,"junior":0,"minYear":1992,"maxYear":1993,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"CAMERON","middleName":null,"lastName":"GRAHAM","agrade":2,"senior":18,"junior":0,"minYear":1992,"maxYear":1993,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1992","aGames":2,"bGames":4,"cGames":10},{"y":"1993","bGames":2},{"y":"Totals","aGames":2,"bGames":6,"cGames":10}]}

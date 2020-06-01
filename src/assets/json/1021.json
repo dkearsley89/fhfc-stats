@@ -1,1 +1,1 @@
-{"firstName":"N.","middleName":null,"lastName":"PRITCHARD","agrade":14,"senior":26,"junior":0,"minYear":1963,"maxYear":1965,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"N.","middleName":null,"lastName":"PRITCHARD","agrade":14,"senior":26,"junior":0,"minYear":1963,"maxYear":1965,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1963","aGames":14},{"y":"1964","uGames":2},{"y":"1965","uGames":10},{"y":"Totals","aGames":14,"uGames":12}]}

@@ -1,1 +1,1 @@
-{"firstName":"KANE","middleName":null,"lastName":"TRIGG","agrade":0,"senior":8,"junior":50,"minYear":1983,"maxYear":1995,"seasons":6,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"KANE","middleName":null,"lastName":"TRIGG","agrade":0,"senior":8,"junior":50,"minYear":1983,"maxYear":1995,"seasons":6,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1983","u16Games":17},{"y":"1984"},{"y":"1985"},{"y":"1986"},{"y":"1988","bGames":6,"cGames":1},{"y":"1995","bGames":1},{"y":"Totals","bGames":7,"cGames":1,"u16Games":17}]}

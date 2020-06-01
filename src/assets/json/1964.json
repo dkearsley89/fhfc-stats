@@ -1,1 +1,1 @@
-{"firstName":"GEORGE","middleName":null,"lastName":"HOOKER","agrade":0,"senior":25,"junior":0,"minYear":1993,"maxYear":1995,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"GEORGE","middleName":null,"lastName":"HOOKER","agrade":0,"senior":25,"junior":0,"minYear":1993,"maxYear":1995,"seasons":3,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1993","bGames":10,"cGames":1},{"y":"1994","bGames":1,"cGames":3},{"y":"1995","bGames":1,"cGames":9},{"y":"Totals","bGames":12,"cGames":13}]}

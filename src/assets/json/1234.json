@@ -1,1 +1,1 @@
-{"firstName":"T.","middleName":null,"lastName":"DESMOND","agrade":8,"senior":21,"junior":0,"minYear":1976,"maxYear":1977,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0}
+{"firstName":"T.","middleName":null,"lastName":"DESMOND","agrade":8,"senior":21,"junior":0,"minYear":1976,"maxYear":1977,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1976","aGames":8},{"y":"1977","uGames":13},{"y":"Totals","aGames":8,"uGames":13}]}

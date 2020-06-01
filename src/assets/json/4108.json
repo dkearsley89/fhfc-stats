@@ -1,1 +1,1 @@
-{"firstName":"RICHARD","middleName":"KEVEN","lastName":"MCNAMARA","agrade":0,"senior":43,"junior":0,"minYear":2017,"maxYear":2019,"seasons":3,"aGradeGoals":0,"seniorGoals":29,"juniorGoals":0}
+{"firstName":"RICHARD","middleName":"KEVEN","lastName":"MCNAMARA","agrade":0,"senior":43,"junior":0,"minYear":2017,"maxYear":2019,"seasons":3,"aGradeGoals":0,"seniorGoals":29,"juniorGoals":0,"years":[{"y":"2017","bGames":18,"bGoals":13},{"y":"2018","bGames":14,"bGoals":10},{"y":"2019","bGames":11,"bGoals":6},{"y":"Totals","bGames":43,"bGoals":29}]}
