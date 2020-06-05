@@ -1,17 +1,16 @@
-<section class="jumbotron jumbotron-fluid">
-    <div class="container text-center px-0">
-        <h1 class="jumbotron-heading text-light">Flagstaff Hill F.C - Records &amp; Stats</h1>
-        <p class="lead text-light">Ever wondered who has played the most games for the Falcons? Perhaps you want to know how many goals you kicked in 2013? Well you have come to the right place!</p>
-        <button type="button" class="btn btn-danger fixedWidthButtonHome mr-2 mt-3 mt-md-0" routerLink="/records">Records</button>
-        <button type="button" class="btn btn-danger fixedWidthButtonHome mr-2 mt-3 mt-md-0" [routerLink]="['/stats', 'player']">Player Stats</button>
-        <button type="button" class="btn btn-danger fixedWidthButtonHome mr-2 mt-3 mt-md-0" routerLink="/honour">Honour Boards</button>
-        <button type="button" class="btn btn-danger fixedWidthButtonHome mr-2 mt-3 mt-md-0" routerLink="/association">Association B&amp;F</button>
-        <button type="button" class="btn btn-danger fixedWidthButtonHome mr-2 mt-3 mt-md-0" routerLink="/awards">Yearly Awards</button>
-        <!-- TODO: Fix CSS on Home Buttons as they are not displaying correctly in small mode on mobile -->
+<div class="jumbotron jumbotron-fluid text-center py-5">
+    <div class="black-shaded text-light mx-3 mx-xl-auto px-3 py-3">
+        <h2>Flagstaff Hill F.C - Records &amp; Stats</h2>
+        <p class="lead">Ever wondered who has played the most games for the Falcons? Perhaps you want to know how many goals you kicked in 2013? Well you have come to the right place!</p>
+        <button type="button" class="btn btn-danger fixedWidthButtonHome mx-1 mt-3" routerLink="/records">Records</button>
+        <button type="button" class="btn btn-danger fixedWidthButtonHome mx-1 mt-3" [routerLink]="['/stats', 'player']">Player Stats</button>
+        <button type="button" class="btn btn-danger fixedWidthButtonHome mx-1 mt-3" routerLink="/honour">Honour Boards</button>
+        <button type="button" class="btn btn-danger fixedWidthButtonHome mx-1 mt-3" routerLink="/association">Association B&amp;F</button>
+        <button type="button" class="btn btn-danger fixedWidthButtonHome mx-1 mt-3" routerLink="/awards">Yearly Awards</button>
     </div>
-    <div class="container mt-5 pt-4 pb-0">
-        <div class="card-deck text-center">
-            <div class="card mb-4" *ngFor="let record of recordsData?.records">
+    <div class="black-shaded mx-3 mx-xl-auto px-1 py-1 mt-5">
+        <div class="card-deck text-center mx-0">
+            <div class="card my-2 mx-3" *ngFor="let record of recordsData?.records">
                 <div class="card-header">
                     <h5 class="text-truncate">{{ record.name }}</h5>
                 </div>
@@ -25,4 +24,4 @@
             </div>
         </div>
     </div>
-</section>
+</div>
