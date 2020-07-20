@@ -1,1 +1,1 @@
-{"firstName":"CHRIS","middleName":null,"lastName":"STEWART","agrade":15,"senior":30,"junior":0,"minYear":1976,"maxYear":1977,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1976","aGames":15},{"y":"1977","uGames":15},{"y":"Totals","aGames":15,"uGames":15}]}
+{"firstName":"CHRIS","middleName":null,"lastName":"STEWART","agrade":15,"senior":30,"junior":0,"minYear":1976,"maxYear":1977,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1976","aGames":15},{"y":"1977","uGames":15},{"y":"Total","aGames":15,"uGames":15}]}

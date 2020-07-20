@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
 import { NgbTypeaheadModule, NgbNavModule, NgbDropdownModule, NgbCollapseModule } from '@ng-bootstrap/ng-bootstrap';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
@@ -18,6 +19,7 @@ import { HonourComponent } from './honour/honour.component';
 import { LegendComponent } from './legend/legend.component';
 import { AssociationComponent } from './association/association.component';
 import { AwardsComponent } from './awards/awards.component';
+import { MilestonesComponent } from './milestones/milestones.component';
 
 @NgModule({
   declarations: [
@@ -31,11 +33,13 @@ import { AwardsComponent } from './awards/awards.component';
     HonourComponent,
     LegendComponent,
     AssociationComponent,
-    AwardsComponent
+    AwardsComponent,
+    MilestonesComponent
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
+    FormsModule,
     NgbTypeaheadModule,
     NgbNavModule,
     NgbDropdownModule,

@@ -1,1 +1,1 @@
-{"firstName":"PAUL","middleName":null,"lastName":"FORD","agrade":10,"senior":11,"junior":0,"minYear":1996,"maxYear":1997,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1996","aGames":10},{"y":"1997","bGames":1},{"y":"Totals","aGames":10,"bGames":1}]}
+{"firstName":"PAUL","middleName":null,"lastName":"FORD","agrade":10,"senior":11,"junior":0,"minYear":1996,"maxYear":1997,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1996","aGames":10},{"y":"1997","bGames":1},{"y":"Total","aGames":10,"bGames":1}]}

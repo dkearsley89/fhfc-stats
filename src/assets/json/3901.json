@@ -1,1 +1,1 @@
-{"firstName":"PETER","middleName":"","lastName":"WRIGHT","agrade":0,"senior":2,"junior":0,"minYear":2017,"maxYear":2019,"seasons":2,"aGradeGoals":0,"seniorGoals":2,"juniorGoals":0,"years":[{"y":"2017","cGames":1,"cGoals":2},{"y":"2019","cGames":1},{"y":"Totals","cGames":2,"cGoals":2}]}
+{"firstName":"PETER","middleName":"","lastName":"WRIGHT","agrade":0,"senior":2,"junior":0,"minYear":2017,"maxYear":2019,"seasons":2,"aGradeGoals":0,"seniorGoals":2,"juniorGoals":0,"years":[{"y":"2017","cGames":1,"cGoals":2},{"y":"2019","cGames":1},{"y":"Total","cGames":2,"cGoals":2}]}

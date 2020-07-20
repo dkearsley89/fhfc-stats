@@ -66,6 +66,7 @@
             <th scope="col" colspan="2" *ngIf="this.playerData.years[this.playerData.years.length - 1].u16sunGames">Under 16 Sun</th>
             <th scope="col" colspan="2" *ngIf="this.playerData.years[this.playerData.years.length - 1].u15sunGames">Under 15 Sun</th>
             <th scope="col" colspan="2" *ngIf="this.playerData.years[this.playerData.years.length - 1].u14sunGames">Under 14 Sun</th>
+            <th scope="col" colspan="2" *ngIf="this.playerData.years[this.playerData.years.length - 1].u17girlsGames">Under 17 Girls</th>
             <th scope="col" colspan="2" *ngIf="this.playerData.years[this.playerData.years.length - 1].u16girlsGames">Under 16 Girls</th>
             <th scope="col" colspan="2" *ngIf="this.playerData.years[this.playerData.years.length - 1].u14girlsGames">Under 14 Girls</th>
             <th scope="col" colspan="2">Club Total</th>
@@ -103,6 +104,8 @@
             <th scope="col" style="min-width:65px;" *ngIf="this.playerData.years[this.playerData.years.length - 1].u15sunGames">Goals</th>
             <th scope="col" style="min-width:65px;" *ngIf="this.playerData.years[this.playerData.years.length - 1].u14sunGames">Games</th>
             <th scope="col" style="min-width:65px;" *ngIf="this.playerData.years[this.playerData.years.length - 1].u14sunGames">Goals</th>
+            <th scope="col" style="min-width:65px;" *ngIf="this.playerData.years[this.playerData.years.length - 1].u17girlsGames">Games</th>
+            <th scope="col" style="min-width:65px;" *ngIf="this.playerData.years[this.playerData.years.length - 1].u17girlsGames">Goals</th>
             <th scope="col" style="min-width:65px;" *ngIf="this.playerData.years[this.playerData.years.length - 1].u16girlsGames">Games</th>
             <th scope="col" style="min-width:65px;" *ngIf="this.playerData.years[this.playerData.years.length - 1].u16girlsGames">Goals</th>
             <th scope="col" style="min-width:65px;" *ngIf="this.playerData.years[this.playerData.years.length - 1].u14girlsGames">Games</th>
@@ -112,8 +115,7 @@
           </tr>
         </thead>
         <tbody>
-          <!-- TODO: Change Totals to Total in code and here... -->
-          <tr *ngFor="let year of playerData?.years" [ngClass]="{'font-weight-bold' : year.y == 'Totals'}">
+          <tr *ngFor="let year of playerData?.years" [ngClass]="{'font-weight-bold' : year.y == 'Total'}">
             <th scope="row">{{ year.y }}</th>
             <td *ngIf="this.playerData.years[this.playerData.years.length - 1].aGames">{{ year.aGames || '-' }}</td>
             <td *ngIf="this.playerData.years[this.playerData.years.length - 1].aGames">{{ year.aGoals || '-' }}</td>
@@ -147,6 +149,8 @@
             <td *ngIf="this.playerData.years[this.playerData.years.length - 1].u15sunGames">{{ year.u15sunGoals || '-' }}</td>
             <td *ngIf="this.playerData.years[this.playerData.years.length - 1].u14sunGames">{{ year.u14sunGames || '-' }}</td>
             <td *ngIf="this.playerData.years[this.playerData.years.length - 1].u14sunGames">{{ year.u14sunGoals || '-' }}</td>
+            <td *ngIf="this.playerData.years[this.playerData.years.length - 1].u17girlsGames">{{ year.u17girlsGames || '-' }}</td>
+            <td *ngIf="this.playerData.years[this.playerData.years.length - 1].u17girlsGames">{{ year.u17girlsGoals || '-' }}</td>
             <td *ngIf="this.playerData.years[this.playerData.years.length - 1].u16girlsGames">{{ year.u16girlsGames || '-' }}</td>
             <td *ngIf="this.playerData.years[this.playerData.years.length - 1].u16girlsGames">{{ year.u16girlsGoals || '-' }}</td>
             <td *ngIf="this.playerData.years[this.playerData.years.length - 1].u14girlsGames">{{ year.u14girlsGames || '-' }}</td>
@@ -181,6 +185,7 @@
           <h6 class="card-title" *ngIf="year.u16sunGames"><b>Under 16 Sun</b><br>Games: {{ year.u16sunGames || '-' }} | Goals: {{ year.u16sunGoals || '-' }}</h6>
           <h6 class="card-title" *ngIf="year.u15sunGames"><b>Under 15 Sun</b><br>Games: {{ year.u15sunGames || '-' }} | Goals: {{ year.u15sunGoals || '-' }}</h6>
           <h6 class="card-title" *ngIf="year.u14sunGames"><b>Under 14 Sun</b><br>Games: {{ year.u14sunGames || '-' }} | Goals: {{ year.u14sunGoals || '-' }}</h6>
+          <h6 class="card-title" *ngIf="year.u17girlsGames"><b>Under 17 Girls</b><br>Games: {{ year.u17girlsGames || '-' }} | Goals: {{ year.u17girlsGoals || '-' }}</h6>
           <h6 class="card-title" *ngIf="year.u16girlsGames"><b>Under 16 Girls</b><br>Games: {{ year.u16girlsGames || '-' }} | Goals: {{ year.u16girlsGoals || '-' }}</h6>
           <h6 class="card-title" *ngIf="year.u14girlsGames"><b>Under 14 Girls</b><br>Games: {{ year.u14girlsGames || '-' }} | Goals: {{ year.u14girlsGoals || '-' }}</h6>
           <h6 class="card-title"><b>Total</b><br>Games: {{ getTotalGames(year) || '-' }} | Goals: {{ getTotalGoals(year) || '-' }}</h6>
@@ -188,34 +193,4 @@
       </div>
     </div>
   </div>
-  <!--<div class="row mt-3 d-flex d-md-none" *ngIf="this.playerData">
-    <div class="col-6 col-sm-3 mt-3" *ngFor="let year of playerData?.years">
-      <div class="card mb-3 mx-auto text-center" style="max-width:250px;">
-        <div class="card-header p-1">
-          <h4 class="mb-0">{{ year.y }}</h4>
-        </div>
-        <div class="card-body p-3">
-          <h6 class="card-title" *ngIf="year.aGames"><b>A Grade</b><br>Games: {{ year.aGames || '-' }}<br>Goals: {{ year.aGoals || '-' }}</h6>
-          <h6 class="card-title" *ngIf="year.bGames"><b>B Grade</b><br>Games: {{ year.bGames || '-' }}<br>Goals: {{ year.bGoals || '-' }}</h6>
-          <h6 class="card-title" *ngIf="year.cGames"><b>C Grade</b><br>Games: {{ year.cGames || '-' }}<br>Goals: {{ year.cGoals || '-' }}</h6>
-          <h6 class="card-title" *ngIf="year.wGames"><b>Open Women</b><br>Games: {{ year.wGames || '-' }}<br>Goals: {{ year.wGoals || '-' }}</h6>
-          <h6 class="card-title" *ngIf="year.uGames"><b>Unknown Senior</b><br>Games: {{ year.uGames || '-' }}<br>Goals: {{ year.uGoals || '-' }}</h6>
-          <h6 class="card-title" *ngIf="year.u18Games"><b>Under 18</b><br>Games: {{ year.u18Games || '-' }}<br>Goals: {{ year.u18Goals || '-' }}</h6>
-          <h6 class="card-title" *ngIf="year.u175Games"><b>Under 17.5</b><br>Games: {{ year.u175Games || '-' }}<br>Goals: {{ year.u175Goals || '-' }}</h6>
-          <h6 class="card-title" *ngIf="year.u17Games"><b>Under 17</b><br>Games: {{ year.u17Games || '-' }}<br>Goals: {{ year.u17Goals || '-' }}</h6>
-          <h6 class="card-title" *ngIf="year.u16Games"><b>Under 16</b><br>Games: {{ year.u16Games || '-' }}<br>Goals: {{ year.u16Goals || '-' }}</h6>
-          <h6 class="card-title" *ngIf="year.u15Games"><b>Under 15</b><br>Games: {{ year.u15Games || '-' }}<br>Goals: {{ year.u15Goals || '-' }}</h6>
-          <h6 class="card-title" *ngIf="year.u14Games"><b>Under 14</b><br>Games: {{ year.u14Games || '-' }}<br>Goals: {{ year.u14Goals || '-' }}</h6>
-          <h6 class="card-title" *ngIf="year.u13Games"><b>Under 13</b><br>Games: {{ year.u13Games || '-' }}<br>Goals: {{ year.u13Goals || '-' }}</h6>
-          <h6 class="card-title" *ngIf="year.u165sunGames"><b>Under 16.5 Sun</b><br>Games: {{ year.u165sunGames || '-' }}<br>Goals: {{ year.u165sunGoals || '-' }}</h6>
-          <h6 class="card-title" *ngIf="year.u16sunGames"><b>Under 16 Sun</b><br>Games: {{ year.u16sunGames || '-' }}<br>Goals: {{ year.u16sunGoals || '-' }}</h6>
-          <h6 class="card-title" *ngIf="year.u15sunGames"><b>Under 15 Sun</b><br>Games: {{ year.u15sunGames || '-' }}<br>Goals: {{ year.u15sunGoals || '-' }}</h6>
-          <h6 class="card-title" *ngIf="year.u14sunGames"><b>Under 14 Sun</b><br>Games: {{ year.u14sunGames || '-' }}<br>Goals: {{ year.u14sunGoals || '-' }}</h6>
-          <h6 class="card-title" *ngIf="year.u16girlsGames"><b>Under 16 Girls</b><br>Games: {{ year.u16girlsGames || '-' }}<br>Goals: {{ year.u16girlsGoals || '-' }}</h6>
-          <h6 class="card-title" *ngIf="year.u14girlsGames"><b>Under 14 Girls</b><br>Games: {{ year.u14girlsGames || '-' }}<br>Goals: {{ year.u14girlsGoals || '-' }}</h6>
-          <h6 class="card-title"><b>Total</b><br>Games: {{ getTotalGames(year) || '-' }}<br>Goals: {{ getTotalGoals(year) || '-' }}</h6>
-        </div>
-      </div>
-    </div>
-  </div>-->
 </div>

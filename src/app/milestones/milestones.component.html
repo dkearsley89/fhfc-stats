@@ -1,0 +1,45 @@
+<div class="container-fluid">
+  <div class="row mt-2">
+    <div class="col-md-auto text-center">
+      <h5 class="d-inline-flex mb-0">{{ getTitle() }}</h5>
+    </div>
+    <div class="col-md-auto text-center">
+      <div class="custom-control custom-checkbox custom-control-inline">
+        <input type="checkbox" class="custom-control-input" id="showClub" [(ngModel)]="showClub">
+        <label class="custom-control-label" for="showClub">Club</label>
+      </div>
+      <div class="custom-control custom-checkbox custom-control-inline">
+        <input type="checkbox" class="custom-control-input" id="showSenior" [(ngModel)]="showSenior">
+        <label class="custom-control-label" for="showSenior">Senior</label>
+      </div>
+      <div class="custom-control custom-checkbox custom-control-inline mr-0">
+        <input type="checkbox" class="custom-control-input" id="showJunior" [(ngModel)]="showJunior">
+        <label class="custom-control-label" for="showJunior">Junior</label>
+      </div>
+    </div>
+    <div class="col-md-auto text-center">
+      <div class="custom-control custom-switch custom-control-inline">
+        <input type="checkbox" class="custom-control-input" id="showRecent" [(ngModel)]="showRecent">
+        <label class="custom-control-label" for="showRecent">Show Past Milestones</label>
+      </div>
+    </div>
+  </div>
+  <hr class="my-2" />
+  <div class="row">
+    <div class="col-md-6 col-xl-4 mt-2" *ngFor="let milestone of getMilestonesPlayer()">
+      <div class="card mb-3 mx-auto text-center" style="max-width:500px;">
+        <div class="card-header py-1">
+          <h4 class="text-truncate mb-1">{{ milestone.playerName }}</h4>
+        </div>
+        <div class="card-body py-2">
+          <h5 class="text-truncate">{{ milestone.name }}<br /><span class="small">Currently on {{ milestone.amount + ' ' + milestone.type}}</span></h5>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row" *ngIf="this.milestoneToShowCount == 0">
+    <div class="col">
+      <h4 class="text-center">No Milestones found matching your filter...</h4>
+    </div>
+  </div>
+</div>

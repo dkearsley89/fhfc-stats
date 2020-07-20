@@ -1,1 +1,1 @@
-{"firstName":"PETER","middleName":null,"lastName":"HOSKINS","agrade":0,"senior":27,"junior":0,"minYear":1984,"maxYear":1987,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1984","uGames":8},{"y":"1987","bGames":19},{"y":"Totals","bGames":19,"uGames":8}]}
+{"firstName":"PETER","middleName":null,"lastName":"HOSKINS","agrade":0,"senior":27,"junior":0,"minYear":1984,"maxYear":1987,"seasons":2,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"1984","uGames":8},{"y":"1987","bGames":19},{"y":"Total","bGames":19,"uGames":8}]}

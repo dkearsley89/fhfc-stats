@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
-import { AssociationRecords, HonourBoard, LastUpdated, Record, Records, YearlyAwards } from '../model/model';
+import { AssociationRecords, HonourBoard, LastUpdated, Milestones, Record, Records, YearlyAwards } from '../model/model';
 
 @Injectable()
 export class DataService {
@@ -41,5 +41,9 @@ export class DataService {
 
   getYearlyAwardsdData(year: string): Observable<YearlyAwards> {
     return this.http.get<YearlyAwards>('/assets/json/Yearly Awards - ' + year + '.json?noCache=' + Math.random());
+  }
+
+  getMilestonesData(): Observable<Milestones> {
+    return this.http.get<Milestones>('/assets/json/milestones.json?noCache=' + Math.random());
   }
 }

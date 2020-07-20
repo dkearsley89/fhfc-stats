@@ -24,7 +24,7 @@ export interface RecordHeaders {
 export interface RecordData {
     Id: string;
     n: string;
-    a: number;    
+    a: number;
 }
 export interface HonourBoard {
     name?: string;
@@ -68,4 +68,19 @@ export interface Award {
     name: string;
     player: string;
     id: string;
+}
+export interface Milestones {
+    milestones: Milestone[]
+}
+export interface Milestone {
+    name: string;
+    grade: string;
+    type: string;
+    upcoming: MilestoneData[];
+    recent: MilestoneData[];
+}
+export interface MilestoneData {
+    Id: string;
+    n: string;
+    a: number;
 }
