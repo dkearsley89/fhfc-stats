@@ -44,6 +44,7 @@ export class StatsComponent implements OnInit {
         error => this.error = error
       );
     input.value = '';
+    input.blur();
   }
 
   updateUrl(event) {
