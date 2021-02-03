@@ -4,6 +4,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { NgbTypeaheadModule, NgbNavModule, NgbDropdownModule, NgbCollapseModule } from '@ng-bootstrap/ng-bootstrap';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { NgHttpLoaderModule } from 'ng-http-loader';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
@@ -45,7 +46,8 @@ import { MilestonesComponent } from './milestones/milestones.component';
     NgbDropdownModule,
     NgbCollapseModule,
     AppRoutingModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    NgHttpLoaderModule.forRoot()
   ],
   providers: [DataService],
   bootstrap: [AppComponent]
