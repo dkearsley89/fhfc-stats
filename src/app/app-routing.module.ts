@@ -9,7 +9,6 @@ import { RecordsComponent } from './records/records.component';
 import { StatsComponent } from './stats/stats.component';
 import { Top100Component } from './top100/top100.component';
 
-
 const appRoutes: Routes = [
   { path: '', component: HomeComponent, pathMatch: 'full' },
   { path: 'association', component: AssociationComponent },

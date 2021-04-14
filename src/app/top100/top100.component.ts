@@ -8,8 +8,8 @@ import { Record } from '../model/model';
   templateUrl: './top100.component.html'
 })
 export class Top100Component implements OnInit {
-  recordToShow: Record;
-  error: string;
+  recordToShow!: Record;
+  error: string = '';
 
   constructor(private route: ActivatedRoute, private dataService: DataService) { }
 

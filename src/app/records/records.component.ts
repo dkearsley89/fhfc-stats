@@ -1,16 +1,16 @@
 import { Component, OnInit } from '@angular/core';
 import { DataService } from '../data/data.service';
 import { Records } from '../model/model';
-import { faChartBar } from '@fortawesome/free-regular-svg-icons';
+import { faChartBar, IconDefinition } from '@fortawesome/free-regular-svg-icons';
 
 @Component({
   selector: 'app-records',
   templateUrl: './records.component.html'
 })
 export class RecordsComponent implements OnInit {
-  recordsData: Records;
-  faChartBar = faChartBar;
-  error: string;
+  recordsData!: Records;
+  faChartBar: IconDefinition = faChartBar;
+  error: string = '';
 
   constructor(private dataService: DataService) { }
 

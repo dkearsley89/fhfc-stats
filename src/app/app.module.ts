@@ -12,7 +12,6 @@ import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { StatsComponent } from './stats/stats.component';
 import { RecordsComponent } from './records/records.component';
-
 import { AppRoutingModule } from './app-routing.module';
 import { DataService } from './data/data.service';
 import { Top100Component } from './top100/top100.component';
@@ -25,11 +24,11 @@ import { MilestonesComponent } from './milestones/milestones.component';
 @NgModule({
   declarations: [
     AppComponent,
+    HomeComponent,
     HeaderComponent,
+    FooterComponent,
     StatsComponent,
     RecordsComponent,
-    HomeComponent,
-    FooterComponent,
     Top100Component,
     HonourComponent,
     LegendComponent,

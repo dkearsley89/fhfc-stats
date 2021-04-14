@@ -8,8 +8,8 @@ import { LastUpdated } from '../model/model';
   styleUrls: ['./footer.component.css']
 })
 export class FooterComponent implements OnInit {
-  lastUpdated: LastUpdated;
-  error: string;
+  lastUpdated!: LastUpdated;
+  error: string = '';
 
   constructor(private dataService: DataService) { }
 

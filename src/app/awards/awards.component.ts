@@ -9,9 +9,9 @@ import { YearlyAwards } from '../model/model';
   styleUrls: ['./awards.component.css']
 })
 export class AwardsComponent implements OnInit {
-  yearlyAwardsData: YearlyAwards;
-  error: string;
-  active;
+  yearlyAwardsData!: YearlyAwards;
+  error: string = '';
+  active: string = '';
 
   constructor(private activatedRoute: ActivatedRoute, private dataService: DataService) { }
 
@@ -27,7 +27,7 @@ export class AwardsComponent implements OnInit {
     });
   }
 
-  updateUrl(event) {
+  updateUrl(event: any) {
     event.target.src = "/assets/img/players/NoImage.jpg";
   }
 }

@@ -9,10 +9,10 @@ import { faTrophy, faMedal } from '@fortawesome/free-solid-svg-icons';
   templateUrl: './honour.component.html'
 })
 export class HonourComponent implements OnInit {
-  honourBoardData: HonourBoard;
+  honourBoardData!: HonourBoard;
   faTrophy = faTrophy;
   faMedal = faMedal;
-  error: string;
+  error: string = '';
 
   constructor(private activatedRoute: ActivatedRoute, private dataService: DataService) { }
 

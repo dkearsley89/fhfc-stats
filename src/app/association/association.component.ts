@@ -7,8 +7,8 @@ import { AssociationRecords } from '../model/model';
   templateUrl: './association.component.html'
 })
 export class AssociationComponent implements OnInit {
-  associationRecordsData: AssociationRecords;
-  error: string;
+  associationRecordsData!: AssociationRecords;
+  error: string = '';
 
   constructor(private dataService: DataService) { }
 
@@ -21,7 +21,7 @@ export class AssociationComponent implements OnInit {
       );
   }
 
-  updateUrl(event) {
+  updateUrl(event: any) {
     event.target.src = "/assets/img/players/NoImage.jpg";
   }
 }

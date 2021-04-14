@@ -7,9 +7,9 @@ import { Milestones } from '../model/model';
   templateUrl: './milestones.component.html'
 })
 export class MilestonesComponent implements OnInit {
-  milestonesData: Milestones;
-  milestoneToShowCount: number;
-  error: string;
+  milestonesData!: Milestones;
+  milestoneToShowCount: number = 0;
+  error: string = '';
   showRecent: boolean = false;
   showSenior: boolean = true;
   showJunior: boolean = true;
@@ -26,7 +26,7 @@ export class MilestonesComponent implements OnInit {
       );
   }
 
-  updateUrl(event) {
+  updateUrl(event: any) {
     event.target.src = "/assets/img/players/NoImage.jpg";
   }
 
@@ -52,6 +52,7 @@ export class MilestonesComponent implements OnInit {
       this.milestoneToShowCount = milestonesToReturn.length;
       return milestonesToReturn;
     }
+    return null;
   }
 
   getTitle() {
