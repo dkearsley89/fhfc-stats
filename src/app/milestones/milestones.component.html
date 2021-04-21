@@ -29,7 +29,9 @@
     <div class="col-md-6 col-xl-4 mt-2" *ngFor="let milestone of getMilestonesPlayer()">
       <div class="card mb-3 mx-auto text-center" style="max-width:500px;">
         <div class="card-header py-1">
-          <h4 class="text-truncate mb-1">{{ milestone.playerName }}</h4>
+          <a [routerLink]="['/stats', 'player', milestone.playerId]">
+            <h4 class="text-truncate mb-1">{{ milestone.playerName }}</h4>
+          </a>
         </div>
         <div class="card-body py-2">
           <h5 class="text-truncate">{{ milestone.name }}<br /><span class="small">Currently on {{ milestone.amount + ' ' + milestone.type}}</span></h5>

@@ -20,6 +20,7 @@ const appRoutes: Routes = [
   { path: 'records', component: RecordsComponent },
   { path: 'records/top100/:name', component: Top100Component },
   { path: 'stats/:statsType', component: StatsComponent },
+  { path: 'stats/:statsType/:id', component: StatsComponent },
   { path: '**', redirectTo: '/', pathMatch: 'full' }
 ];
 

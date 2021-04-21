@@ -15,7 +15,7 @@
             <tbody>
               <tr *ngFor="let data of recordToShow?.data; let i = index">
                 <th scope="row" class="text-center">{{ i + 1 }}</th>
-                <td>{{ data.n }}</td>
+                <td><a [routerLink]="['/stats', 'player', data.Id]">{{ data.n }}</a></td>
                 <td class="text-center">{{ data.a }}</td>
               </tr>
             </tbody>

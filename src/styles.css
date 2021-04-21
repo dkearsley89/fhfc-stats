@@ -24,3 +24,6 @@ body {
 .btnNoBorder:focus {
   box-shadow: none;
 }
+a {
+  color: #212529;
+}

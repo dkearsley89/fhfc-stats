@@ -49,7 +49,6 @@ export interface Records {
 export interface Record {
     name: string;
     headers: RecordHeaders;
-    label: string;
     data: RecordData[];
 }
 export interface RecordHeaders {

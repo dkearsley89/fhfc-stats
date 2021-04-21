@@ -45,7 +45,9 @@
                     <div class="col-9">
                       <div class="card-body">
                         <h5 class="card-title text-truncate">{{ award.name }}</h5>
-                        <h3 class="card-title text-truncate">{{ award.player }}</h3>
+                        <a [routerLink]="['/stats', 'player', award.id]">
+                          <h3 class="card-title text-truncate">{{ award.player }}</h3>
+                        </a>
                       </div>
                     </div>
                   </div>

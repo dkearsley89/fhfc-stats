@@ -7,7 +7,9 @@
         </div>
         <div class="card-body">
           <img class="fixedWidthImage rounded mb-2" src="/assets/img/players/association/{{ record.id }}.jpg" alt="{{ record.n | titlecase }}" (error)="updateUrl($event)">
-          <h3 class="card-title text-truncate">{{ record.n }}</h3>
+          <a [routerLink]="['/stats', 'player', record.id]">
+            <h3 class="card-title text-truncate">{{ record.n }}</h3>
+          </a>
           <h3>
             <small class="text-muted">{{ record.y + ' ' + record.g }}</small>
           </h3>

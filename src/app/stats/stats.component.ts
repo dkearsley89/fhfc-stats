@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute, Router } from '@angular/router';
 import { DataService } from '../data/data.service';
 import { Observable } from 'rxjs';
 import { debounceTime, distinctUntilChanged, map } from 'rxjs/operators';
@@ -13,12 +14,15 @@ export class StatsComponent implements OnInit {
   selectedPlayerId: string = '';
   error: string = '';
 
-  constructor(private dataService: DataService) { }
+  constructor(private route: ActivatedRoute, private router: Router, private dataService: DataService) { }
 
   ngOnInit() {
     this.dataService.getPlayersData()
       .subscribe(data => {
         this.playersData = { ...data }
+        if (this.route.snapshot.params['id']) {
+          this.loadPlayer(this.route.snapshot.params['id']);
+        }
       },
         error => this.error = error
       );
@@ -36,15 +40,20 @@ export class StatsComponent implements OnInit {
 
   selectedItem(event: any, input: any) {
     event.preventDefault();
-    this.selectedPlayerId = event.item.id;
+    this.loadPlayer(event.item.id);
+    this.router.navigate(['stats/player/' + event.item.id ]);
+    input.value = '';
+    input.blur();
+  }
+
+  loadPlayer(idToLoad: string) {
+    this.selectedPlayerId = idToLoad;
     this.dataService.getPlayerData(this.selectedPlayerId)
       .subscribe(data => {
         this.playerData = { ...data }
       },
         error => this.error = error
       );
-    input.value = '';
-    input.blur();
   }
 
   updateUrl(event: any) {

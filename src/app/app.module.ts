@@ -37,14 +37,14 @@ import { MilestonesComponent } from './milestones/milestones.component';
     MilestonesComponent
   ],
   imports: [
+    AppRoutingModule,
     BrowserModule,
     HttpClientModule,
     FormsModule,
     NgbTypeaheadModule,
     NgbNavModule,
     NgbDropdownModule,
-    NgbCollapseModule,
-    AppRoutingModule,
+    NgbCollapseModule,    
     FontAwesomeModule,
     NgHttpLoaderModule.forRoot()
   ],
