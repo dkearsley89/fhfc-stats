@@ -1,1 +1,1 @@
-{"firstName":"AARON","middleName":null,"lastName":"DENNIS","agrade":0,"senior":6,"junior":0,"minYear":2020,"maxYear":2020,"seasons":1,"aGradeGoals":0,"seniorGoals":3,"juniorGoals":0,"years":[{"y":"2020","cGames":6,"cGoals":3},{"y":"Total","cGames":6,"cGoals":3}]}
+{"firstName":"AARON","middleName":null,"lastName":"DENNIS","agrade":0,"senior":17,"junior":0,"minYear":2020,"maxYear":2021,"seasons":2,"aGradeGoals":0,"seniorGoals":8,"juniorGoals":0,"years":[{"y":"2020","cGames":6,"cGoals":3},{"y":"2021","cGames":11,"cGoals":5},{"y":"Total","cGames":17,"cGoals":8}]}
