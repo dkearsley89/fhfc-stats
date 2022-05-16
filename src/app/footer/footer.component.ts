@@ -9,7 +9,6 @@ import { LastUpdated } from '../model/model';
 })
 export class FooterComponent implements OnInit {
   lastUpdated!: LastUpdated;
-  error: string = '';
 
   constructor(private dataService: DataService) { }
 
@@ -17,8 +16,6 @@ export class FooterComponent implements OnInit {
     this.dataService.getLastUpdatedDate()
       .subscribe(data => {
         this.lastUpdated = { ...data }
-      },
-        error => this.error = error
-      );
+      });
   }
 }

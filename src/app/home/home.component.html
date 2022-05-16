@@ -1,28 +1,25 @@
 <div class="jumbotron jumbotron-fluid text-center py-3 py-lg-4">
   <div class="black-shaded text-light mx-3 mx-xl-auto px-3 py-3">
     <h2>Flagstaff Hill F.C - Records &amp; Stats</h2>
-    <p class="lead">Ever wondered who has played the most games for the Falcons? Perhaps you want to know how many goals you kicked in 2013? Well you have come to the right place!</p>
-    <button type="button" class="btn btn-danger fixedWidthButtonHome mx-1 mt-3" routerLink="/records">Records</button>
-    <button type="button" class="btn btn-danger fixedWidthButtonHome mx-1 mt-3" [routerLink]="['/stats', 'player']">Player Stats</button>
-    <button type="button" class="btn btn-danger fixedWidthButtonHome mx-1 mt-3" routerLink="/honour">Honour Boards</button>
-    <button type="button" class="btn btn-danger fixedWidthButtonHome mx-1 mt-3" routerLink="/milestones">Milestones</button>
-    <button type="button" class="btn btn-danger fixedWidthButtonHome mx-1 mt-3" routerLink="/association">Association B&amp;F</button>
-    <button type="button" class="btn btn-danger fixedWidthButtonHome mx-1 mt-3" routerLink="/awards">Yearly Awards</button>
+    <p class="lead">Ever wondered who has played the most games for the Falcons? Want to check on an upcoming or recent
+      milestone? Perhaps you want to know how many goals you kicked in 2013? Well you have come to the right place!</p>
   </div>
   <div class="black-shaded mx-3 mx-xl-auto px-1 py-1 mt-3 mt-lg-4">
-    <div class="card-deck text-center mx-0">
-      <div class="card my-2 mx-3" *ngFor="let record of recordsData?.records">
-        <div class="card-header">
-          <h5 class="text-truncate">{{ record.name }}</h5>
-        </div>
-        <div class="card-body">
-          <img class="fixedWidthImage rounded mx-auto mb-2" src="/assets/img/players/{{ record.data[0].Id }}.jpg" alt="{{ record.data[0].n | titlecase }}" (error)="updateUrl($event)">
-          <a [routerLink]="['/stats', 'player', record.data[0].Id]">
-            <h3 class="card-title text-truncate">{{ record.data[0].n | titlecase }}</h3>
-          </a>
-          <h3>
-            <small class="text-muted">{{ record.data[0].a + ' ' + record.label }}</small>
-          </h3>
+    <div class="row row-cols-1 row-cols-md-3 text-center mx-0">
+      <div class="col mx-0 px-0" *ngFor="let record of recordsData?.records">
+        <div class="card my-2 mx-3">
+          <div class="card-header">
+            <h5 class="text-truncate">{{ record.name }}</h5>
+          </div>
+          <div class="card-body">
+            <img class="fixedWidthImage rounded mx-auto mb-2" src="/assets/img/players/{{ record.data[0].Id }}.jpg" alt="{{ record.data[0].n | titlecase }}" (error)="updateUrl($event)">
+            <a [routerLink]="['/stats', 'player', record.data[0].Id]">
+              <h3 class="card-title text-truncate">{{ record.data[0].n | titlecase }}</h3>
+            </a>
+            <h3>
+              <small class="text-muted">{{ record.data[0].a + ' ' + record.label }}</small>
+            </h3>
+          </div>
         </div>
       </div>
     </div>

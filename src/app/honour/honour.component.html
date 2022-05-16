@@ -17,7 +17,7 @@
         <button type="button" class="btn btn-outline-danger" [routerLink]="['/honour', 'Under 14 Sunday']" routerLinkActive="active">Under 14 - Sunday</button>
       </div>
     </div>
-    <div class="d-lg-block d-none fixedWidthButtonHonour mr-3">
+    <div class="d-lg-block d-none fixedWidthButtonHonour me-3">
     </div>
     <div class="col-lg-auto d-lg-none mt-3 text-center">
       <button type="button" class="btn btn-outline-danger" [routerLink]="['/honour', 'A Grade']" routerLinkActive="active">A Grade</button>
@@ -40,7 +40,7 @@
         <table class="table table-sm table-striped mb-0" style="white-space:nowrap;">
           <thead>
             <tr>
-              <th scope="col" class="col-xs-auto pr-5">{{ honourBoardData?.headers?.c1 }}</th>
+              <th scope="col" class="col-xs-auto pe-5">{{ honourBoardData?.headers?.c1 }}</th>
               <th scope="col" class="w-25">{{ honourBoardData?.headers?.c2 }}</th>
               <th scope="col" class="w-25">{{ honourBoardData?.headers?.c3 }}</th>
               <th scope="col" class="w-25">{{ honourBoardData?.headers?.c4 }}</th>
@@ -49,21 +49,21 @@
           </thead>
           <tbody>
             <tr *ngFor="let honourBoardRow of honourBoardData?.data">
-              <th scope="row">{{ honourBoardRow.year }}<span class="text-danger pl-2" *ngIf="honourBoardRow.premiers">
+              <th scope="row">{{ honourBoardRow.year }}<span class="text-danger ps-2" *ngIf="honourBoardRow.premiers">
                   <fa-icon [icon]="faTrophy"></fa-icon>
                 </span></th>
-              <td>{{ honourBoardRow.coach.replace('*', '') }}<span class="text-danger pl-2" *ngIf="honourBoardRow.coach.endsWith('*')">
+              <td>{{ honourBoardRow.coach.replace('*', '') }}<span class="text-danger ps-2" *ngIf="honourBoardRow.coach.endsWith('*')">
                   <fa-icon [icon]="faMedal"></fa-icon>
                 </span></td>
-              <td>{{ honourBoardRow.captain.replace('*', '') }}<span class="text-danger pl-2" *ngIf="honourBoardRow.captain.endsWith('*')">
+              <td>{{ honourBoardRow.captain.replace('*', '') }}<span class="text-danger ps-2" *ngIf="honourBoardRow.captain.endsWith('*')">
                   <fa-icon [icon]="faMedal"></fa-icon>
                 </span></td>
-              <td>{{ honourBoardRow.bf.replace('*', '') }}<span class="text-danger pl-2" *ngIf="honourBoardRow.bf.endsWith('*')">
+              <td>{{ honourBoardRow.bf.replace('*', '') }}<span class="text-danger ps-2" *ngIf="honourBoardRow.bf.endsWith('*')">
                   <fa-icon [icon]="faMedal"></fa-icon>
                 </span></td>
-              <td>{{ honourBoardRow.mostGoals.replace('*', '') }}<span class="text-danger pl-2" *ngIf="honourBoardRow.mostGoals.endsWith('*')">
+              <td>{{ honourBoardRow.mostGoals.replace('*', '') }}<span class="text-danger ps-2" *ngIf="honourBoardRow.mostGoals.endsWith('*')">
                   <fa-icon [icon]="faMedal"></fa-icon>
-                </span><span class="float-right">{{honourBoardRow.goals === 0 ? '-' :
+                </span><span class="float-end">{{honourBoardRow.goals === 0 ? '-' :
                   honourBoardRow.goals}}</span></td>
             </tr>
           </tbody>

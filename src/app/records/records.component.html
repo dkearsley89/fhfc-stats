@@ -1,9 +1,9 @@
 <div class="container-fluid">
-  <div class="row mx-sm-5">
+  <div class="row mx-xs-2">
     <div class="col-lg-4 mb-1" *ngFor="let record of recordsData?.records">
       <div class="card border-0">
         <div class="card-body">
-          <h4 class="card-title text-center">{{ record.name }}</h4>
+          <h4 class="card-title text-center text-truncate">{{ record.name }}</h4>
           <table class="table table-sm table-striped">
             <thead>
               <tr>
@@ -22,7 +22,7 @@
           </table>
           <div class="text-center">
             <button type="button" class="btn btn-outline-danger" [routerLink]="['/records/top100', record.name]">
-              <fa-icon [icon]="faChartBar"></fa-icon> View Top 100
+              <fa-icon [icon]="faChartColumn"></fa-icon> View Top 100
             </button>
           </div>
         </div>

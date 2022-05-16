@@ -1,47 +1,56 @@
 <nav class="navbar fixed-top navbar-dark bg-flaggy navbar-expand-md">
-  <a class="navbar-brand" routerLink="/">Flagstaff Hill F.C</a>
-  <div ngbDropdown display="dynamic" class="d-inline-block">
-    <button class="navbar-toggler" type="button" ngbDropdownToggle>
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div ngbDropdownMenu>
-      <button class="dropdown-item" routerLink="/records">Records</button>
-      <button class="dropdown-item" [routerLink]="['/stats', 'player']">Player Stats</button>
-      <button class="dropdown-item" routerLink="/honour">Honour Boards</button>
-      <button class="dropdown-item" routerLink="/milestones">Milestones</button>
-      <button class="dropdown-item" routerLink="/association">Association B&amp;F</button>
-      <button class="dropdown-item" routerLink="/awards">Yearly Awards</button>
+  <div class="container-fluid">
+    <a class="navbar-brand noUnderline" routerLink="/">Flagstaff Hill F.C</a>
+    <div ngbDropdown display="dynamic" class="d-inline-block">
+      <button class="navbar-toggler" type="button" ngbDropdownToggle>
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div ngbDropdownMenu>
+        <button class="dropdown-item" routerLink="/records">Records</button>
+        <button class="dropdown-item" [routerLink]="['/stats', 'player']">Player Stats</button>
+        <button class="dropdown-item" routerLink="/honour">Honour Boards</button>
+        <button class="dropdown-item" routerLink="/milestones">Milestones</button>
+        <button class="dropdown-item" routerLink="/association">Association B&amp;F</button>
+        <button class="dropdown-item" routerLink="/awards">Yearly Awards</button>
+        <button class="dropdown-item" routerLink="/totd">Team of the Decade</button>
+      </div>
     </div>
-  </div>
-  <div class="collapse navbar-collapse">
-    <ul class="navbar-nav">
-      <li class="nav-item" routerLinkActive="active">
-        <a class="nav-link" routerLink="/records">Records</a>
-      </li>
-      <li class="nav-item" routerLinkActive="active">
-        <a class="nav-link" [routerLink]="['/stats', 'player']">Player Stats</a>
-      </li>
-      <li class="nav-item" routerLinkActive="active">
-        <a class="nav-link" routerLink="/honour">Honour Boards</a>
-      </li>
-      <li class="nav-item" routerLinkActive="active">
-        <a class="nav-link" routerLink="/milestones">Milestones</a>
-      </li>
-      <div class="d-none d-lg-flex">
-        <li class="nav-item" routerLinkActive="active">
-          <a class="nav-link" routerLink="/association">Association B&amp;F</a>
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link noUnderline" routerLink="/records" routerLinkActive="active">Records</a>
         </li>
-        <li class="nav-item" routerLinkActive="active">
-          <a class="nav-link" routerLink="/awards">Yearly Awards</a>
+        <li class="nav-item">
+          <a class="nav-link noUnderline" [routerLink]="['/stats', 'player']" routerLinkActive="active">Player Stats</a>
         </li>
-      </div>
-      <div ngbDropdown display="dynamic" class="d-inline-block d-lg-none">
-        <button class="btn btnNoBorder nav-link" type="button" ngbDropdownToggle>More...</button>
-        <div ngbDropdownMenu>
-          <button ngbDropdownItem routerLink="/association">Association B&amp;F</button>
-          <button ngbDropdownItem routerLink="/awards">Yearly Awards</button>
+        <li class="nav-item">
+          <a class="nav-link noUnderline" routerLink="/honour" routerLinkActive="active">Honour Boards</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link noUnderline" routerLink="/milestones" routerLinkActive="active">Milestones</a>
+        </li>
+        <div class="d-none d-lg-flex">
+          <li class="nav-item">
+            <a class="nav-link noUnderline" routerLink="/association" routerLinkActive="active">Association B&amp;F</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link noUnderline" routerLink="/awards" routerLinkActive="active">Yearly Awards</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link noUnderline" routerLink="/totd" routerLinkActive="active">Team of the Decade</a>
+          </li>
         </div>
-      </div>
-    </ul>
+        <div ngbDropdown class="d-inline-block d-lg-none">
+          <li class="nav-item">
+            <a class="nav-link noUnderline" role="button" ngbDropdownToggle [ngClass]="{'active': associationActive.isActive || yearlyActive.isActive || totdActive.isActive}">More...</a>
+          </li>
+          <div ngbDropdownMenu>
+            <button ngbDropdownItem routerLink="/association" routerLinkActive #associationActive="routerLinkActive">Association B&amp;F</button>
+            <button ngbDropdownItem routerLink="/awards" routerLinkActive #yearlyActive="routerLinkActive">Yearly Awards</button>
+            <button ngbDropdownItem routerLink="/totd" routerLinkActive #totdActive="routerLinkActive">Team of the Decade</button>
+          </div>
+        </div>
+      </ul>
+    </div>
   </div>
 </nav>

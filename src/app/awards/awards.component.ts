@@ -10,8 +10,8 @@ import { YearlyAwards } from '../model/model';
 })
 export class AwardsComponent implements OnInit {
   yearlyAwardsData!: YearlyAwards;
-  error: string = '';
   active: string = '';
+  yearsToShow: string[] = ['2021','2020','2019','2018','2017','2016','2015','2014','2013','2012','2011','2010'];
 
   constructor(private activatedRoute: ActivatedRoute, private dataService: DataService) { }
 
@@ -21,9 +21,7 @@ export class AwardsComponent implements OnInit {
         .subscribe(data => {
           this.yearlyAwardsData = { ...data };
           this.active = "A Grade";
-        },
-          error => this.error = error
-        );
+        });
     });
   }
 

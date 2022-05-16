@@ -8,7 +8,6 @@ import { AssociationRecords } from '../model/model';
 })
 export class AssociationComponent implements OnInit {
   associationRecordsData!: AssociationRecords;
-  error: string = '';
 
   constructor(private dataService: DataService) { }
 
@@ -16,9 +15,7 @@ export class AssociationComponent implements OnInit {
     this.dataService.getAssociationRecordData()
       .subscribe(data => {
         this.associationRecordsData = { ...data }
-      },
-        error => this.error = error
-      );
+      });
   }
 
   updateUrl(event: any) {

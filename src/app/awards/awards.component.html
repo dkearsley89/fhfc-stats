@@ -2,33 +2,13 @@
   <div class="row">
     <div class="col-md-auto d-md-block d-none mt-3 position-fixed">
       <div class="btn-group-vertical fixedWidthButtonHonour pb-5" role="group" aria-label="Yearly Awards">
-        <button type="button" class="btn btn-outline-danger" [routerLink]="['/awards', '2020']" routerLinkActive="active">2020 Awards</button>
-        <button type="button" class="btn btn-outline-danger" [routerLink]="['/awards', '2019']" routerLinkActive="active">2019 Awards</button>
-        <button type="button" class="btn btn-outline-danger" [routerLink]="['/awards', '2018']" routerLinkActive="active">2018 Awards</button>
-        <button type="button" class="btn btn-outline-danger" [routerLink]="['/awards', '2017']" routerLinkActive="active">2017 Awards</button>
-        <button type="button" class="btn btn-outline-danger" [routerLink]="['/awards', '2016']" routerLinkActive="active">2016 Awards</button>
-        <button type="button" class="btn btn-outline-danger" [routerLink]="['/awards', '2015']" routerLinkActive="active">2015 Awards</button>
-        <button type="button" class="btn btn-outline-danger" [routerLink]="['/awards', '2014']" routerLinkActive="active">2014 Awards</button>
-        <button type="button" class="btn btn-outline-danger" [routerLink]="['/awards', '2013']" routerLinkActive="active">2013 Awards</button>
-        <button type="button" class="btn btn-outline-danger" [routerLink]="['/awards', '2012']" routerLinkActive="active">2012 Awards</button>
-        <button type="button" class="btn btn-outline-danger" [routerLink]="['/awards', '2011']" routerLinkActive="active">2011 Awards</button>
-        <button type="button" class="btn btn-outline-danger" [routerLink]="['/awards', '2010']" routerLinkActive="active">2010 Awards</button>
+        <button *ngFor="let year of yearsToShow" type="button" class="btn btn-outline-danger" [routerLink]="['/awards', year ]" routerLinkActive="active">{{ year }} Awards</button>
       </div>
     </div>
-    <div class="d-md-block d-none fixedWidthButtonHonour mr-3">
+    <div class="d-md-block d-none fixedWidthButtonHonour me-3">
     </div>
     <div class="col-md-auto d-md-none mt-3 text-center">
-      <button type="button" class="btn btn-outline-danger" [routerLink]="['/awards', '2020']" routerLinkActive="active">2020 Awards</button>
-      <button type="button" class="btn btn-outline-danger" [routerLink]="['/awards', '2019']" routerLinkActive="active">2019 Awards</button>
-      <button type="button" class="btn btn-outline-danger" [routerLink]="['/awards', '2018']" routerLinkActive="active">2018 Awards</button>
-      <button type="button" class="btn btn-outline-danger" [routerLink]="['/awards', '2017']" routerLinkActive="active">2017 Awards</button>
-      <button type="button" class="btn btn-outline-danger" [routerLink]="['/awards', '2016']" routerLinkActive="active">2016 Awards</button>
-      <button type="button" class="btn btn-outline-danger" [routerLink]="['/awards', '2015']" routerLinkActive="active">2015 Awards</button>
-      <button type="button" class="btn btn-outline-danger" [routerLink]="['/awards', '2014']" routerLinkActive="active">2014 Awards</button>
-      <button type="button" class="btn btn-outline-danger" [routerLink]="['/awards', '2013']" routerLinkActive="active">2013 Awards</button>
-      <button type="button" class="btn btn-outline-danger" [routerLink]="['/awards', '2012']" routerLinkActive="active">2012 Awards</button>
-      <button type="button" class="btn btn-outline-danger" [routerLink]="['/awards', '2011']" routerLinkActive="active">2011 Awards</button>
-      <button type="button" class="btn btn-outline-danger" [routerLink]="['/awards', '2010']" routerLinkActive="active">2010 Awards</button>
+      <button *ngFor="let year of yearsToShow" type="button" class="btn btn-outline-danger" [routerLink]="['/awards', year ]" routerLinkActive="active">{{ year }} Awards</button>
     </div>
     <div class="col mt-2">
       <nav ngbNav #nav="ngbNav" [(activeId)]="active" class="nav-tabs">
@@ -39,7 +19,7 @@
               <div class="col-xl-6 mt-3" *ngFor="let award of grade.awards">
                 <div class="card mb-3 mx-auto text-center" style="max-width:550px;">
                   <div class="row no-gutters">
-                    <div class="col-3 text-left">
+                    <div class="col-3 text-start">
                       <img class="card-img " src="/assets/img/players/{{ award.id }}.jpg" alt="{{ award.player | titlecase }}" (error)="updateUrl($event)">
                     </div>
                     <div class="col-9">

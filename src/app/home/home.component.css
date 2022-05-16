@@ -14,3 +14,6 @@
 .card-deck .card {
   min-width: 260px;
 }
+.fixedWidthButtonHome {
+  width: 10.4rem;
+}

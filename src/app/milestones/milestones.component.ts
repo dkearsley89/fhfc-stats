@@ -7,9 +7,10 @@ import { Milestones } from '../model/model';
   templateUrl: './milestones.component.html'
 })
 export class MilestonesComponent implements OnInit {
-  milestonesData!: Milestones;
-  milestoneToShowCount: number = 0;
-  error: string = '';
+  milestonesOriginal!: Milestones;
+  milestonesToDisplay: { playerId: string, playerName: string, name: string, grade: string, type: string, amount: number }[] = [];
+  milestonesToDisplayCount: number = 0;
+  title: string = 'Upcoming Milestones';
   showRecent: boolean = false;
   showSenior: boolean = true;
   showJunior: boolean = true;
@@ -20,20 +21,19 @@ export class MilestonesComponent implements OnInit {
   ngOnInit() {
     this.dataService.getMilestonesData()
       .subscribe(data => {
-        this.milestonesData = { ...data }
-      },
-        error => this.error = error
-      );
+        this.milestonesOriginal = { ...data };
+        this.getMilestonesToShow();
+      });
   }
 
   updateUrl(event: any) {
     event.target.src = "/assets/img/players/NoImage.jpg";
   }
 
-  getMilestonesPlayer() {
-    if (this.milestonesData) {
-      var milestonesToReturn: { playerId: string, playerName: string, name: string, grade: string, type: string, amount: number }[] = [];
-      for (var milestoneGroup of this.milestonesData?.milestones) {
+  getMilestonesToShow() {
+    var milestonesToReturn: { playerId: string, playerName: string, name: string, grade: string, type: string, amount: number }[] = [];
+    if (this.milestonesOriginal.milestones.length > 0) {
+      for (var milestoneGroup of this.milestonesOriginal.milestones) {
         if ((milestoneGroup.grade == 'Club' && this.showClub) || ((milestoneGroup.grade == 'Senior' || milestoneGroup.grade == 'A Grade' || milestoneGroup.grade == 'B Grade' ||
           milestoneGroup.grade == 'C Grade' || milestoneGroup.grade == 'Open Women') && this.showSenior) || (milestoneGroup.grade == 'Junior' && this.showJunior)) {
           if (milestoneGroup.upcoming && !this.showRecent) {
@@ -48,17 +48,17 @@ export class MilestonesComponent implements OnInit {
           }
         }
       }
-      milestonesToReturn.sort(function (a, b) { return a.playerName.localeCompare(b.playerName) });
-      this.milestoneToShowCount = milestonesToReturn.length;
-      return milestonesToReturn;
     }
-    return null;
+    milestonesToReturn.sort((a, b) => a.playerName.localeCompare(b.playerName));
+    this.milestonesToDisplayCount = milestonesToReturn.length;
+    this.milestonesToDisplay = milestonesToReturn;
   }
 
-  getTitle() {
+  setTitle() {
     if (this.showRecent) {
-      return "Past Milestones";
+      this.title = 'Past Milestones';
+    } else {
+      this.title = 'Upcoming Milestones';
     }
-    return "Upcoming Milestones";
   }
 }
