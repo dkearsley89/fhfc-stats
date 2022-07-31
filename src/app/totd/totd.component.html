@@ -1,15 +1,32 @@
-<div class="container-fluid">
-  <div class="row">
-    <div class="col mt-3 text-center">
-      <button type="button" class="btn btn-outline-danger mx-2" [routerLink]="['/totd', '2010-2019-Senior']" routerLinkActive="active">2010 - 2019 Senior TOTD</button>
-      <button type="button" class="btn btn-outline-danger mx-2" [routerLink]="['/totd', '2010-2019-Junior']" routerLinkActive="active">2010 - 2019 Junior TOTD</button>
-      <button type="button" class="btn btn-outline-danger mx-2" [routerLink]="['/totd', '2000-2009-Senior']" routerLinkActive="active">2000 - 2009 Senior TOTD</button>
-      <button type="button" class="btn btn-outline-danger mx-2" [routerLink]="['/totd', '2000-2009-Junior']" routerLinkActive="active">2000 - 2009 Junior TOTD</button>
-
+<div class="container-fluid" style="max-width: 1000px">
+  <div class="row row-cols-2 row-cols-md-4 justify-content-center d-none d-sm-flex text-center">
+    <div class="col px-0">
+      <button type="button" class="btn btn-outline-danger mx-1 mt-3" [routerLink]="['/totd', '2010-2019-Senior']" routerLinkActive="active">Senior - 2010 to 2019</button>
+    </div>
+    <div class="col px-0">
+      <button type="button" class="btn btn-outline-danger mx-1 mt-3" [routerLink]="['/totd', '2010-2019-Junior']" routerLinkActive="active">Junior - 2010 to 2019</button>
+    </div>
+    <div class="col px-0">
+      <button type="button" class="btn btn-outline-danger mx-1 mt-3" [routerLink]="['/totd', '2000-2009-Senior']" routerLinkActive="active">Senior - 2000 to 2009</button>
+    </div>
+    <div class="col px-0">
+      <button type="button" class="btn btn-outline-danger mx-1 mt-3" [routerLink]="['/totd', '2000-2009-Junior']" routerLinkActive="active">Junior - 2000 to 2009</button>
     </div>
   </div>
-  <hr class="my-3" />
-  <div class="row justify-content-center">
+  <div class="row text-center d-sm-none">
+    <div class="col">
+      <div ngbDropdown placement="bottom" class="d-inline-block">
+        <button type="button" class="btn btn-outline-danger mt-3" id="totdDropdown" ngbDropdownToggle>{{ this.totdDropdownText }}</button>
+        <div ngbDropdownMenu aria-labelledby="totdDropdown">
+          <button [routerLink]="['/totd', '2010-2019-Senior']" ngbDropdownItem>Senior - 2010 to 2019</button>
+          <button [routerLink]="['/totd', '2010-2019-Junior']" ngbDropdownItem>Junior - 2010 to 2019</button>
+          <button [routerLink]="['/totd', '2000-2009-Senior']" ngbDropdownItem>Senior - 2000 to 2009</button>
+          <button [routerLink]="['/totd', '2000-2009-Junior']" ngbDropdownItem>Junior - 2000 to 2009</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row justify-content-center mt-3">
     <div class="col-md-9 col-12 text-center">
       <img class="img-fluid mb-3" src="/assets/img/totd/{{totdImageSource}}">
     </div>

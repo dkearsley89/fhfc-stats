@@ -1,17 +1,34 @@
 <div class="container-fluid">
+  <div class="row text-center d-lg-none">
+    <div class="col col-md-6 mt-2 mt-md-3">
+      <h2 class="mb-0">{{this.yearlyAwardsTitle}}</h2>
+    </div>
+    <div class="w-100 d-md-none"></div>
+    <div class="col">
+      <div ngbDropdown placement="bottom" class="d-inline-block">
+        <button type="button" class="btn btn-outline-danger mt-3" id="yearlyAwardsYearDropdown" ngbDropdownToggle>Select Year</button>
+        <div ngbDropdownMenu aria-labelledby="yearlyAwardsYearDropdown">
+          <button *ngFor="let year of yearsToShow" [routerLink]="['/awards', year ]" ngbDropdownItem class="text-center">{{ year }}</button>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div ngbDropdown placement="bottom" class="d-inline-block">
+        <button type="button" class="btn btn-outline-danger mt-3" id="yearlyAwardsGradeDropdown" ngbDropdownToggle>Select Grade</button>
+        <div ngbDropdownMenu aria-labelledby="yearlyAwardsGradeDropdown">
+          <button *ngFor="let grade of yearlyAwardsData?.grades" ngbDropdownItem class="text-center" (click)="changeGrade(grade.name)">{{ grade.name }}</button>
+        </div>
+      </div>
+    </div>
+  </div>
   <div class="row">
-    <div class="col-md-auto d-md-block d-none mt-3 position-fixed">
+    <div class="col-lg-auto d-lg-block d-none mt-3">
       <div class="btn-group-vertical fixedWidthButtonHonour pb-5" role="group" aria-label="Yearly Awards">
         <button *ngFor="let year of yearsToShow" type="button" class="btn btn-outline-danger" [routerLink]="['/awards', year ]" routerLinkActive="active">{{ year }} Awards</button>
       </div>
     </div>
-    <div class="d-md-block d-none fixedWidthButtonHonour me-3">
-    </div>
-    <div class="col-md-auto d-md-none mt-3 text-center">
-      <button *ngFor="let year of yearsToShow" type="button" class="btn btn-outline-danger" [routerLink]="['/awards', year ]" routerLinkActive="active">{{ year }} Awards</button>
-    </div>
-    <div class="col mt-2">
-      <nav ngbNav #nav="ngbNav" [(activeId)]="active" class="nav-tabs">
+    <div class="col mt-lg-3" style="max-width: 1400px">
+      <nav ngbNav #nav="ngbNav" [(activeId)]="active" class="nav-tabs d-lg-flex d-none">
         <ng-container ngbNavItem="{{ grade.name }}" *ngFor="let grade of yearlyAwardsData?.grades">
           <a ngbNavLink>{{ grade.name }}</a>
           <ng-template ngbNavContent>
