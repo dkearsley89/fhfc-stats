@@ -10,7 +10,7 @@ import { StatsComponent } from './stats/stats.component';
 import { TeamOfTheDecadeComponent } from './totd/totd.component';
 import { Top100Component } from './top100/top100.component';
 
-const appRoutes: Routes = [
+const routes: Routes = [
   { path: '', component: HomeComponent, pathMatch: 'full' },
   { path: 'association', component: AssociationComponent },
   { path: 'awards', redirectTo: 'awards/2022', pathMatch: 'full' },
@@ -28,7 +28,7 @@ const appRoutes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(appRoutes)],
+  imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

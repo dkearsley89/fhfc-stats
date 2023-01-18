@@ -52,6 +52,7 @@ export class MilestonesComponent implements OnInit {
     milestonesToReturn.sort((a, b) => a.playerName.localeCompare(b.playerName));
     this.milestonesToDisplayCount = milestonesToReturn.length;
     this.milestonesToDisplay = milestonesToReturn;
+    this.setTitle();
   }
 
   setTitle() {
