@@ -1,1 +1,1 @@
-{"firstName":"SAM","middleName":null,"lastName":"JACOBS","agrade":1,"senior":1,"junior":0,"minYear":2023,"maxYear":2023,"seasons":1,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"2023","aGames":1},{"y":"Total","aGames":1}]}
+{"firstName":"SAM","middleName":null,"lastName":"JACOBS","agrade":5,"senior":5,"junior":0,"minYear":2023,"maxYear":2023,"seasons":1,"aGradeGoals":20,"seniorGoals":20,"juniorGoals":0,"years":[{"y":"2023","aGames":5,"aGoals":20},{"y":"Total","aGames":5,"aGoals":20}]}

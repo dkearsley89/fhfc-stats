@@ -1,1 +1,1 @@
-{"firstName":"AARON","middleName":null,"lastName":"RAMSEY","agrade":0,"senior":1,"junior":0,"minYear":2023,"maxYear":2023,"seasons":1,"aGradeGoals":0,"seniorGoals":0,"juniorGoals":0,"years":[{"y":"2023","bGames":1},{"y":"Total","bGames":1}]}
+{"firstName":"AARON","middleName":null,"lastName":"RAMSEY","agrade":1,"senior":4,"junior":0,"minYear":2023,"maxYear":2023,"seasons":1,"aGradeGoals":0,"seniorGoals":1,"juniorGoals":0,"years":[{"y":"2023","aGames":1,"bGames":3,"bGoals":1},{"y":"Total","aGames":1,"bGames":3,"bGoals":1}]}
