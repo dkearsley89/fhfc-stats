@@ -1,36 +1,36 @@
 <div class="container-fluid">
   <div class="row">
-      <div class="col mt-3">
-          <form class="row row-cols-sm-auto g-3 align-items-center justify-content-center text-center">
-            <div class="col-12">
-              <h5 class="d-inline-flex mb-0">{{ title }}</h5>
-            </div>
-              <div class="col-4">
-                  <div class="form-check form-switch me-2">
-                    <input type="checkbox" class="form-check-input" id="showClub" name="showClub" [(ngModel)]="showClub" (change)="getMilestonesToShow()">
-                    <label class="form-check-label" for="getMilestonesToShow">Club</label>
-                  </div>
-              </div>
-              <div class="col-4">
-                  <div class="form-check form-switch me-2">
-                    <input type="checkbox" class="form-check-input" id="showSenior" name="showSenior" [(ngModel)]="showSenior" (change)="getMilestonesToShow()">
-                    <label class="form-check-label" for="showSenior">Senior</label>
-                  </div>
-              </div>
-              <div class="col-4">
-                  <div class="form-check form-switch me-2">
-                    <input type="checkbox" class="form-check-input" id="showJunior" name="showJunior" [(ngModel)]="showJunior" (change)="getMilestonesToShow()">
-                    <label class="form-check-label" for="showJunior">Junior</label>
-                  </div>
-              </div>
-              <div class="col-6">
-                <div class="form-check form-switch me-2">
-                  <input type="checkbox" class="form-check-input" id="showRecent" name="showRecent" [(ngModel)]="showRecent" (change)="getMilestonesToShow()">
-                  <label class="form-check-label" for="showRecent">Show Past Milestones</label>
-                </div>
-            </div>
-          </form>
-      </div>
+    <div class="col mt-3">
+      <form class="row row-cols-sm-auto g-3 align-items-center justify-content-center text-center">
+        <div class="col-12">
+          <h5 class="d-inline-flex mb-0">{{ title }}</h5>
+        </div>
+        <div class="col-4">
+          <div class="form-check form-switch me-2">
+            <input type="checkbox" class="form-check-input" id="showClub" name="showClub" [(ngModel)]="showClub" (change)="getMilestonesToShow()">
+            <label class="form-check-label" for="getMilestonesToShow">Club</label>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="form-check form-switch me-2">
+            <input type="checkbox" class="form-check-input" id="showSenior" name="showSenior" [(ngModel)]="showSenior" (change)="getMilestonesToShow()">
+            <label class="form-check-label" for="showSenior">Senior</label>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="form-check form-switch me-2">
+            <input type="checkbox" class="form-check-input" id="showJunior" name="showJunior" [(ngModel)]="showJunior" (change)="getMilestonesToShow()">
+            <label class="form-check-label" for="showJunior">Junior</label>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="form-check form-switch me-2">
+            <input type="checkbox" class="form-check-input" id="showRecent" name="showRecent" [(ngModel)]="showRecent" (change)="getMilestonesToShow()">
+            <label class="form-check-label" for="showRecent">Show Past Milestones</label>
+          </div>
+        </div>
+      </form>
+    </div>
   </div>
   <hr class="my-2" />
   <div class="row">

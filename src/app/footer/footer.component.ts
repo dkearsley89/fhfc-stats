@@ -8,7 +8,7 @@ import { LastUpdated } from '../model/model';
   styleUrls: ['./footer.component.css']
 })
 export class FooterComponent implements OnInit {
-  lastUpdated!: LastUpdated;
+  lastUpdated: LastUpdated | null = { lastUpdated: 'Unknown' };
 
   constructor(private dataService: DataService) { }
 

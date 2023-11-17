@@ -46,7 +46,7 @@ import { Top100Component } from './top100/top100.component';
     NgbTypeaheadModule,
     NgbNavModule,
     NgbDropdownModule,
-    NgbCollapseModule,    
+    NgbCollapseModule,
     FontAwesomeModule,
     NgHttpLoaderModule.forRoot()
   ],

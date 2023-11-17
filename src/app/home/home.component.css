@@ -4,16 +4,20 @@
   background-position: center center;
   background-size: cover;
 }
+
 .jumbotron .black-shaded {
   background: rgba(0, 0, 0, 0.6);
   max-width: 1168px;
 }
+
 .jumbotron h2 {
   font-weight: 300;
 }
+
 .card-deck .card {
   min-width: 260px;
 }
+
 .fixedWidthButtonHome {
   width: 10.4rem;
 }

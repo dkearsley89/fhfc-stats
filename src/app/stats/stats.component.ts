@@ -41,7 +41,7 @@ export class StatsComponent implements OnInit {
   selectedItem(event: any, input: any) {
     event.preventDefault();
     this.loadPlayer(event.item.id);
-    this.router.navigate(['stats/player/' + event.item.id ]);
+    this.router.navigate(['stats/player/' + event.item.id]);
     input.value = '';
     input.blur();
   }

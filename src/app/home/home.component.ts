@@ -9,7 +9,6 @@ import { HomeRecords } from '../model/model';
 })
 export class HomeComponent implements OnInit {
   recordsData!: HomeRecords;
-  error: string = '';
 
   constructor(private dataService: DataService) { }
 
@@ -17,9 +16,7 @@ export class HomeComponent implements OnInit {
     this.dataService.getHomeRecords()
       .subscribe(data => {
         this.recordsData = { ...data }
-      },
-        error => this.error = error
-      );
+      });
   }
 
   updateUrl(event: any) {

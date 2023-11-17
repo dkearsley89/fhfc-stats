@@ -10,7 +10,6 @@ import { faChartColumn, IconDefinition } from '@fortawesome/free-solid-svg-icons
 export class RecordsComponent implements OnInit {
   recordsData!: Records;
   faChartColumn: IconDefinition = faChartColumn;
-  error: string = '';
 
   constructor(private dataService: DataService) { }
 
@@ -18,8 +17,6 @@ export class RecordsComponent implements OnInit {
     this.dataService.getRecordsTop5Data()
       .subscribe(data => {
         this.recordsData = { ...data }
-      },
-        error => this.error = error
-      );
+      });
   }
 }

@@ -8,8 +8,7 @@ import { Record } from '../model/model';
   templateUrl: './top100.component.html'
 })
 export class Top100Component implements OnInit {
-  recordToShow!: Record;
-  error: string = '';
+  recordToShow: Record | null = { name: 'Unknown', headers: { c1: '-', c2: '-' }, data: [] };
 
   constructor(private route: ActivatedRoute, private dataService: DataService) { }
 
@@ -17,8 +16,6 @@ export class Top100Component implements OnInit {
     this.dataService.getRecordsTop100Data(this.route.snapshot.params['name'])
       .subscribe(data => {
         this.recordToShow = { ...data }
-      },
-        error => this.error = error
-      );
+      });
   }
 }

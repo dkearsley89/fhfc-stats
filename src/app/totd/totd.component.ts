@@ -3,8 +3,7 @@ import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-totd',
-  templateUrl: './totd.component.html',
-  styleUrls: ['./totd.component.css']
+  templateUrl: './totd.component.html'
 })
 export class TeamOfTheDecadeComponent implements OnInit {
   totdImageSource: string = '';

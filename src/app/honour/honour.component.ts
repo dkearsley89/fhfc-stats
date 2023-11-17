@@ -9,10 +9,9 @@ import { faTrophy, faMedal } from '@fortawesome/free-solid-svg-icons';
   templateUrl: './honour.component.html'
 })
 export class HonourComponent implements OnInit {
-  honourBoardData!: HonourBoard;
+  honourBoardData: HonourBoard | null = { name: 'Unknown', headers: { c1: '-', c2: '-', c3: '-', c4: '-', c5: '-' }, data: [] };
   faTrophy = faTrophy;
   faMedal = faMedal;
-  error: string = '';
 
   constructor(private activatedRoute: ActivatedRoute, private dataService: DataService) { }
 
@@ -21,9 +20,7 @@ export class HonourComponent implements OnInit {
       this.dataService.getHonourBoardData(params['honourType'])
         .subscribe(data => {
           this.honourBoardData = { ...data }
-        },
-          error => this.error = error
-        );
+        });
     });
   }
 }
