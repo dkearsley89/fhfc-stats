@@ -13,7 +13,7 @@ import { Top100Component } from './top100/top100.component';
 const routes: Routes = [
   { path: '', component: HomeComponent, pathMatch: 'full' },
   { path: 'association', component: AssociationComponent },
-  { path: 'awards', redirectTo: 'awards/2022', pathMatch: 'full' },
+  { path: 'awards', redirectTo: 'awards/2023', pathMatch: 'full' },
   { path: 'awards/:awardsYear', component: AwardsComponent },
   { path: 'honour', redirectTo: 'honour/A Grade', pathMatch: 'full' },
   { path: 'honour/:honourType', component: HonourComponent },
