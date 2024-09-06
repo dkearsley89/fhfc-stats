@@ -1,11 +1,14 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-totd',
-  templateUrl: './totd.component.html'
+  standalone: true,
+  imports: [RouterModule],
+  templateUrl: './totd.component.html',
+  styleUrl: './totd.component.css'
 })
-export class TeamOfTheDecadeComponent implements OnInit {
+export class TotdComponent implements OnInit {
   totdImageSource: string = '';
   totdDropdownText: string = '';
 

@@ -1,12 +1,19 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { DataService } from '../data/data.service';
+import { DataService } from '../services/data.service';
 import { HonourBoard } from '../model/model';
+import { RouterModule } from '@angular/router';
+import { NgIf, NgFor } from '@angular/common';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { faTrophy, faMedal } from '@fortawesome/free-solid-svg-icons';
+import { LegendComponent } from '../legend/legend.component';
 
 @Component({
   selector: 'app-honour',
-  templateUrl: './honour.component.html'
+  standalone: true,
+  imports: [FontAwesomeModule, RouterModule, NgFor, NgIf, LegendComponent],
+  templateUrl: './honour.component.html',
+  styleUrl: './honour.component.css'
 })
 export class HonourComponent implements OnInit {
   honourBoardData: HonourBoard | null = { name: 'Unknown', headers: { c1: '-', c2: '-', c3: '-', c4: '-', c5: '-' }, data: [] };

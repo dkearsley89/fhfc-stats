@@ -1,12 +1,17 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { DataService } from '../data/data.service';
+import { DataService } from '../services/data.service';
 import { YearlyAwards } from '../model/model';
+import { RouterModule } from '@angular/router';
+import { NgIf, NgFor, TitleCasePipe } from '@angular/common';
+import { NgbNavModule } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-awards',
+  standalone: true,
+  imports: [RouterModule, NgIf, NgFor, TitleCasePipe, NgbNavModule],
   templateUrl: './awards.component.html',
-  styleUrls: ['./awards.component.css']
+  styleUrl: './awards.component.css'
 })
 export class AwardsComponent implements OnInit {
   yearlyAwardsData!: YearlyAwards;
@@ -30,7 +35,7 @@ export class AwardsComponent implements OnInit {
   }
 
   updateUrl(event: any) {
-    event.target.src = "/assets/img/players/NoImage.jpg";
+    event.target.src = "/img/players/NoImage.jpg";
   }
 
   changeGrade(grade: string) {

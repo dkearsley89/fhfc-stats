@@ -1,11 +1,15 @@
 import { Component, OnInit } from '@angular/core';
-import { DataService } from '../data/data.service';
+import { TitleCasePipe, NgFor } from '@angular/common';
+import { RouterModule } from '@angular/router';
+import { DataService } from '../services/data.service';
 import { HomeRecords } from '../model/model';
 
 @Component({
   selector: 'app-home',
+  standalone: true,
+  imports: [TitleCasePipe, NgFor, RouterModule],
   templateUrl: './home.component.html',
-  styleUrls: ['./home.component.css']
+  styleUrl: './home.component.css'
 })
 export class HomeComponent implements OnInit {
   recordsData!: HomeRecords;
@@ -20,6 +24,6 @@ export class HomeComponent implements OnInit {
   }
 
   updateUrl(event: any) {
-    event.target.src = "/assets/img/players/NoImage.jpg";
+    event.target.src = "/img/players/NoImage.jpg";
   }
 }

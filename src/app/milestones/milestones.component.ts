@@ -1,10 +1,16 @@
 import { Component, OnInit } from '@angular/core';
-import { DataService } from '../data/data.service';
+import { DataService } from '../services/data.service';
 import { Milestones } from '../model/model';
+import { RouterModule } from '@angular/router';
+import { NgFor, NgIf } from '@angular/common';
+import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-milestones',
-  templateUrl: './milestones.component.html'
+  standalone: true,
+  imports: [RouterModule, NgFor, NgIf, FormsModule],
+  templateUrl: './milestones.component.html',
+  styleUrl: './milestones.component.css'
 })
 export class MilestonesComponent implements OnInit {
   milestonesOriginal!: Milestones;
@@ -27,7 +33,7 @@ export class MilestonesComponent implements OnInit {
   }
 
   updateUrl(event: any) {
-    event.target.src = "/assets/img/players/NoImage.jpg";
+    event.target.src = "/img/players/NoImage.jpg";
   }
 
   getMilestonesToShow() {

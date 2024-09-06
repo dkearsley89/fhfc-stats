@@ -1,9 +1,13 @@
 import { Component } from '@angular/core';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { faTrophy, faMedal } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-legend',
-  templateUrl: './legend.component.html'
+  standalone: true,
+  imports: [FontAwesomeModule],
+  templateUrl: './legend.component.html',
+  styleUrl: './legend.component.css'
 })
 export class LegendComponent {
   faTrophy = faTrophy;

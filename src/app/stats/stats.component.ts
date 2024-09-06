@@ -1,12 +1,17 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import { DataService } from '../data/data.service';
+import { NgIf, NgClass, NgFor } from '@angular/common';
+import { DataService } from '../services/data.service';
 import { Observable } from 'rxjs';
 import { debounceTime, distinctUntilChanged, map } from 'rxjs/operators';
+import { NgbTypeaheadModule } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-stats',
-  templateUrl: './stats.component.html'
+  standalone: true,
+  imports: [NgIf, NgClass, NgFor, NgbTypeaheadModule],
+  templateUrl: './stats.component.html',
+  styleUrl: './stats.component.css'
 })
 export class StatsComponent implements OnInit {
   playersData: any;
@@ -57,7 +62,7 @@ export class StatsComponent implements OnInit {
   }
 
   updateUrl(event: any) {
-    event.target.src = "/assets/img/players/NoImage.jpg";
+    event.target.src = "/img/players/NoImage.jpg";
   }
 
   getYearsPlayedString(minYear: string, maxYear: string, seasons: number) {

@@ -1,11 +1,13 @@
 import { Component, OnInit } from '@angular/core';
-import { DataService } from '../data/data.service';
 import { LastUpdated } from '../model/model';
+import { DataService } from '../services/data.service';
 
 @Component({
   selector: 'app-footer',
+  standalone: true,
+  imports: [],
   templateUrl: './footer.component.html',
-  styleUrls: ['./footer.component.css']
+  styleUrl: './footer.component.css'
 })
 export class FooterComponent implements OnInit {
   lastUpdated: LastUpdated | null = { lastUpdated: 'Unknown' };

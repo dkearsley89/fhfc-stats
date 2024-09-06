@@ -2,43 +2,56 @@ html {
   position: relative;
   min-height: 100%;
 }
+
 body {
   padding-top: 55px;
   margin-bottom: 40px;
 }
+
 .bg-flaggy {
   background-color: #0a0a32;
 }
+
 .fixedWidthButtonHonour {
   width: 11rem;
 }
+
 .fixedWidthImage {
   width: 9rem;
 }
+
 .btnNoBorder {
   border: none;
 }
+
 .btnNoBorder:focus {
   box-shadow: none;
 }
+
 a {
   color: #212529;
 }
+
 a:link {
   text-decoration: none;
 }
+
 a:visited {
   text-decoration: none;
 }
+
 a:hover {
   text-decoration: underline;
 }
+
 a:active {
   text-decoration: underline;
 }
+
 .smallText {
   font-size: 0.8em;
 }
+
 .noUnderline:hover {
   text-decoration: none;
 }

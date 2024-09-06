@@ -1,10 +1,15 @@
 import { Component, OnInit } from '@angular/core';
-import { DataService } from '../data/data.service';
+import { DataService } from '../services/data.service';
 import { AssociationRecords } from '../model/model';
+import { RouterModule } from '@angular/router';
+import { NgFor, TitleCasePipe } from '@angular/common';
 
 @Component({
   selector: 'app-association',
-  templateUrl: './association.component.html'
+  standalone: true,
+  imports: [RouterModule, TitleCasePipe, NgFor],
+  templateUrl: './association.component.html',
+  styleUrl: './association.component.css'
 })
 export class AssociationComponent implements OnInit {
   associationRecordsData!: AssociationRecords;
@@ -19,6 +24,6 @@ export class AssociationComponent implements OnInit {
   }
 
   updateUrl(event: any) {
-    event.target.src = "/assets/img/players/NoImage.jpg";
+    event.target.src = "/img/players/NoImage.jpg";
   }
 }

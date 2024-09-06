@@ -1,11 +1,15 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
-import { DataService } from '../data/data.service';
+import { NgFor } from '@angular/common';
+import { ActivatedRoute, RouterModule } from '@angular/router';
+import { DataService } from '../services/data.service';
 import { Record } from '../model/model';
 
 @Component({
   selector: 'app-top100',
-  templateUrl: './top100.component.html'
+  standalone: true,
+  imports: [RouterModule, NgFor],
+  templateUrl: './top100.component.html',
+  styleUrl: './top100.component.css'
 })
 export class Top100Component implements OnInit {
   recordToShow: Record | null = { name: 'Unknown', headers: { c1: '-', c2: '-' }, data: [] };
