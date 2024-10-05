@@ -4,12 +4,12 @@ import { DataService } from '../services/data.service';
 import { YearlyAwards } from '../model/model';
 import { RouterModule } from '@angular/router';
 import { NgIf, NgFor, TitleCasePipe } from '@angular/common';
-import { NgbNavModule } from '@ng-bootstrap/ng-bootstrap';
+import { NgbNavModule, NgbDropdownModule } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-awards',
   standalone: true,
-  imports: [RouterModule, NgIf, NgFor, TitleCasePipe, NgbNavModule],
+  imports: [RouterModule, NgIf, NgFor, TitleCasePipe, NgbNavModule, NgbDropdownModule],
   templateUrl: './awards.component.html',
   styleUrl: './awards.component.css'
 })

@@ -7,11 +7,12 @@ import { NgIf, NgFor } from '@angular/common';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { faTrophy, faMedal } from '@fortawesome/free-solid-svg-icons';
 import { LegendComponent } from '../legend/legend.component';
+import { NgbDropdownModule } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-honour',
   standalone: true,
-  imports: [FontAwesomeModule, RouterModule, NgFor, NgIf, LegendComponent],
+  imports: [FontAwesomeModule, RouterModule, NgFor, NgIf, LegendComponent, NgbDropdownModule],
   templateUrl: './honour.component.html',
   styleUrl: './honour.component.css'
 })

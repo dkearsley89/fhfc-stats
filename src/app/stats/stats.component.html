@@ -65,9 +65,11 @@
             <th scope="col" colspan="2" *ngIf="this.playerData.years[this.playerData.years.length - 1].u16sunGames">Under 16 Sun</th>
             <th scope="col" colspan="2" *ngIf="this.playerData.years[this.playerData.years.length - 1].u15sunGames">Under 15 Sun</th>
             <th scope="col" colspan="2" *ngIf="this.playerData.years[this.playerData.years.length - 1].u14sunGames">Under 14 Sun</th>
+            <th scope="col" colspan="2" *ngIf="this.playerData.years[this.playerData.years.length - 1].u13sunGames">Under 13 Sun</th>
             <th scope="col" colspan="2" *ngIf="this.playerData.years[this.playerData.years.length - 1].u17girlsGames">Under 17 Girls</th>
             <th scope="col" colspan="2" *ngIf="this.playerData.years[this.playerData.years.length - 1].u16girlsGames">Under 16 Girls</th>
             <th scope="col" colspan="2" *ngIf="this.playerData.years[this.playerData.years.length - 1].u14girlsGames">Under 14 Girls</th>
+            <th scope="col" colspan="2" *ngIf="this.playerData.years[this.playerData.years.length - 1].ujGames">Unknown Junior</th>
             <th scope="col" colspan="2">Club Total</th>
           </tr>
           <tr>
@@ -103,12 +105,16 @@
             <th scope="col" style="min-width:65px;" *ngIf="this.playerData.years[this.playerData.years.length - 1].u15sunGames">Goals</th>
             <th scope="col" style="min-width:65px;" *ngIf="this.playerData.years[this.playerData.years.length - 1].u14sunGames">Games</th>
             <th scope="col" style="min-width:65px;" *ngIf="this.playerData.years[this.playerData.years.length - 1].u14sunGames">Goals</th>
+            <th scope="col" style="min-width:65px;" *ngIf="this.playerData.years[this.playerData.years.length - 1].u13sunGames">Games</th>
+            <th scope="col" style="min-width:65px;" *ngIf="this.playerData.years[this.playerData.years.length - 1].u13sunGames">Goals</th>
             <th scope="col" style="min-width:65px;" *ngIf="this.playerData.years[this.playerData.years.length - 1].u17girlsGames">Games</th>
             <th scope="col" style="min-width:65px;" *ngIf="this.playerData.years[this.playerData.years.length - 1].u17girlsGames">Goals</th>
             <th scope="col" style="min-width:65px;" *ngIf="this.playerData.years[this.playerData.years.length - 1].u16girlsGames">Games</th>
             <th scope="col" style="min-width:65px;" *ngIf="this.playerData.years[this.playerData.years.length - 1].u16girlsGames">Goals</th>
             <th scope="col" style="min-width:65px;" *ngIf="this.playerData.years[this.playerData.years.length - 1].u14girlsGames">Games</th>
             <th scope="col" style="min-width:65px;" *ngIf="this.playerData.years[this.playerData.years.length - 1].u14girlsGames">Goals</th>
+            <th scope="col" style="min-width:65px;" *ngIf="this.playerData.years[this.playerData.years.length - 1].ujGames">Games</th>
+            <th scope="col" style="min-width:65px;" *ngIf="this.playerData.years[this.playerData.years.length - 1].ujGames">Goals</th>
             <th scope="col" style="min-width:65px;">Games</th>
             <th scope="col" style="min-width:65px;">Goals</th>
           </tr>
@@ -148,12 +154,16 @@
             <td *ngIf="this.playerData.years[this.playerData.years.length - 1].u15sunGames">{{ year.u15sunGoals || '-' }}</td>
             <td *ngIf="this.playerData.years[this.playerData.years.length - 1].u14sunGames">{{ year.u14sunGames || '-' }}</td>
             <td *ngIf="this.playerData.years[this.playerData.years.length - 1].u14sunGames">{{ year.u14sunGoals || '-' }}</td>
+            <td *ngIf="this.playerData.years[this.playerData.years.length - 1].u13sunGames">{{ year.u13sunGames || '-' }}</td>
+            <td *ngIf="this.playerData.years[this.playerData.years.length - 1].u13sunGames">{{ year.u13sunGoals || '-' }}</td>
             <td *ngIf="this.playerData.years[this.playerData.years.length - 1].u17girlsGames">{{ year.u17girlsGames || '-' }}</td>
             <td *ngIf="this.playerData.years[this.playerData.years.length - 1].u17girlsGames">{{ year.u17girlsGoals || '-' }}</td>
             <td *ngIf="this.playerData.years[this.playerData.years.length - 1].u16girlsGames">{{ year.u16girlsGames || '-' }}</td>
             <td *ngIf="this.playerData.years[this.playerData.years.length - 1].u16girlsGames">{{ year.u16girlsGoals || '-' }}</td>
             <td *ngIf="this.playerData.years[this.playerData.years.length - 1].u14girlsGames">{{ year.u14girlsGames || '-' }}</td>
             <td *ngIf="this.playerData.years[this.playerData.years.length - 1].u14girlsGames">{{ year.u14girlsGoals || '-' }}</td>
+            <td *ngIf="this.playerData.years[this.playerData.years.length - 1].ujGames">{{ year.ujGames || '-' }}</td>
+            <td *ngIf="this.playerData.years[this.playerData.years.length - 1].ujGames">{{ year.ujGoals || '-' }}</td>
             <td class="fw-bold">{{ getTotalGames(year) || '-' }}</td>
             <td class="fw-bold">{{ getTotalGoals(year) || '-' }}</td>
           </tr>
@@ -184,9 +194,11 @@
           <h6 class="card-title" *ngIf="year.u16sunGames"><b>Under 16 Sun</b><br>Games: {{ year.u16sunGames || '-' }} | Goals: {{ year.u16sunGoals || '-' }}</h6>
           <h6 class="card-title" *ngIf="year.u15sunGames"><b>Under 15 Sun</b><br>Games: {{ year.u15sunGames || '-' }} | Goals: {{ year.u15sunGoals || '-' }}</h6>
           <h6 class="card-title" *ngIf="year.u14sunGames"><b>Under 14 Sun</b><br>Games: {{ year.u14sunGames || '-' }} | Goals: {{ year.u14sunGoals || '-' }}</h6>
+          <h6 class="card-title" *ngIf="year.u13sunGames"><b>Under 13 Sun</b><br>Games: {{ year.u13sunGames || '-' }} | Goals: {{ year.u13sunGoals || '-' }}</h6>
           <h6 class="card-title" *ngIf="year.u17girlsGames"><b>Under 17 Girls</b><br>Games: {{ year.u17girlsGames || '-' }} | Goals: {{ year.u17girlsGoals || '-' }}</h6>
           <h6 class="card-title" *ngIf="year.u16girlsGames"><b>Under 16 Girls</b><br>Games: {{ year.u16girlsGames || '-' }} | Goals: {{ year.u16girlsGoals || '-' }}</h6>
           <h6 class="card-title" *ngIf="year.u14girlsGames"><b>Under 14 Girls</b><br>Games: {{ year.u14girlsGames || '-' }} | Goals: {{ year.u14girlsGoals || '-' }}</h6>
+          <h6 class="card-title" *ngIf="year.ujGames"><b>Unknown Junior</b><br>Games: {{ year.ujGames || '-' }} | Goals: {{ year.ujGoals || '-' }}</h6>
           <h6 class="card-title"><b>Total</b><br>Games: {{ getTotalGames(year) || '-' }} | Goals: {{ getTotalGoals(year) || '-' }}</h6>
         </div>
       </div>

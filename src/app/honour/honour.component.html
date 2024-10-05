@@ -1,4 +1,27 @@
 <div class="container-fluid">
+  <div class="row text-center d-lg-none">
+    <div class="col">
+      <div ngbDropdown placement="bottom" class="d-inline-block">
+        <button type="button" class="btn btn-outline-danger mt-3" id="awardsDropdown" ngbDropdownToggle>Select Grade</button>
+        <div ngbDropdownMenu aria-labelledby="awardsDropdown">
+          <button [routerLink]="['/honour', 'A Grade']" ngbDropdownItem>A Grade</button>
+          <button [routerLink]="['/honour', 'B Grade']" ngbDropdownItem>B Grade</button>
+          <button [routerLink]="['/honour', 'C Grade']" ngbDropdownItem>C Grade</button>
+          <button [routerLink]="['/honour', 'Open Women']" ngbDropdownItem>Open Women</button>
+          <button [routerLink]="['/honour', 'Under 18 17.5 17']" ngbDropdownItem>Under 18 / 17.5 / 17</button>
+          <button [routerLink]="['/honour', 'Under 16 15']" ngbDropdownItem>Under 16 / 15</button>
+          <button [routerLink]="['/honour', 'Under 14 13']" ngbDropdownItem>Under 14 / 13</button>
+          <button [routerLink]="['/honour', 'Under 17 16 Girls']" ngbDropdownItem>Under 17 / 16 - Girls</button>
+          <button [routerLink]="['/honour', 'Under 14 Girls']" ngbDropdownItem>Under 14 - Girls</button>
+          <button [routerLink]="['/honour', 'Under 16.5 Sunday']" ngbDropdownItem>Under 16.5 - Sunday</button>
+          <button [routerLink]="['/honour', 'Under 16 Sunday']" ngbDropdownItem>Under 16 - Sunday</button>
+          <button [routerLink]="['/honour', 'Under 15 Sunday']" ngbDropdownItem>Under 15 - Sunday</button>
+          <button [routerLink]="['/honour', 'Under 14 Sunday']" ngbDropdownItem>Under 14 - Sunday</button>
+          <button [routerLink]="['/honour', 'Under 13 Sunday']" ngbDropdownItem>Under 13 - Sunday</button>
+        </div>
+      </div>
+    </div>
+  </div>
   <div class="row">
     <div class="col-lg-auto d-lg-block d-none mt-3 position-fixed">
       <div class="btn-group-vertical fixedWidthButtonHonour pb-5" role="group" aria-label="Honour Boards">
@@ -15,24 +38,10 @@
         <button type="button" class="btn btn-outline-danger" [routerLink]="['/honour', 'Under 16 Sunday']" routerLinkActive="active">Under 16 - Sunday</button>
         <button type="button" class="btn btn-outline-danger" [routerLink]="['/honour', 'Under 15 Sunday']" routerLinkActive="active">Under 15 - Sunday</button>
         <button type="button" class="btn btn-outline-danger" [routerLink]="['/honour', 'Under 14 Sunday']" routerLinkActive="active">Under 14 - Sunday</button>
+        <button type="button" class="btn btn-outline-danger" [routerLink]="['/honour', 'Under 13 Sunday']" routerLinkActive="active">Under 13 - Sunday</button>
       </div>
     </div>
     <div class="d-lg-block d-none fixedWidthButtonHonour me-3">
-    </div>
-    <div class="col-lg-auto d-lg-none mt-3 text-center">
-      <button type="button" class="btn btn-outline-danger" [routerLink]="['/honour', 'A Grade']" routerLinkActive="active">A Grade</button>
-      <button type="button" class="btn btn-outline-danger" [routerLink]="['/honour', 'B Grade']" routerLinkActive="active">B Grade</button>
-      <button type="button" class="btn btn-outline-danger" [routerLink]="['/honour', 'C Grade']" routerLinkActive="active">C Grade</button>
-      <button type="button" class="btn btn-outline-danger" [routerLink]="['/honour', 'Open Women']" routerLinkActive="active">Open Women</button>
-      <button type="button" class="btn btn-outline-danger" [routerLink]="['/honour', 'Under 18 17.5 17']" routerLinkActive="active">Under 18 / 17.5 / 17</button>
-      <button type="button" class="btn btn-outline-danger" [routerLink]="['/honour', 'Under 16 15']" routerLinkActive="active">Under 16 / 15</button>
-      <button type="button" class="btn btn-outline-danger" [routerLink]="['/honour', 'Under 14 13']" routerLinkActive="active">Under 14 / 13</button>
-      <button type="button" class="btn btn-outline-danger" [routerLink]="['/honour', 'Under 17 16 Girls']" routerLinkActive="active">Under 17 / 16 - Girls</button>
-      <button type="button" class="btn btn-outline-danger" [routerLink]="['/honour', 'Under 14 Girls']" routerLinkActive="active">Under 14 - Girls</button>
-      <button type="button" class="btn btn-outline-danger" [routerLink]="['/honour', 'Under 16.5 Sunday']" routerLinkActive="active">Under 16.5 - Sunday</button>
-      <button type="button" class="btn btn-outline-danger" [routerLink]="['/honour', 'Under 16 Sunday']" routerLinkActive="active">Under 16 - Sunday</button>
-      <button type="button" class="btn btn-outline-danger" [routerLink]="['/honour', 'Under 15 Sunday']" routerLinkActive="active">Under 15 - Sunday</button>
-      <button type="button" class="btn btn-outline-danger" [routerLink]="['/honour', 'Under 14 Sunday']" routerLinkActive="active">Under 14 - Sunday</button>
     </div>
     <div class="col mt-2">
       <h4 class="text-center mb-2">{{ honourBoardData?.name }}</h4>

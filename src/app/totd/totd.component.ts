@@ -1,10 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, RouterModule } from '@angular/router';
+import { NgbDropdownModule } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-totd',
   standalone: true,
-  imports: [RouterModule],
+  imports: [RouterModule, NgbDropdownModule],
   templateUrl: './totd.component.html',
   styleUrl: './totd.component.css'
 })
