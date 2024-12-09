@@ -7,7 +7,8 @@
       </button>
       <div ngbDropdownMenu>
         <button class="dropdown-item" routerLink="/records">Records</button>
-        <button class="dropdown-item" [routerLink]="['/stats', 'player']">Player Stats</button>
+        <button class="dropdown-item" routerLink="/stats/player">Player Stats</button>
+        <button class="dropdown-item" routerLink="/stats/coach">Coach Stats</button>
         <button class="dropdown-item" routerLink="/honour">Honour Boards</button>
         <button class="dropdown-item" routerLink="/milestones">Milestones</button>
         <button class="dropdown-item" routerLink="/association">Association B&amp;F</button>
@@ -21,7 +22,10 @@
           <a class="nav-link noUnderline" routerLink="/records" routerLinkActive="active">Records</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link noUnderline" [routerLink]="['/stats', 'player']" routerLinkActive="active">Player Stats</a>
+          <a class="nav-link noUnderline" routerLink="/stats/player" routerLinkActive="active">Player Stats</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link noUnderline" routerLink="/stats/coach" routerLinkActive="active">Coach Stats</a>
         </li>
         <li class="nav-item">
           <a class="nav-link noUnderline" routerLink="/honour" routerLinkActive="active">Honour Boards</a>
@@ -29,7 +33,7 @@
         <li class="nav-item">
           <a class="nav-link noUnderline" routerLink="/milestones" routerLinkActive="active">Milestones</a>
         </li>
-        <div class="d-none d-lg-flex">
+        <div class="d-none d-xl-flex">
           <li class="nav-item">
             <a class="nav-link noUnderline" routerLink="/association" routerLinkActive="active">Association B&amp;F</a>
           </li>
@@ -40,7 +44,7 @@
             <a class="nav-link noUnderline" routerLink="/totd" routerLinkActive="active">Team of the Decade</a>
           </li>
         </div>
-        <div ngbDropdown class="d-inline-block d-lg-none">
+        <div ngbDropdown class="d-inline-block d-xl-none">
           <li class="nav-item">
             <a class="nav-link noUnderline" role="button" ngbDropdownToggle [ngClass]="{'active': associationActive.isActive || yearlyActive.isActive || totdActive.isActive}">More...</a>
           </li>

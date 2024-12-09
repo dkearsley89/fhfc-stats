@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
-import { HomeRecords, LastUpdated, AssociationRecords, YearlyAwards, HonourBoard, Milestones, Record, Records } from '../model/model';
+import { HomeRecords, LastUpdated, AssociationRecords, YearlyAwards, HonourBoard, Milestones, Record, Records, Players, Coaches } from '../model/model';
 
 @Injectable({
   providedIn: 'root'
@@ -29,8 +29,16 @@ export class DataService {
     return this.http.get<any>('/json/' + id + '.json?noCache=' + Math.random());
   }
 
-  getPlayersData(): Observable<any> {
+  getCoachData(id: string): Observable<any> {
+    return this.http.get<any>('/json/' + id + '-coach.json?noCache=' + Math.random());
+  }
+
+  getPlayersData(): Observable<Players> {
     return this.http.get<any>('/json/players.json?noCache=' + Math.random());
+  }
+
+  getCoachesData(): Observable<Coaches> {
+    return this.http.get<any>('/json/coaches.json?noCache=' + Math.random());
   }
 
   getRecordsTop5Data(): Observable<Records> {

@@ -33,7 +33,7 @@ export class MilestonesComponent implements OnInit {
   }
 
   updateUrl(event: any) {
-    event.target.src = "/img/players/NoImage.jpg";
+    event.target.src = "/img/NoImage.jpg";
   }
 
   getMilestonesToShow() {

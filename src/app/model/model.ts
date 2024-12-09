@@ -43,6 +43,13 @@ export interface Player {
   name: string;
   id: number;
 }
+export interface Coaches {
+  coaches: Coach[];
+}
+export interface Coach {
+  name: string;
+  id: number;
+}
 export interface Records {
   records: Record[];
 }

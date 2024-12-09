@@ -1,36 +1,45 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { NgIf, NgClass, NgFor } from '@angular/common';
-import { DataService } from '../services/data.service';
+import { DataService } from '../../services/data.service';
 import { Observable } from 'rxjs';
 import { debounceTime, distinctUntilChanged, map } from 'rxjs/operators';
 import { NgbTypeaheadModule } from '@ng-bootstrap/ng-bootstrap';
+import { Coaches } from '../../model/model';
 
 @Component({
-  selector: 'app-stats',
+  selector: 'app-coach-stats',
   standalone: true,
   imports: [NgIf, NgClass, NgFor, NgbTypeaheadModule],
-  templateUrl: './stats.component.html',
-  styleUrl: './stats.component.css'
+  templateUrl: './coach-stats.component.html',
+  styleUrl: './coach-stats.component.css'
 })
-export class StatsComponent implements OnInit {
-  playersData: any;
-  playerData: any;
-  selectedPlayerId: string = '';
+export class CoachStatsComponent implements OnInit {
+  listOfCoaches: Coaches = { coaches: [] }
+  coachData: any;
+  selectedCoachId: string = '';
   error: string = '';
 
   constructor(private route: ActivatedRoute, private router: Router, private dataService: DataService) { }
 
   ngOnInit() {
-    this.dataService.getPlayersData()
-      .subscribe(data => {
-        this.playersData = { ...data }
-        if (this.route.snapshot.params['id']) {
-          this.loadPlayer(this.route.snapshot.params['id']);
-        }
+    this.dataService.getCoachesData().subscribe({
+      next: (data: Coaches) => {
+        this.listOfCoaches = { ...data };
       },
-        error => this.error = error
-      );
+      error: (error: any) => {
+        this.error = error;
+      }
+    });
+
+    this.route.paramMap.subscribe((params) => {
+      if (params.get('id') && params.get('id') !== '0') {
+        this.selectedCoachId = params.get('id') ?? '';
+        this.loadCoach(this.selectedCoachId);
+      } else {
+        this.coachData = null;
+      }
+    });
   }
 
   search = (text$: Observable<string>) =>
@@ -38,34 +47,34 @@ export class StatsComponent implements OnInit {
       debounceTime(100),
       distinctUntilChanged(),
       map(term => term.length < 2 ? []
-        : this.playersData.players.filter((v: { name: string; }) => v.name.toLowerCase().indexOf(term.toLowerCase()) > -1).slice(0, 12))
+        : this.listOfCoaches.coaches.filter((v: { name: string; }) => v.name.toLowerCase().indexOf(term.toLowerCase()) > -1).slice(0, 12))
     )
 
   formatMatches = (value: any) => value.name || '';
 
   selectedItem(event: any, input: any) {
     event.preventDefault();
-    this.loadPlayer(event.item.id);
-    this.router.navigate(['stats/player/' + event.item.id]);
+    this.router.navigate(['stats/coach/' + event.item.id]);
     input.value = '';
     input.blur();
   }
 
-  loadPlayer(idToLoad: string) {
-    this.selectedPlayerId = idToLoad;
-    this.dataService.getPlayerData(this.selectedPlayerId)
-      .subscribe(data => {
-        this.playerData = { ...data }
+  loadCoach(idToLoad: string) {
+    this.dataService.getCoachData(idToLoad).subscribe({
+      next: (data) => {
+        this.coachData = { ...data }
       },
-        error => this.error = error
-      );
+      error: (error: any) => {
+        this.error = error;
+      }
+    });
   }
 
   updateUrl(event: any) {
-    event.target.src = "/img/players/NoImage.jpg";
+    event.target.src = "/img/NoImage.jpg";
   }
 
-  getYearsPlayedString(minYear: string, maxYear: string, seasons: number) {
+  getYearsCoachedString(minYear: string, maxYear: string, seasons: number) {
     if (seasons == 1) {
       return minYear + " (" + seasons + " Season)";
     }
@@ -87,15 +96,5 @@ export class StatsComponent implements OnInit {
       }
     }
     return totalGames;
-  }
-
-  getTotalGoals(year: any) {
-    var totalGoals = 0;
-    for (var propertyName in year) {
-      if (propertyName.includes('Goals')) {
-        totalGoals += year[propertyName];
-      }
-    }
-    return totalGoals;
   }
 }
