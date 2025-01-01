@@ -8,7 +8,6 @@ import { NgbNavModule, NgbDropdownModule } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-awards',
-  standalone: true,
   imports: [RouterModule, NgFor, TitleCasePipe, NgbNavModule, NgbDropdownModule],
   templateUrl: './awards.component.html',
   styleUrl: './awards.component.css'

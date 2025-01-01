@@ -6,7 +6,6 @@ import { Record } from '../model/model';
 
 @Component({
   selector: 'app-top100',
-  standalone: true,
   imports: [RouterModule, NgFor],
   templateUrl: './top100.component.html',
   styleUrl: './top100.component.css'

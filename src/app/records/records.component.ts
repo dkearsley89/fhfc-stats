@@ -8,7 +8,6 @@ import { faChartColumn } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-records',
-  standalone: true,
   imports: [NgFor, RouterModule, FontAwesomeModule],
   templateUrl: './records.component.html',
   styleUrl: './records.component.css'

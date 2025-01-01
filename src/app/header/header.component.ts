@@ -5,7 +5,6 @@ import { NgbNavModule, NgbDropdownModule } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-header',
-  standalone: true,
   imports: [NgClass, RouterModule, NgbNavModule, NgbDropdownModule],
   templateUrl: './header.component.html',
   styleUrl: './header.component.css'

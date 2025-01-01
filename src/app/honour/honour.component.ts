@@ -11,7 +11,6 @@ import { NgbDropdownModule } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-honour',
-  standalone: true,
   imports: [FontAwesomeModule, RouterModule, NgFor, NgIf, LegendComponent, NgbDropdownModule],
   templateUrl: './honour.component.html',
   styleUrl: './honour.component.css'

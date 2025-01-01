@@ -7,7 +7,6 @@ import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-milestones',
-  standalone: true,
   imports: [RouterModule, NgFor, NgIf, FormsModule],
   templateUrl: './milestones.component.html',
   styleUrl: './milestones.component.css'

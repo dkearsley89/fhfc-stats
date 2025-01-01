@@ -4,7 +4,6 @@ import { NgbDropdownModule } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-totd',
-  standalone: true,
   imports: [RouterModule, NgbDropdownModule],
   templateUrl: './totd.component.html',
   styleUrl: './totd.component.css'

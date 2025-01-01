@@ -9,7 +9,6 @@ import { Coaches } from '../../model/model';
 
 @Component({
   selector: 'app-coach-stats',
-  standalone: true,
   imports: [NgIf, NgClass, NgFor, NgbTypeaheadModule],
   templateUrl: './coach-stats.component.html',
   styleUrl: './coach-stats.component.css'

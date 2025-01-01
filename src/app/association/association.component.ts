@@ -6,7 +6,6 @@ import { NgFor, TitleCasePipe } from '@angular/common';
 
 @Component({
   selector: 'app-association',
-  standalone: true,
   imports: [RouterModule, TitleCasePipe, NgFor],
   templateUrl: './association.component.html',
   styleUrl: './association.component.css'

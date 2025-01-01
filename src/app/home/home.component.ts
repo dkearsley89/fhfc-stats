@@ -6,7 +6,6 @@ import { HomeRecords } from '../model/model';
 
 @Component({
   selector: 'app-home',
-  standalone: true,
   imports: [TitleCasePipe, NgFor, RouterModule],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'

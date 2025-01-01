@@ -9,7 +9,6 @@ import { Players } from '../../model/model';
 
 @Component({
   selector: 'app-player-stats',
-  standalone: true,
   imports: [NgIf, NgClass, NgFor, NgbTypeaheadModule],
   templateUrl: './player-stats.component.html',
   styleUrl: './player-stats.component.css'
