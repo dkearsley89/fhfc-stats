@@ -45,7 +45,7 @@ export class DataService {
     return this.http.get<Records>('/json/records.json?noCache=' + Math.random());
   }
 
-  getRecordsTop100Data(recordName: string): Observable<Record> {
+  getRecordsListData(recordName: string): Observable<Record> {
     return this.http.get<Record>('/json/' + recordName + '.json?noCache=' + Math.random());
   }
 

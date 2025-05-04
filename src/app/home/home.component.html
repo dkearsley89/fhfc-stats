@@ -11,8 +11,8 @@
             <h5 class="text-truncate">{{ record.name }}</h5>
           </div>
           <div class="card-body">
-            <img class="fixedWidthImage rounded mx-auto mb-2" src="/img/players/{{ record.data[0].Id }}.jpg" alt="{{ record.data[0].n | titlecase }}" (error)="updateUrl($event)">
-            <a [routerLink]="['/stats', 'player', record.data[0].Id]">
+            <img class="fixedWidthImage rounded mx-auto mb-2" src="/img/players/{{ record.data[0].id }}.jpg" alt="{{ record.data[0].n | titlecase }}" (error)="updateUrl($event)">
+            <a [routerLink]="['/stats', 'player', record.data[0].id]">
               <h3 class="card-title text-truncate">{{ record.data[0].n | titlecase }}</h3>
             </a>
             <h3>

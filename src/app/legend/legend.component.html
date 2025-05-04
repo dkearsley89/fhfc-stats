@@ -1,10 +1,35 @@
-<div class="pb-2 text-center">
-  <span class="text-danger">
-    <fa-icon [icon]="faTrophy"></fa-icon>
+<div class="pb-1 pt-1 text-center" style="font-size: 0.9rem;">
+  <span *ngIf="showPremiers" class="px-2">
+    <span class="text-danger">
+      <fa-icon [icon]="faTrophy"></fa-icon>
+    </span>
+    = Premiers
   </span>
-  = Premiers
-  <span class="text-danger ps-4">
-    <fa-icon [icon]="faMedal"></fa-icon>
+  <span *ngIf="showAssociation" class="px-2">
+    <span class="text-danger">
+      <fa-icon [icon]="faMedal"></fa-icon>
+    </span>
+    = Association B&amp;F
   </span>
-  = Association B&amp;F
+  <span *ngIf="showCurrentPlayer" class="px-2">
+    <span class="text-danger">
+      <fa-icon [icon]="faCircleDot"></fa-icon>
+    </span>
+    = Current Player
+  </span>
+  <span *ngIf="showLifeMember" class="px-2">
+    <span class="text-danger">
+      <fa-icon [icon]="faStar"></fa-icon>
+    </span>
+    = Life Member
+  </span>
+  <span *ngIf="showInfo" class="px-2">
+    <span class="text-danger">
+      <fa-icon [icon]="faCircleInfo"></fa-icon>
+    </span>
+    = Record Info
+  </span>
+  <span *ngIf="showBottomHr">
+    <hr class="my-1 mx-4" />
+  </span>
 </div>

@@ -1,0 +1,29 @@
+<div class="container-fluid">
+  <app-legend [showCurrentPlayer]="true" [showLifeMember]="true" [showInfo]="true" [showBottomHr]="true"></app-legend>
+  <div class="row px-2" *ngIf="loadedData">
+    <div class="col mb-2 mx-auto" style="max-width: 750px;">
+      <div class="card border-0">
+        <div class="card-body p-1">
+          <h4 class="card-title text-center">{{ recordToShow?.name }} <fa-icon *ngIf="recordToShow?.info" [icon]="faCircleInfo" class="text-danger ps-1" style="font-size: 16px;" ngbTooltip={{recordToShow?.info}}></fa-icon></h4>
+          <table class="table table-sm table-striped">
+            <thead>
+              <tr>
+                <th scope="col" class="text-center" style="width: 50px;">#</th>
+                <th scope="col">{{ recordToShow?.headers?.c1 }}</th>
+                <th scope="col" class="text-center" style="width: 100px;">{{ recordToShow?.headers?.c2 }}</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let data of paginatedData(); let i = index">
+                <th scope="row" class="text-center">{{ (i + 1) + ((this.page - 1) * this.pageSize) }}</th>
+                <td><a [routerLink]="['/stats', 'player', data.id]">{{ data.n }}</a><fa-icon *ngIf="data.c" [icon]="faCircleDot" size="xs" class="text-danger ps-1"></fa-icon><fa-icon *ngIf="data.lm" [icon]="faStar" size="xs" class="text-danger ps-1"></fa-icon></td>
+                <td class="text-center">{{ data.a }}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <ngb-pagination class="d-flex justify-content-center" [collectionSize]="recordCount" [(page)]="page" [pageSize]="pageSize" [maxSize]="5" [rotate]="true" [ellipses]="false" [boundaryLinks]="true" />
+    </div>
+  </div>
+</div>

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import { NgIf, NgClass, NgFor } from '@angular/common';
+import { NgIf } from '@angular/common';
 import { DataService } from '../../services/data.service';
 import { Observable } from 'rxjs';
 import { debounceTime, distinctUntilChanged, map } from 'rxjs/operators';
@@ -9,7 +9,8 @@ import { Coaches } from '../../model/model';
 
 @Component({
   selector: 'app-coach-stats',
-  imports: [NgIf, NgClass, NgFor, NgbTypeaheadModule],
+  imports: [NgIf, NgbTypeaheadModule],
+  //imports: [NgIf, NgClass, NgFor, NgbTypeaheadModule],
   templateUrl: './coach-stats.component.html',
   styleUrl: './coach-stats.component.css'
 })

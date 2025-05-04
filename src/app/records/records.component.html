@@ -1,9 +1,10 @@
 <div class="container-fluid">
-  <div class="row mx-xs-2">
-    <div class="col-lg-4 mb-1" *ngFor="let record of recordsData?.records">
+  <app-legend [showCurrentPlayer]="true" [showLifeMember]="true" [showInfo]="true" [showBottomHr]="true"></app-legend>
+  <div class="row px-2">
+    <div class="col-sm-12 col-md-6 col-xl-4 col-xxl-3 mb-2" *ngFor="let record of recordsData?.records">
       <div class="card border-0">
-        <div class="card-body">
-          <h4 class="card-title text-center text-truncate">{{ record.name }}</h4>
+        <div class="card-body p-1">
+          <h4 class="card-title text-center text-truncate">{{ record.name }} <fa-icon *ngIf="record.info" [icon]="faCircleInfo" class="text-danger ps-1" style="font-size: 16px;" ngbTooltip={{record.info}}></fa-icon></h4>
           <table class="table table-sm table-striped">
             <thead>
               <tr>
@@ -15,19 +16,19 @@
             <tbody>
               <tr *ngFor="let data of record.data; let i = index">
                 <th scope="row" class="text-center">{{ i + 1 }}</th>
-                <td><a [routerLink]="['/stats', 'player', data.Id]">{{ data.n }}</a></td>
+                <td><a [routerLink]="['/stats', 'player', data.id]">{{ data.n }}</a><fa-icon *ngIf="data.c" [icon]="faCircleDot" size="xs" class="text-danger ps-1"></fa-icon><fa-icon *ngIf="data.lm" [icon]="faStar" size="xs" class="text-danger ps-1"></fa-icon></td>
                 <td class="text-center">{{ data.a }}</td>
               </tr>
             </tbody>
           </table>
           <div class="text-center">
-            <button type="button" class="btn btn-outline-danger" [routerLink]="['/records/top100', record.name]">
-              <fa-icon [icon]="faChartColumn"></fa-icon> View Top 100
+            <button type="button" class="btn btn-outline-danger" [routerLink]="['/records/list', record.name]">
+              <fa-icon [icon]="faChartColumn"></fa-icon> View Full List
             </button>
           </div>
         </div>
       </div>
-      <div class="d-block d-lg-none mx-4">
+      <div class="d-block d-md-none mx-4">
         <hr>
       </div>
     </div>

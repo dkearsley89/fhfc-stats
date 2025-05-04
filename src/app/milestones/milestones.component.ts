@@ -43,12 +43,12 @@ export class MilestonesComponent implements OnInit {
           milestoneGroup.grade == 'C Grade' || milestoneGroup.grade == 'Open Women') && this.showSenior) || (milestoneGroup.grade == 'Junior' && this.showJunior)) {
           if (milestoneGroup.upcoming && !this.showRecent) {
             for (var milestone of milestoneGroup.upcoming) {
-              milestonesToReturn.push({ playerId: milestone.Id, playerName: milestone.n, name: milestoneGroup.name, grade: milestoneGroup.grade, type: milestoneGroup.type, amount: milestone.a })
+              milestonesToReturn.push({ playerId: milestone.id, playerName: milestone.n, name: milestoneGroup.name, grade: milestoneGroup.grade, type: milestoneGroup.type, amount: milestone.a })
             }
           }
           if (milestoneGroup.recent && this.showRecent) {
             for (var milestone of milestoneGroup.recent) {
-              milestonesToReturn.push({ playerId: milestone.Id, playerName: milestone.n, name: milestoneGroup.name, grade: milestoneGroup.grade, type: milestoneGroup.type, amount: milestone.a })
+              milestonesToReturn.push({ playerId: milestone.id, playerName: milestone.n, name: milestoneGroup.name, grade: milestoneGroup.grade, type: milestoneGroup.type, amount: milestone.a })
             }
           }
         }

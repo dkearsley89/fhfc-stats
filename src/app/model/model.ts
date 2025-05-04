@@ -7,9 +7,11 @@ export interface HomeRecord {
   data: RecordData[];
 }
 export interface RecordData {
-  Id: string;
+  id: string;
   n: string;
   a: number;
+  c: boolean;
+  lm: boolean;
 }
 export interface LastUpdated {
   lastUpdated: string;
@@ -55,6 +57,7 @@ export interface Records {
 }
 export interface Record {
   name: string;
+  info: string;
   headers: RecordHeaders;
   data: RecordData[];
 }
@@ -94,7 +97,7 @@ export interface Milestone {
   recent: MilestoneData[];
 }
 export interface MilestoneData {
-  Id: string;
+  id: string;
   n: string;
   a: number;
 }

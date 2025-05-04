@@ -1,7 +1,7 @@
 import { Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { RecordsComponent } from './records/records.component';
-import { Top100Component } from './top100/top100.component';
+import { ListComponent } from './list/list.component';
 import { TotdComponent } from './totd/totd.component';
 import { PlayerStatsComponent } from './stats/player/player-stats.component';
 import { CoachStatsComponent } from './stats/coach/coach-stats.component';
@@ -19,7 +19,7 @@ export const routes: Routes = [
     { path: 'honour/:honourType', component: HonourComponent },
     { path: 'milestones', component: MilestonesComponent },
     { path: 'records', component: RecordsComponent },
-    { path: 'records/top100/:name', component: Top100Component },
+    { path: 'records/list/:name', component: ListComponent },
     { path: 'stats/player', redirectTo: 'stats/player/0', pathMatch: 'full' },
     { path: 'stats/player/:id', component: PlayerStatsComponent },
     { path: 'stats/coach', redirectTo: 'stats/coach/0', pathMatch: 'full' },
