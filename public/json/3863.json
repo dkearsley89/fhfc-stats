@@ -1,1 +1,1 @@
-{"firstName":"ANTHONY","middleName":"","lastName":"ADAM","agrade":5,"senior":5,"junior":0,"minYear":2025,"maxYear":2025,"seasons":1,"aGradeGoals":7,"seniorGoals":7,"juniorGoals":0,"years":[{"y":"2025","aGames":5,"aGoals":7},{"y":"Total","aGames":5,"aGoals":7}]}
+{"firstName":"ANTHONY","middleName":"","lastName":"ADAM","agrade":5,"senior":7,"junior":0,"minYear":2025,"maxYear":2025,"seasons":1,"aGradeGoals":7,"seniorGoals":9,"juniorGoals":0,"years":[{"y":"2025","aGames":5,"aGoals":7,"bGames":2,"bGoals":2},{"y":"Total","aGames":5,"aGoals":7,"bGames":2,"bGoals":2}]}
