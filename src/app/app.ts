@@ -7,7 +7,7 @@ import { HeaderComponent } from './header/header.component';
 @Component({
   selector: 'app-root',
   imports: [RouterOutlet, NgHttpLoaderComponent, FooterComponent, HeaderComponent],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  templateUrl: './app.html',
+  styleUrl: './app.css'
 })
-export class AppComponent { }
+export class App { }
