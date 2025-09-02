@@ -23,7 +23,9 @@
           </table>
         </div>
       </div>
+      @if (recordCount > pageSize) {
       <ngb-pagination class="d-flex justify-content-center" [collectionSize]="recordCount" [(page)]="page" [pageSize]="pageSize" [maxSize]="5" [rotate]="true" [ellipses]="false" [boundaryLinks]="true" />
+      }
     </div>
   </div>
 </div>
