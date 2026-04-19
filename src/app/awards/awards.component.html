@@ -1,14 +1,17 @@
+@if (yearlyAwardsData(); as data) {
 <div class="container-fluid">
   <div class="row text-center d-lg-none">
     <div class="col col-md-6 mt-2 mt-md-3">
-      <h2 class="mb-0">{{this.yearlyAwardsTitle}}</h2>
+      <h2 class="mb-0">{{ yearlyAwardsTitle() }}</h2>
     </div>
     <div class="w-100 d-md-none"></div>
     <div class="col">
       <div ngbDropdown placement="bottom" class="d-inline-block">
         <button type="button" class="btn btn-outline-danger mt-3" id="yearlyAwardsYearDropdown" ngbDropdownToggle>Select Year</button>
         <div ngbDropdownMenu aria-labelledby="yearlyAwardsYearDropdown">
-          <button *ngFor="let year of yearsToShow" [routerLink]="['/awards', year ]" ngbDropdownItem class="text-center">{{ year }}</button>
+          @for(year of yearsToShow; track year) {
+          <button ngbDropdownItem class="text-center" [routerLink]="['/awards', year ]">{{ year }}</button>
+          }
         </div>
       </div>
     </div>
@@ -16,7 +19,9 @@
       <div ngbDropdown placement="bottom" class="d-inline-block">
         <button type="button" class="btn btn-outline-danger mt-3" id="yearlyAwardsGradeDropdown" ngbDropdownToggle>Select Grade</button>
         <div ngbDropdownMenu aria-labelledby="yearlyAwardsGradeDropdown">
-          <button *ngFor="let grade of yearlyAwardsData?.grades" ngbDropdownItem class="text-center" (click)="changeGrade(grade.name)">{{ grade.name }}</button>
+          @for(grade of data.grades; track grade.name) {
+          <button ngbDropdownItem class="text-center" (click)="changeGrade(grade.name)">{{ grade.name }}</button>
+          }
         </div>
       </div>
     </div>
@@ -24,20 +29,24 @@
   <div class="row">
     <div class="col-lg-auto d-lg-block d-none mt-3">
       <div class="btn-group-vertical fixedWidthButtonHonour pb-5" role="group" aria-label="Yearly Awards">
-        <button *ngFor="let year of yearsToShow" type="button" class="btn btn-outline-danger" [routerLink]="['/awards', year ]" routerLinkActive="active">{{ year }} Awards</button>
+        @for(year of yearsToShow; track year) {
+        <button type="button" class="btn btn-outline-danger" [routerLink]="['/awards', year ]" routerLinkActive="active">{{ year }} Awards</button>
+        }
       </div>
     </div>
     <div class="col mt-lg-3" style="max-width: 1400px">
-      <nav ngbNav #nav="ngbNav" [(activeId)]="active" class="nav-tabs d-lg-flex d-none">
-        <ng-container ngbNavItem="{{ grade.name }}" *ngFor="let grade of yearlyAwardsData?.grades">
+      <nav ngbNav #nav="ngbNav" [activeId]="active()" (activeIdChange)="active.set($event)" class="nav-tabs d-lg-flex d-none">
+        @for(grade of data.grades; track grade.name) {
+        <ng-container [ngbNavItem]="grade.name">
           <a ngbNavLink>{{ grade.name }}</a>
           <ng-template ngbNavContent>
             <div class="row">
-              <div class="col-xl-6 mt-3" *ngFor="let award of grade.awards">
+              @for(award of grade.awards; track award.name + award.player) {
+              <div class="col-xl-6 mt-3">
                 <div class="card mb-3 mx-auto text-center" style="max-width:550px;">
                   <div class="row no-gutters">
                     <div class="col-3 text-start">
-                      <img class="card-img " src="/img/players/{{ award.id }}.jpg" alt="{{ award.player | titlecase }}" (error)="updateUrl($event)">
+                      <img class="card-img " [src]="'/img/players/' + award.id + '.jpg'" [alt]="award.player | titlecase" (error)="updateUrl($event)">
                     </div>
                     <div class="col-9">
                       <div class="card-body">
@@ -50,11 +59,18 @@
                   </div>
                 </div>
               </div>
+              } @empty {
+              <p>There are no items to show.</p>
+              }
             </div>
           </ng-template>
         </ng-container>
+        }
       </nav>
       <div [ngbNavOutlet]="nav" class="mt-2"></div>
     </div>
   </div>
 </div>
+} @else {
+<p class="text-center mt-5">Loading…</p>
+}

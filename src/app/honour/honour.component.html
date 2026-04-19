@@ -44,40 +44,41 @@
     <div class="d-lg-block d-none fixedWidthButtonHonour me-3">
     </div>
     <div class="col mt-2">
-      <h4 class="text-center mb-2">{{ honourBoardData?.name }}</h4>
+      @if (honourBoardData(); as honourBoardData) {
+      <h4 class="text-center mb-2">{{ honourBoardData.name }}</h4>
       <div class="table-responsive">
         <table class="table table-sm table-striped mb-0" style="white-space:nowrap;">
           <thead>
             <tr>
-              <th scope="col" class="col-xs-auto pe-5">{{ honourBoardData?.headers?.c1 }}</th>
-              <th scope="col" class="w-25">{{ honourBoardData?.headers?.c2 }}</th>
-              <th scope="col" class="w-25">{{ honourBoardData?.headers?.c3 }}</th>
-              <th scope="col" class="w-25">{{ honourBoardData?.headers?.c4 }}</th>
-              <th scope="col" class="w-25">{{ honourBoardData?.headers?.c5 }}</th>
+              <th scope="col" class="col-xs-auto pe-5">{{ honourBoardData.headers.c1 }}</th>
+              <th scope="col" class="w-25">{{ honourBoardData.headers.c2 }}</th>
+              <th scope="col" class="w-25">{{ honourBoardData.headers.c3 }}</th>
+              <th scope="col" class="w-25">{{ honourBoardData.headers.c4 }}</th>
+              <th scope="col" class="w-25">{{ honourBoardData.headers.c5 }}</th>
             </tr>
           </thead>
           <tbody>
-            <tr *ngFor="let honourBoardRow of honourBoardData?.data">
-              <th scope="row">{{ honourBoardRow.year }}<span class="text-danger ps-2" *ngIf="honourBoardRow.premiers">
-                  <fa-icon [icon]="faTrophy"></fa-icon>
-                </span></th>
-              <td>{{ honourBoardRow.coach.replace('*', '') }}<span class="text-danger ps-2" *ngIf="honourBoardRow.coach.endsWith('*')">
-                  <fa-icon [icon]="faMedal"></fa-icon>
-                </span></td>
-              <td>{{ honourBoardRow.captain.replace('*', '') }}<span class="text-danger ps-2" *ngIf="honourBoardRow.captain.endsWith('*')">
-                  <fa-icon [icon]="faMedal"></fa-icon>
-                </span></td>
-              <td>{{ honourBoardRow.bf.replace('*', '') }}<span class="text-danger ps-2" *ngIf="honourBoardRow.bf.endsWith('*')">
-                  <fa-icon [icon]="faMedal"></fa-icon>
-                </span></td>
-              <td>{{ honourBoardRow.mostGoals.replace('*', '') }}<span class="text-danger ps-2" *ngIf="honourBoardRow.mostGoals.endsWith('*')">
-                  <fa-icon [icon]="faMedal"></fa-icon>
-                </span><span class="float-end">{{honourBoardRow.goals === 0 ? '-' :
-                  honourBoardRow.goals}}</span></td>
+            @for(honourBoardRow of honourBoardData.data; track $index) {
+            <tr>
+              <th scope="row">{{ honourBoardRow.year }}@if(honourBoardRow.premiers) {<span class="text-danger ps-2"><fa-icon [icon]="faTrophy"></fa-icon></span>}</th>
+              <td>{{ honourBoardRow.coach.replace('*', '') }}@if(honourBoardRow.coach.endsWith('*')) {<span class="text-danger ps-2"><fa-icon [icon]="faMedal"></fa-icon></span>}</td>
+              <td>{{ honourBoardRow.captain.replace('*', '') }}@if(honourBoardRow.captain.endsWith('*')) {<span class="text-danger ps-2"><fa-icon [icon]="faMedal"></fa-icon></span>}</td>
+              <td>{{ honourBoardRow.bf.replace('*', '') }}@if(honourBoardRow.bf.endsWith('*')) {<span class="text-danger ps-2"><fa-icon [icon]="faMedal"></fa-icon></span>}</td>
+              <td>{{ honourBoardRow.mostGoals.replace('*', '') }}@if(honourBoardRow.mostGoals.endsWith('*')) {<span class="text-danger ps-2"><fa-icon [icon]="faMedal"></fa-icon></span>}<span class="float-end">{{honourBoardRow.goals === 0 ? '-' : honourBoardRow.goals}}</span></td>
             </tr>
+            } @empty {
+            <tr>
+              <th scope="row">-</th>
+              <td>-</td>
+              <td>-</td>
+              <td>-</td>
+              <td>-</td>
+            </tr>
+            }
           </tbody>
         </table>
       </div>
+      }
       <app-legend [showPremiers]="true" [showAssociation]="true"></app-legend>
     </div>
   </div>

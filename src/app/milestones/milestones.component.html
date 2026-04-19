@@ -3,29 +3,29 @@
     <div class="col mt-3">
       <form class="row row-cols-sm-auto g-3 align-items-center justify-content-center text-center">
         <div class="col-12">
-          <h5 class="d-inline-flex mb-0">{{ title }}</h5>
+          <h5 class="d-inline-flex mb-0">{{ title() }}</h5>
         </div>
         <div class="col-4">
           <div class="form-check form-switch me-2">
-            <input type="checkbox" class="form-check-input" id="showClub" name="showClub" [(ngModel)]="showClub" (change)="getMilestonesToShow()">
-            <label class="form-check-label" for="getMilestonesToShow">Club</label>
+            <input type="checkbox" class="form-check-input" id="showClub" name="showClub" [checked]="showClub()" (change)="showClub.set($any($event.target).checked)">
+            <label class="form-check-label" for="showClub">Club</label>
           </div>
         </div>
         <div class="col-4">
           <div class="form-check form-switch me-2">
-            <input type="checkbox" class="form-check-input" id="showSenior" name="showSenior" [(ngModel)]="showSenior" (change)="getMilestonesToShow()">
+            <input type="checkbox" class="form-check-input" id="showSenior" name="showSenior" [checked]="showSenior()" (change)="showSenior.set($any($event.target).checked)">
             <label class="form-check-label" for="showSenior">Senior</label>
           </div>
         </div>
         <div class="col-4">
           <div class="form-check form-switch me-2">
-            <input type="checkbox" class="form-check-input" id="showJunior" name="showJunior" [(ngModel)]="showJunior" (change)="getMilestonesToShow()">
+            <input type="checkbox" class="form-check-input" id="showJunior" name="showJunior" [checked]="showJunior()" (change)="showJunior.set($any($event.target).checked)">
             <label class="form-check-label" for="showJunior">Junior</label>
           </div>
         </div>
         <div class="col-6">
           <div class="form-check form-switch me-2">
-            <input type="checkbox" class="form-check-input" id="showRecent" name="showRecent" [(ngModel)]="showRecent" (change)="getMilestonesToShow()">
+            <input type="checkbox" class="form-check-input" id="showRecent" name="showRecent" [checked]="showRecent()" (change)="showRecent.set($any($event.target).checked)">
             <label class="form-check-label" for="showRecent">Show Past Milestones</label>
           </div>
         </div>
@@ -34,7 +34,8 @@
   </div>
   <hr class="my-2" />
   <div class="row">
-    <div class="col-md-6 col-xl-4 mt-2" *ngFor="let milestone of this.milestonesToDisplay">
+    @for(milestone of milestonesToDisplay(); track $index) {
+    <div class="col-md-6 col-xl-4 mt-2">
       <div class="card mb-3 mx-auto text-center" style="max-width:500px;">
         <div class="card-header py-1">
           <a [routerLink]="['/stats', 'player', milestone.playerId]">
@@ -46,10 +47,13 @@
         </div>
       </div>
     </div>
+    }
   </div>
-  <div class="row" *ngIf="this.milestonesToDisplayCount == 0">
+  @if(milestonesToDisplayCount() === 0) {
+  <div class="row">
     <div class="col">
       <h4 class="text-center">No Milestones found matching your filter...</h4>
     </div>
   </div>
+  }
 </div>

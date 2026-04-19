@@ -1,26 +1,20 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, inject } from '@angular/core';
+import { AsyncPipe, TitleCasePipe } from '@angular/common';
+import { RouterModule } from '@angular/router';
+import { Observable } from 'rxjs';
 import { DataService } from '../services/data.service';
 import { AssociationRecords } from '../model/model';
-import { RouterModule } from '@angular/router';
-import { NgFor, TitleCasePipe } from '@angular/common';
 
 @Component({
   selector: 'app-association',
-  imports: [RouterModule, TitleCasePipe, NgFor],
+  imports: [RouterModule, TitleCasePipe, AsyncPipe],
   templateUrl: './association.component.html',
   styleUrl: './association.component.css'
 })
-export class AssociationComponent implements OnInit {
-  associationRecordsData!: AssociationRecords;
+export class AssociationComponent {
+  private readonly dataService = inject(DataService);
 
-  constructor(private dataService: DataService) { }
-
-  ngOnInit() {
-    this.dataService.getAssociationRecordData()
-      .subscribe(data => {
-        this.associationRecordsData = { ...data }
-      });
-  }
+  readonly associationRecordsData$: Observable<AssociationRecords> = this.dataService.getAssociationRecordData();
 
   updateUrl(event: any) {
     event.target.src = "/img/NoImage.jpg";

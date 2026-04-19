@@ -1,38 +1,40 @@
 <div class="container-fluid">
     <div class="row mt-3">
         <div class="col">
-            <input id="typeahead-basic" type="text" class="form-control" #input placeholder="Start typing to search for a coaches name..." [ngbTypeahead]="search" [resultFormatter]="formatMatches" [inputFormatter]="formatMatches" (selectItem)="selectedItem($event, input)" />
+            <input id="coachTypeahead" type="text" class="form-control" placeholder="Start typing to search for a coaches name..." [ngbTypeahead]="search" [resultFormatter]="formatMatches" [inputFormatter]="formatMatches" #coachTypeaheadValue (selectItem)="selectedItem($event, coachTypeaheadValue)" />
         </div>
     </div>
-    <div class="row mt-3" *ngIf="this.coachData">
+    @if(coachData()) {
+    <div class="row mt-3">
         <div class="col-md-auto">
-            <img class="fixedWidthImage rounded mx-auto mb-2 d-block" src="/img/coaches/{{ selectedCoachId }}.jpg" alt="{{ coachData?.firstName }} {{ coachData?.middleName }} {{ coachData?.lastName }}" (error)="updateUrl($event)">
+            <img class="fixedWidthImage rounded mx-auto mb-2 d-block" src="/img/coaches/{{ selectedCoachId() }}.jpg" alt="{{ coachData().firstName }} {{ coachData().middleName }} {{ coachData().lastName }}" (error)="updateUrl($event)">
         </div>
         <div class="col">
             <div class="row">
                 <div class="col">
-                    <h3 class="text-md-start text-center">{{ coachData?.firstName }} {{ coachData?.middleName }} {{ coachData?.lastName }}<h5><small class="text-muted">{{ getYearsCoachedString(coachData?.minYear, coachData?.maxYear, coachData?.seasons) }}</small></h5>
+                    <h3 class="text-md-start text-center">{{ coachData().firstName }} {{ coachData().middleName }} {{ coachData().lastName }}<h5><small class="text-muted">{{ getYearsCoachedString(coachData().minYear, coachData().maxYear, coachData().seasons) }}</small></h5>
                     </h3>
                 </div>
             </div>
             <div class="row d-none d-md-flex text-center text-md-start">
                 <div class="col-6" style="max-width:350px;">
-                    <h5>Club Games: {{ formatValue(coachData?.senior + coachData?.junior) }}</h5>
-                    <h5>A Grade Games: {{ formatValue(coachData?.agrade) }}</h5>
-                    <h5>Senior Games: {{ formatValue(coachData?.senior) }}</h5>
-                    <h5>Junior Games: {{ formatValue(coachData?.junior) }}</h5>
+                    <h5>Club Games: {{ formatValue(coachData().senior + coachData().junior) }}</h5>
+                    <h5>A Grade Games: {{ formatValue(coachData().agrade) }}</h5>
+                    <h5>Senior Games: {{ formatValue(coachData().senior) }}</h5>
+                    <h5>Junior Games: {{ formatValue(coachData().junior) }}</h5>
                 </div>
             </div>
             <div class="row d-flex d-md-none text-center">
                 <div class="col">
-                    <h6>Club Games: {{ formatValue(coachData?.senior + coachData?.junior) }}</h6>
-                    <h6>A Grade Games: {{ formatValue(coachData?.agrade) }}</h6>
-                    <h6>Senior Games: {{ formatValue(coachData?.senior) }}</h6>
-                    <h6>Junior Games: {{ formatValue(coachData?.junior) }}</h6>
+                    <h6>Club Games: {{ formatValue(coachData().senior + coachData().junior) }}</h6>
+                    <h6>A Grade Games: {{ formatValue(coachData().agrade) }}</h6>
+                    <h6>Senior Games: {{ formatValue(coachData().senior) }}</h6>
+                    <h6>Junior Games: {{ formatValue(coachData().junior) }}</h6>
                 </div>
             </div>
         </div>
     </div>
+    }
     <!--<div class="row mt-3 d-none d-md-flex" *ngIf="this.coachData">
         <div class="col-auto">
             <table class="table table-sm table-striped text-center table-bordered table-hover table-responsive">

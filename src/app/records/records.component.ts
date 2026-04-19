@@ -1,6 +1,7 @@
-import { Component, OnInit } from '@angular/core';
-import { NgFor, NgIf } from '@angular/common';
+import { Component, inject } from '@angular/core';
+import { AsyncPipe } from '@angular/common';
 import { RouterModule } from '@angular/router';
+import { Observable } from 'rxjs';
 import { DataService } from '../services/data.service';
 import { LegendComponent } from '../legend/legend.component';
 import { Records } from '../model/model';
@@ -10,23 +11,17 @@ import { NgbTooltipModule } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-records',
-  imports: [RouterModule, NgFor, NgIf, FontAwesomeModule, NgbTooltipModule, LegendComponent],
+  imports: [RouterModule, FontAwesomeModule, NgbTooltipModule, LegendComponent, AsyncPipe],
   templateUrl: './records.component.html',
   styleUrl: './records.component.css'
 })
-export class RecordsComponent implements OnInit {
-  recordsData!: Records;
+export class RecordsComponent {
+  private readonly dataService = inject(DataService);
+
+  readonly recordsData$: Observable<Records> = this.dataService.getRecordsTop5Data();
+
   faChartColumn = faChartColumn;
   faCircleDot = faCircleDot;
   faCircleInfo = faCircleInfo;
   faStar = faStar;
-
-  constructor(private dataService: DataService) { }
-
-  ngOnInit() {
-    this.dataService.getRecordsTop5Data()
-      .subscribe(data => {
-        this.recordsData = { ...data }
-      });
-  }
 }

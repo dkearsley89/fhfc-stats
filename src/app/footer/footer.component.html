@@ -1,3 +1,5 @@
 <footer class="footer bg-flaggy">
-  <span class="text-light smallText float-end me-2">Last Updated: {{ lastUpdated?.lastUpdated }}</span>
+  @if (lastUpdated$ | async; as lastUpdated) {
+  <span class="text-light smallText float-end me-2">Last Updated: {{ lastUpdated.lastUpdated }}</span>
+  }
 </footer>

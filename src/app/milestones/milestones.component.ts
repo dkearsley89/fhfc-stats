@@ -1,70 +1,86 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, signal, computed } from '@angular/core';
 import { DataService } from '../services/data.service';
 import { Milestones } from '../model/model';
 import { RouterModule } from '@angular/router';
-import { NgFor, NgIf } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-milestones',
-  imports: [RouterModule, NgFor, NgIf, FormsModule],
+  imports: [RouterModule, FormsModule],
   templateUrl: './milestones.component.html',
   styleUrl: './milestones.component.css'
 })
-export class MilestonesComponent implements OnInit {
-  milestonesOriginal!: Milestones;
-  milestonesToDisplay: { playerId: string, playerName: string, name: string, grade: string, type: string, amount: number }[] = [];
-  milestonesToDisplayCount: number = 0;
-  title: string = 'Upcoming Milestones';
-  showRecent: boolean = false;
-  showSenior: boolean = true;
-  showJunior: boolean = true;
-  showClub: boolean = true;
+export class MilestonesComponent {
+  readonly milestonesOriginal = signal<Milestones | null>(null);
 
-  constructor(private dataService: DataService) { }
+  readonly showRecent = signal(false);
+  readonly showSenior = signal(true);
+  readonly showJunior = signal(true);
+  readonly showClub = signal(true);
 
-  ngOnInit() {
-    this.dataService.getMilestonesData()
-      .subscribe(data => {
-        this.milestonesOriginal = { ...data };
-        this.getMilestonesToShow();
-      });
+  constructor(private dataService: DataService) {
+    this.dataService.getMilestonesData().subscribe(data => {
+      this.milestonesOriginal.set(data);
+    });
   }
 
-  updateUrl(event: any) {
-    event.target.src = "/img/NoImage.jpg";
-  }
+  readonly milestonesToDisplay = computed(() => {
+    const data = this.milestonesOriginal();
+    if (!data) return [];
 
-  getMilestonesToShow() {
-    var milestonesToReturn: { playerId: string, playerName: string, name: string, grade: string, type: string, amount: number }[] = [];
-    if (this.milestonesOriginal.milestones.length > 0) {
-      for (var milestoneGroup of this.milestonesOriginal.milestones) {
-        if ((milestoneGroup.grade == 'Club' && this.showClub) || ((milestoneGroup.grade == 'Senior' || milestoneGroup.grade == 'A Grade' || milestoneGroup.grade == 'B Grade' ||
-          milestoneGroup.grade == 'C Grade' || milestoneGroup.grade == 'Open Women') && this.showSenior) || (milestoneGroup.grade == 'Junior' && this.showJunior)) {
-          if (milestoneGroup.upcoming && !this.showRecent) {
-            for (var milestone of milestoneGroup.upcoming) {
-              milestonesToReturn.push({ playerId: milestone.id, playerName: milestone.n, name: milestoneGroup.name, grade: milestoneGroup.grade, type: milestoneGroup.type, amount: milestone.a })
-            }
-          }
-          if (milestoneGroup.recent && this.showRecent) {
-            for (var milestone of milestoneGroup.recent) {
-              milestonesToReturn.push({ playerId: milestone.id, playerName: milestone.n, name: milestoneGroup.name, grade: milestoneGroup.grade, type: milestoneGroup.type, amount: milestone.a })
-            }
-          }
-        }
+    const result: {
+      playerId: string;
+      playerName: string;
+      name: string;
+      grade: string;
+      type: string;
+      amount: number;
+    }[] = [];
+
+    for (const group of data.milestones) {
+
+      const showByGrade =
+        (group.grade === 'Club' && this.showClub()) ||
+        (
+          ['Senior', 'A Grade', 'B Grade', 'C Grade', 'Open Women'].includes(group.grade)
+          && this.showSenior()
+        ) ||
+        (group.grade === 'Junior' && this.showJunior());
+
+      if (!showByGrade) continue;
+
+      const list = this.showRecent()
+        ? group.recent
+        : group.upcoming;
+
+      if (!list) continue;
+
+      for (const m of list) {
+        result.push({
+          playerId: m.id,
+          playerName: m.n,
+          name: group.name,
+          grade: group.grade,
+          type: group.type,
+          amount: m.a
+        });
       }
     }
-    milestonesToReturn.sort((a, b) => a.playerName.localeCompare(b.playerName));
-    this.milestonesToDisplayCount = milestonesToReturn.length;
-    this.milestonesToDisplay = milestonesToReturn;
-    this.setTitle();
-  }
 
-  setTitle() {
-    if (this.showRecent) {
-      this.title = 'Past Milestones';
-    } else {
-      this.title = 'Upcoming Milestones';
-    }
+    return result.sort((a, b) =>
+      a.playerName.localeCompare(b.playerName)
+    );
+  });
+
+  readonly milestonesToDisplayCount = computed(
+    () => this.milestonesToDisplay().length
+  );
+
+  readonly title = computed(() =>
+    this.showRecent() ? 'Past Milestones' : 'Upcoming Milestones'
+  );
+
+  updateUrl(event: Event) {
+    (event.target as HTMLImageElement).src = '/img/NoImage.jpg';
   }
 }

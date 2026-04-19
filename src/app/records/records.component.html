@@ -1,10 +1,12 @@
 <div class="container-fluid">
   <app-legend [showCurrentPlayer]="true" [showLifeMember]="true" [showInfo]="true" [showBottomHr]="true"></app-legend>
   <div class="row px-2">
-    <div class="col-sm-12 col-md-6 col-xl-4 col-xxl-3 mb-2" *ngFor="let record of recordsData?.records">
+    @if (recordsData$ | async; as recordData) {
+    @for(record of recordData.records; track $index) {
+    <div class="col-sm-12 col-md-6 col-xl-4 col-xxl-3 mb-2">
       <div class="card border-0">
         <div class="card-body p-1">
-          <h4 class="card-title text-center text-truncate">{{ record.name }} <fa-icon *ngIf="record.info" [icon]="faCircleInfo" class="text-danger ps-1" style="font-size: 16px;" ngbTooltip={{record.info}}></fa-icon></h4>
+          <h4 class="card-title text-center text-truncate">{{ record.name }} @if(record.info) {<fa-icon [icon]="faCircleInfo" class="text-danger ps-1" style="font-size: 16px;" ngbTooltip={{record.info}}></fa-icon>}</h4>
           <table class="table table-sm table-striped">
             <thead>
               <tr>
@@ -14,11 +16,13 @@
               </tr>
             </thead>
             <tbody>
-              <tr *ngFor="let data of record.data; let i = index">
+              @for(data of record.data; track $index; let i = $index) {
+              <tr>
                 <th scope="row" class="text-center">{{ i + 1 }}</th>
-                <td><a [routerLink]="['/stats', 'player', data.id]">{{ data.n }}</a><fa-icon *ngIf="data.c" [icon]="faCircleDot" size="xs" class="text-danger ps-1"></fa-icon><fa-icon *ngIf="data.lm" [icon]="faStar" size="xs" class="text-danger ps-1"></fa-icon></td>
+                <td><a [routerLink]="['/stats', 'player', data.id]">{{ data.n }}</a>@if(data.c) {<fa-icon [icon]="faCircleDot" size="xs" class="text-danger ps-1"></fa-icon>}@if(data.lm) {<fa-icon [icon]="faStar" size="xs" class="text-danger ps-1"></fa-icon>}</td>
                 <td class="text-center">{{ data.a }}</td>
               </tr>
+              }
             </tbody>
           </table>
           <div class="text-center">
@@ -32,5 +36,7 @@
         <hr>
       </div>
     </div>
+    }
+    }
   </div>
 </div>

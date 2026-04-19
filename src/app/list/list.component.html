@@ -1,10 +1,10 @@
 <div class="container-fluid">
   <app-legend [showCurrentPlayer]="true" [showLifeMember]="true" [showInfo]="true" [showBottomHr]="true"></app-legend>
-  <div class="row px-2" *ngIf="loadedData">
+  @if (recordData(); as recordToShow) {<div class="row px-2">
     <div class="col mb-2 mx-auto" style="max-width: 750px;">
       <div class="card border-0">
         <div class="card-body p-1">
-          <h4 class="card-title text-center">{{ recordToShow?.name }} <fa-icon *ngIf="recordToShow?.info" [icon]="faCircleInfo" class="text-danger ps-1" style="font-size: 16px;" ngbTooltip={{recordToShow?.info}}></fa-icon></h4>
+          <h4 class="card-title text-center">{{ recordToShow.name }} @if (recordToShow.info) {<fa-icon [icon]="faCircleInfo" class="text-danger ps-1" style="font-size: 16px;" ngbTooltip={{recordToShow.info}}></fa-icon>}</h4>
           <table class="table table-sm table-striped">
             <thead>
               <tr>
@@ -14,18 +14,20 @@
               </tr>
             </thead>
             <tbody>
-              <tr *ngFor="let data of paginatedData(); let i = index">
-                <th scope="row" class="text-center">{{ (i + 1) + ((this.page - 1) * this.pageSize) }}</th>
-                <td><a [routerLink]="['/stats', 'player', data.id]">{{ data.n }}</a><fa-icon *ngIf="data.c" [icon]="faCircleDot" size="xs" class="text-danger ps-1"></fa-icon><fa-icon *ngIf="data.lm" [icon]="faStar" size="xs" class="text-danger ps-1"></fa-icon></td>
+              @for(data of paginatedData(); track $index; let i = $index) {
+              <tr>
+                <th scope="row" class="text-center">{{ (i + 1) + ((page() - 1) * pageSize) }}</th>
+                <td><a [routerLink]="['/stats', 'player', data.id]">{{ data.n }}</a>@if (data.c) {<fa-icon [icon]="faCircleDot" size="xs" class="text-danger ps-1"></fa-icon>}@if (data.lm) {<fa-icon [icon]="faStar" size="xs" class="text-danger ps-1"></fa-icon>}</td>
                 <td class="text-center">{{ data.a }}</td>
               </tr>
+              }
             </tbody>
           </table>
         </div>
       </div>
-      @if (recordCount > pageSize) {
-      <ngb-pagination class="d-flex justify-content-center" [collectionSize]="recordCount" [(page)]="page" [pageSize]="pageSize" [maxSize]="5" [rotate]="true" [ellipses]="false" [boundaryLinks]="true" />
+      @if (recordCount() > pageSize) {
+      <ngb-pagination class="d-flex justify-content-center" [collectionSize]="recordCount()" [page]="page()" (pageChange)="page.set($event)" [pageSize]="pageSize" [maxSize]="5" [rotate]="true" [ellipses]="false" [boundaryLinks]="true" />
       }
     </div>
-  </div>
+  </div>}
 </div>

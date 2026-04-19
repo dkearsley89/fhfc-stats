@@ -1,22 +1,18 @@
-import { Component, OnInit } from '@angular/core';
-import { LastUpdated } from '../model/model';
+import { Component, inject } from '@angular/core';
+import { AsyncPipe } from '@angular/common';
+import { Observable } from 'rxjs';
 import { DataService } from '../services/data.service';
+import { LastUpdated } from '../model/model';
+
 
 @Component({
   selector: 'app-footer',
-  imports: [],
+  imports: [AsyncPipe],
   templateUrl: './footer.component.html',
   styleUrl: './footer.component.css'
 })
-export class FooterComponent implements OnInit {
-  lastUpdated: LastUpdated | null = { lastUpdated: 'Unknown' };
+export class FooterComponent {
+  private readonly dataService = inject(DataService);
 
-  constructor(private dataService: DataService) { }
-
-  ngOnInit() {
-    this.dataService.getLastUpdatedDate()
-      .subscribe(data => {
-        this.lastUpdated = { ...data }
-      });
-  }
+  readonly lastUpdated$: Observable<LastUpdated> = this.dataService.getLastUpdatedDate();
 }
