@@ -5,9 +5,9 @@ import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 
 @Component({
-  selector: 'app-root',
   imports: [RouterOutlet, NgHttpLoaderComponent, FooterComponent, HeaderComponent],
+  selector: 'app-root',
+  styleUrl: './app.css',
   templateUrl: './app.html',
-  styleUrl: './app.css'
 })
 export class App { }
